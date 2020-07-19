@@ -1502,6 +1502,7 @@ drawable splas_blue
 drawable splash
 drawable stylish
 drawable test_custom_background
+drawable textvire
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable un_5
@@ -1739,7 +1740,6 @@ id ifRoom
 id image
 id imageView
 id imageView2
-id imageView3
 id imageView4
 id imageView5
 id info
@@ -1909,7 +1909,6 @@ id textView16
 id textView17
 id textView18
 id textView19
-id textView2
 id textView20
 id textView21
 id textView22
@@ -1948,7 +1947,6 @@ id up
 id useLogo
 id usr_name
 id vertical
-id view
 id view10
 id view11
 id view12
@@ -1964,7 +1962,6 @@ id view21
 id view24
 id view25
 id view26
-id view3
 id view4
 id view5
 id view6

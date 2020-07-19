@@ -13,8 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddRecords"></activity>
-        <activity android:name=".Splash" android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".AddRecords"/>
+        <activity android:name=".Splash" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +27,7 @@
         <activity android:name=".Mobile_Replace" />
         <activity android:name=".Replace_device" />
         <activity android:name=".Isue_dev" />
-        <activity android:name=".HomeP" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".HomeP" />
         <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar"/>
 
         <meta-data
