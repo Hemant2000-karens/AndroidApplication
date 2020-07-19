@@ -75,8 +75,8 @@ public class Isue_dev extends AppCompatActivity {
 
         isdSp = findViewById(R.id.spinner4);
         ArrayAdapter<String> myAdapter3 = new ArrayAdapter<String>(Isue_dev.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.mane));
-        myAdapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+               R.layout.colour_spinning_layout, getResources().getStringArray(R.array.mane));
+        myAdapter3.setDropDownViewResource(R.layout.spinner_dropdown);
         isdSp.setAdapter(myAdapter3);
 
         isdSp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -135,8 +135,8 @@ public class Isue_dev extends AppCompatActivity {
 
         idsp = findViewById(R.id.issue_Bio_model);
         ArrayAdapter<String> myAdapter2 = new ArrayAdapter<String>(Isue_dev.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.Bio_model));
-        myAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Bio_model));
+        myAdapter2.setDropDownViewResource(R.layout.spinner_dropdown);
         idsp.setAdapter(myAdapter2);
 
         idsp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
