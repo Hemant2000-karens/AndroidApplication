@@ -139,13 +139,11 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hema
 	android:theme
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:15:9-40
 activity#com.apple.ippb.AddRecords
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-57
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-47
 	android:name
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:19-45
 activity#com.apple.ippb.Splash
 ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-24:20
-	android:theme
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:42-85
 	android:name
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:19-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
@@ -179,9 +177,7 @@ ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest
 	android:name
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:29:19-43
 activity#com.apple.ippb.HomeP
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:9-87
-	android:theme
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:41-84
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:9-43
 	android:name
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:19-40
 activity#com.apple.ippb.MainActivity
