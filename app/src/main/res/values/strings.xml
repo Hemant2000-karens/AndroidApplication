@@ -48,7 +48,7 @@
     <string name="sim_replace">Sim Replace</string>
     <string name="biometrics_replace">BioMetrics Replace</string>
     <string name="enter_mobile_no">Enter Mobile No.</string>
-
+    <string name="select">Select</string>
     <string-array name="Bio_model">
         <item>Select Biometric Model</item>
         <item>Mantra</item>

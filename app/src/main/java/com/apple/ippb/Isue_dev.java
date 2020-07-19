@@ -163,8 +163,8 @@ public class Isue_dev extends AppCompatActivity {
 
         degnita = findViewById(R.id.issue_designation);
         ArrayAdapter<String> degni = new ArrayAdapter<String>(Isue_dev.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.Designation));
-        degni.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Designation));
+        degni.setDropDownViewResource(R.layout.spinner_dropdown);
         degnita.setAdapter(degni);
 
         degnita.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
