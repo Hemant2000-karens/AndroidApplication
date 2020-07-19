@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "572157922994",
+    "firebase_url": "https://ippb-inventory.firebaseio.com",
+    "project_id": "ippb-inventory",
+    "storage_bucket": "ippb-inventory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572157922994:android:2c4553d5198a2adf7a03ab",
+        "android_client_info": {
+          "package_name": "com.apple.ippb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572157922994-han4u3oi82csnrbs9msn6g1afl1ahr82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYXWyuTYfkoysForkI51OK83hazTMtXrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572157922994-han4u3oi82csnrbs9msn6g1afl1ahr82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
