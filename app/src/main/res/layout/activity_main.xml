@@ -77,7 +77,7 @@
         android:layout_width="265dp"
         android:layout_height="60dp"
         android:layout_marginStart="96dp"
-        android:layout_marginTop="381dp"
+        android:layout_marginTop="384dp"
         android:layout_marginEnd="95dp"
         android:background="@drawable/textvire"
         android:drawableStart="@drawable/passui"
@@ -90,6 +90,7 @@
         android:textColor="#606300"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/Primary_bg"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="@+id/Primary_bg"
         app:layout_constraintTop_toTopOf="@+id/Primary_bg" />
 
@@ -107,31 +108,16 @@
         app:layout_constraintStart_toStartOf="@+id/Primary_bg"
         app:layout_constraintTop_toTopOf="@+id/Primary_bg" />
 
-    <TextView
-        android:id="@+id/Error_Message"
-        android:layout_width="285dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="65dp"
-        android:layout_marginEnd="61dp"
-        android:layout_marginBottom="105dp"
-        android:fontFamily="@font/antic_slab"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/Primary_bg"
-        app:layout_constraintEnd_toEndOf="@+id/Primary_bg"
-        app:layout_constraintStart_toStartOf="@+id/Primary_bg" />
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="94dp"
-        android:layout_marginTop="147dp"
+        android:layout_marginTop="148dp"
         android:layout_marginEnd="95dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="@+id/Primary_bg"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/Primary_bg"
         app:layout_constraintTop_toTopOf="@+id/Primary_bg"
         app:srcCompat="@drawable/splash" />
