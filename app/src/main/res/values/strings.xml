@@ -73,15 +73,9 @@
 
     <string-array name="Designation">
         <item>Select Designation</item>
-        <item>G.O.S</item>
+        <item>G.D.S</item>
         <item>Post Man</item>
         <item>PA</item>
         <item>IPPB</item>
     </string-array>
-
-
-
-
-
-
 </resources>
