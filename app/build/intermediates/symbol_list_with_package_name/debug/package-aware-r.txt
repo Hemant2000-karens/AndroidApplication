@@ -1385,6 +1385,8 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable add_icon
+drawable addrcordbg
+drawable addrecord
 drawable art_purple
 drawable aurror
 drawable avd_hide_password
@@ -1434,6 +1436,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dropdown_style
 drawable emeral_drop
 drawable eroor
 drawable face_avatar
@@ -1455,6 +1458,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable innerbutton
 drawable iphonex
 drawable key_icon
 drawable ligt_pink

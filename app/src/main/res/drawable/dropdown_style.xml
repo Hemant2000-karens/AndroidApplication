@@ -5,7 +5,5 @@
         android:width="5px"
         android:color="#8C0041" />
     <corners android:radius="25px" />
-    <gradient
-        android:angle="45"
-        android:centerColor="#086773" />
+    <solid android:color="#FFF6D5" />
 </shape>

@@ -59,16 +59,16 @@ public class AddRecords extends AppCompatActivity {
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(),HomeP.class);
-                i.putExtra("name_vale",MainActivity.ID());
+                Intent i = new Intent(getApplicationContext(), HomeP.class);
+                i.putExtra("name_vale", MainActivity.ID());
                 startActivity(i);
             }
         });
 
-         spm3 = findViewById(R.id.Spinner3);
+        spm3 = findViewById(R.id.Spinner3);
         ArrayAdapter<String> myAdapter2 = new ArrayAdapter<String>(AddRecords.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.mane));
-        myAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                R.layout.colour_spinning_layout, getResources().getStringArray(R.array.mane));
+        myAdapter2.setDropDownViewResource(R.layout.spinner_dropdown);
         spm3.setAdapter(myAdapter2);
 
         spm3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -78,7 +78,7 @@ public class AddRecords extends AppCompatActivity {
                     acarrier_name = "Vodafone";
                     // startActivity(new Intent(MainActivity.this, HomeActivity.class));
                 } else if (i == 2) {
-                   acarrier_name = "Airtel";
+                    acarrier_name = "Airtel";
                     // startActivity(new Intent(MainActivity.this, WorkActivity.class));
                 }else if (i == 3) {
                     acarrier_name = "Reliance Jio";
@@ -93,12 +93,10 @@ public class AddRecords extends AppCompatActivity {
         });
 
 
-
-
         add_mob = findViewById(R.id.Add_mobile_Model);
         ArrayAdapter<String> abcd = new ArrayAdapter<String>(AddRecords.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.Mobile_Model));
-        abcd.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Mobile_Model));
+        abcd.setDropDownViewResource(R.layout.spinner_dropdown);
         add_mob.setAdapter(abcd);
 
         add_mob.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -128,8 +126,8 @@ public class AddRecords extends AppCompatActivity {
 
         bio_model = findViewById(R.id.Add_Biom_Model);
         ArrayAdapter<String> abdc = new ArrayAdapter<String>(AddRecords.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.Bio_model));
-        abdc.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Bio_model));
+        abdc.setDropDownViewResource(R.layout.spinner_dropdown);
         bio_model.setAdapter(abdc);
 
         bio_model.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -152,7 +150,6 @@ public class AddRecords extends AppCompatActivity {
 
             }
         });
-
 
         add_r = findViewById(R.id.Add_record_button);
         add_r.setOnClickListener(new View.OnClickListener() {
