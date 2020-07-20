@@ -1,5 +1,6 @@
 package com.apple.ippb;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -82,10 +83,18 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
+                    final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     builder.setMessage("Invalid Uername or Password , Try Again");
                     builder.setIcon(R.drawable.eroor);
                     builder.setCancelable(true);
+                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            dialogInterface.cancel();
+                        }
+                    });
+                    AlertDialog buld = builder.create();
+                    buld.show();
                 }
             }
         });
