@@ -1,127 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/Primary_bg"
-        android:layout_width="411dp"
-        android:layout_height="731dp"
-        android:background="@drawable/loginui"
-        android:contentDescription="@string/todo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="350dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="31dp"
-        android:background="#ABFFFFFF"
-        android:fontFamily="@font/alike_angular"
-        android:text="@string/welcome"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textColor="#200078"
-        android:textSize="45sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/Primary_bg"
-        app:layout_constraintStart_toStartOf="@+id/Primary_bg"
-        app:layout_constraintTop_toTopOf="@+id/Primary_bg" />
-
-    <Button
-        android:id="@+id/res_but"
-        android:layout_width="161dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="122dp"
-        android:layout_marginTop="512dp"
-        android:layout_marginEnd="128dp"
-        android:text="@string/reset"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        android:background="@drawable/buttondesign"
-        app:layout_constraintEnd_toEndOf="@+id/Primary_bg"
-        app:layout_constraintStart_toStartOf="@+id/Primary_bg"
-        app:layout_constraintTop_toTopOf="@+id/Primary_bg" />
-
-    <EditText
-        android:id="@+id/t1"
-        android:layout_width="265dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="95dp"
-        android:layout_marginTop="307dp"
-        android:layout_marginEnd="95dp"
-        android:background="@drawable/textvire"
-        android:drawableStart="@drawable/userui"
-        android:ems="10"
-        android:fontFamily="@font/adamina"
-        android:hint="@string/enter_username"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="#606300"
-        app:layout_constraintEnd_toEndOf="@+id/Primary_bg"
-        app:layout_constraintStart_toStartOf="@+id/Primary_bg"
-        app:layout_constraintTop_toTopOf="@+id/Primary_bg" />
-
-    <EditText
-        android:id="@+id/t2"
-        android:layout_width="265dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="384dp"
-        android:layout_marginEnd="95dp"
-        android:background="@drawable/textvire"
-        android:drawableStart="@drawable/passui"
-        android:ems="10"
-        android:fontFamily="@font/adamina"
-        android:hint="@string/enter_password"
-        android:importantForAutofill="no"
-        android:inputType="textPassword"
-        android:textAlignment="center"
-        android:textColor="#606300"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/Primary_bg"
-        app:layout_constraintHorizontal_bias="0.511"
-        app:layout_constraintStart_toStartOf="@+id/Primary_bg"
-        app:layout_constraintTop_toTopOf="@+id/Primary_bg" />
-
-    <Button
-        android:id="@+id/log_btn"
-        android:layout_width="159dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="452dp"
-        android:layout_marginEnd="128dp"
-        android:text="@string/login"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        android:background="@drawable/buttondesign"
-        app:layout_constraintEnd_toEndOf="@+id/Primary_bg"
-        app:layout_constraintStart_toStartOf="@+id/Primary_bg"
-        app:layout_constraintTop_toTopOf="@+id/Primary_bg" />
-
-    <ImageView
-        android:id="@+id/imageView2"
+    <View
+        android:id="@+id/view1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="94dp"
-        android:layout_marginTop="148dp"
-        android:layout_marginEnd="95dp"
-        android:contentDescription="@string/todo"
-        app:layout_constraintEnd_toEndOf="@+id/Primary_bg"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/Primary_bg"
-        app:layout_constraintTop_toTopOf="@+id/Primary_bg"
-        app:srcCompat="@drawable/splash" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#FFFFFF" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="354dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="377dp"
+        android:background="@drawable/splashbg1"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="372dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/splashbg2"
+        android:contentDescription="@string/app_name" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="363dp"
+        android:layout_height="458dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="145dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="20dp">
+
+        <Button
+            android:id="@+id/res_but"
+            android:layout_width="266dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="360dp"
+            android:background="@drawable/loginbutton"
+            android:elevation="40dp"
+            android:ems="10"
+            android:fontFamily="@font/antic_slab"
+            android:text="@string/login"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/t1"
+            android:layout_width="266dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/textfield"
+            android:elevation="40dp"
+            android:ems="10"
+            android:fontFamily="@font/alef"
+            android:hint="@string/enter_username"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#D59900"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/t2"
+            android:layout_width="266dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/textfield"
+            android:elevation="40dp"
+            android:ems="10"
+            android:fontFamily="@font/alef"
+            android:hint="@string/enter_password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#D59900"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/log_btn"
+            android:layout_width="266dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/loginbutton"
+            android:elevation="40dp"
+            android:ems="10"
+            android:fontFamily="@font/antic_slab"
+            android:text="@string/login"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
