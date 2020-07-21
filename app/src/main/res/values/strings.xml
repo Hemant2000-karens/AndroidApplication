@@ -49,6 +49,8 @@
     <string name="biometrics_replace">BioMetrics Replace</string>
     <string name="enter_mobile_no">Enter Mobile No.</string>
     <string name="select">Select</string>
+    <string name="button">Button</string>
+    <string name="hemant_kumar">Hemant Kumar</string>
     <string-array name="Bio_model">
         <item>Select Biometric Model</item>
         <item>Mantra</item>
