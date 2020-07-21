@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
+8        android:minSdkVersion="23"
 8-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
 9-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
@@ -33,15 +33,15 @@
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6cdf211888e0a7ccbf81d39b63072413/core-1.1.0/AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
-23        android:icon="@mipmap/ic_launcher"
-23-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:11:9-43
-24        android:label="@string/app_name"
-24-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:12:9-41
-25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:13:9-54
-26        android:supportsRtl="true"
-26-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:14:9-35
-27        android:testOnly="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:11:9-43
+25        android:label="@string/app_name"
+25-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:12:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:13:9-54
+27        android:supportsRtl="true"
+27-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:14:9-35
 28        android:theme="@style/AppTheme" >
 28-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:15:9-40
 29        <activity android:name="com.apple.ippb.AddRecords" />

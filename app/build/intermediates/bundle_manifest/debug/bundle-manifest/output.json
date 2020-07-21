@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.apple.ippb",
         "split": "",
-        "minSdkVersion": "21"
+        "minSdkVersion": "23"
       }
     }
   ]
