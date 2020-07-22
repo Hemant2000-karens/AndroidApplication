@@ -1675,10 +1675,10 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button2
 id buttonPanel
 id cancel_action
 id cancel_button
+id cd1
 id center
 id center_horizontal
 id center_vertical
@@ -1765,11 +1765,13 @@ id labeled
 id largeLabel
 id left
 id light
+id linaerin1
 id line1
 id line3
 id listMode
 id list_item
 id log_btn
+id logout_home
 id m_im1
 id m_im2
 id m_serial
@@ -1945,6 +1947,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usr_name
 id vertical
 id view1
 id view10
@@ -2153,6 +2156,7 @@ string bio_metrics
 string biometrics_replace
 string bottom_sheet_behavior
 string branch
+string button
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2201,6 +2205,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hemant_kumar
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string imei_1
