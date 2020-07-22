@@ -16,8 +16,9 @@ public class HomeP extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_p);
-        final TextView Nme_usr = findViewById(R.id.usr_name);
 
+
+        final TextView Nme_usr = findViewById(R.id.usr_name);
         String user = getIntent().getExtras().getString("name_vale");
         Nme_usr.setText(user);
 
