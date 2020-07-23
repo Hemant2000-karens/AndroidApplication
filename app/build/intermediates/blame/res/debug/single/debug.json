@@ -396,6 +396,10 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/splashbg1.xml"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout-land_activity_home_p.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout-land/activity_home_p.xml"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_innerbutton.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/innerbutton.xml"
     },
