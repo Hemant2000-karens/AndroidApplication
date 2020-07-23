@@ -1728,6 +1728,9 @@ id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
 id gone
+id gr1
+id gr2
+id gr3
 id group_divider
 id groups
 id hideable
@@ -1740,9 +1743,11 @@ id icon_only
 id ifRoom
 id image
 id imageView
+id imageView2
 id imageView3
 id imageView4
 id imageView5
+id imageView6
 id info
 id invisible
 id issue_Bio_model
@@ -1757,6 +1762,7 @@ id left
 id light
 id line1
 id line3
+id linear
 id listMode
 id list_item
 id log_btn
@@ -2020,6 +2026,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_records
 layout activity_biometrics_replace
+layout activity_home_p
 layout activity_isue_dev
 layout activity_main
 layout activity_mobile__replace
