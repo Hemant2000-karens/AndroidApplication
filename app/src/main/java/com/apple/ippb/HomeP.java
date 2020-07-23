@@ -9,7 +9,7 @@ public class HomeP extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // setContentView(R.layout.activity_home_p);
+        setContentView(R.layout.activity_home_p);
 
 
   /* final TextView Nme_usr = findViewById(R.id.usr_name);

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_headland_one.ttf.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/headland_one.ttf"
-    },
-    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_purple.jpg.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/purple.jpg"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_headland_one.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/headland_one.ttf"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_splas_blue.jpg.flat",
