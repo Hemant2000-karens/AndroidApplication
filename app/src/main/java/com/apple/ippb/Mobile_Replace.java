@@ -18,7 +18,7 @@ public class Mobile_Replace extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mobile__replace);
 
-        ImageButton m_b = (ImageButton) findViewById(R.id.M_back_buttin);
+        ImageButton m_b = findViewById(R.id.M_back_buttin);
         m_b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

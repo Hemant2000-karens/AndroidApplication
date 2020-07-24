@@ -19,7 +19,7 @@ private String rcarrier_name , mobile_model, Biometric_model , degn_name;
         setContentView(R.layout.all_replace);
 
 
-        ImageButton btn = (ImageButton) findViewById(R.id.R_back_button);
+        ImageButton btn = findViewById(R.id.R_back_button);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

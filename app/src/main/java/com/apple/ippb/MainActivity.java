@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final EditText usrn , pswd ;
-        Button lBut , rBut;
-        usrn = (EditText) findViewById(R.id.t1);
-        pswd = (EditText)findViewById(R.id.t2);
+        final EditText usrn, pswd;
+        Button lBut, rBut;
+        usrn = findViewById(R.id.t1);
+        pswd = findViewById(R.id.t2);
 
-        rBut = (Button)findViewById(R.id.res_but);
+        rBut = findViewById(R.id.res_but);
         rBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        lBut = (Button)findViewById(R.id.log_btn);
+        lBut = findViewById(R.id.log_btn);
         lBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,8 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 String b = pswd.getText().toString();
 
                 //USER LIST WITH PASSWORD
-                if(a.equalsIgnoreCase("Admin")&& b.equals("#234_@gmail"))
-                {
+                if (a.equalsIgnoreCase("Admin") && b.equals("#234_@gmail")) {
                      usernameq = "Administrator" ; password = "#234_@gmail";
                 }
                 else if(a.equalsIgnoreCase("Ravi_4431")&& b.equals("990_abc"))

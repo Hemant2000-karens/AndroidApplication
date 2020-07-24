@@ -36,18 +36,18 @@ public class Isue_dev extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isue_dev);
-        a1 = (EditText)findViewById(R.id.name_of_cand);
-        a2 = (EditText)findViewById(R.id.post_cand);
-        a4 = (EditText)findViewById(R.id.cont_cand);
+        a1 = findViewById(R.id.name_of_cand);
+        a2 = findViewById(R.id.post_cand);
+        a4 = findViewById(R.id.cont_cand);
         //Issue Mobile
-        b2 = (EditText)findViewById(R.id.m_serial);
-        b3 = (EditText)findViewById(R.id.m_im1);
-        b4 = (EditText)findViewById(R.id.m_im2);
+        b2 = findViewById(R.id.m_serial);
+        b3 = findViewById(R.id.m_im1);
+        b4 = findViewById(R.id.m_im2);
         //Issue Sim
-        c1 = (EditText)findViewById(R.id.s_mobno);
-        c2 = (EditText)findViewById(R.id.s_serial);
+        c1 = findViewById(R.id.s_mobno);
+        c2 = findViewById(R.id.s_serial);
         //issue Biometric
-        d2 = (EditText)findViewById(R.id.b_serial);
+        d2 = findViewById(R.id.b_serial);
 
 
         //DropDown Menu Code
@@ -194,7 +194,7 @@ public class Isue_dev extends AppCompatActivity {
         //DropDown Menu Ends
 
         //Home Button
-        ImageButton btn = (ImageButton) findViewById(R.id.Is_bac_button);
+        ImageButton btn = findViewById(R.id.Is_bac_button);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -212,7 +212,7 @@ public class Isue_dev extends AppCompatActivity {
 
         //Barcode reader ends
 
-        Button sb = (Button)findViewById(R.id.Submit_button);
+        Button sb = findViewById(R.id.Submit_button);
         sb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -247,8 +247,8 @@ public class Isue_dev extends AppCompatActivity {
                 isd.setSim_operator(icarrier_name);
                 isd.setBio_model(iBio_model);
                 isd.setBio_serial(ik);
-                reffe.child(String.valueOf(Count+1)+"- -"+strDate).setValue(isd);
-                Toast.makeText(Isue_dev.this,"Susccessfully Inserted",Toast.LENGTH_LONG).show();
+                reffe.child((Count + 1) + "- -" + strDate).setValue(isd);
+                Toast.makeText(Isue_dev.this, "Susccessfully Inserted", Toast.LENGTH_LONG).show();
 
 
 
@@ -257,7 +257,7 @@ public class Isue_dev extends AppCompatActivity {
             }
         });
 
-        Button ccl = (Button)findViewById(R.id.Cancel_button);
+        Button ccl = findViewById(R.id.Cancel_button);
         ccl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
