@@ -1386,7 +1386,6 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable ac_ico
 drawable ac_pico
-drawable add_icon
 drawable addrcordbg
 drawable addrecord
 drawable art_purple
@@ -1402,7 +1401,6 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable buttondesign
-drawable camera
 drawable clean_shade
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1424,7 +1422,6 @@ drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable cr_red
-drawable cyan_light
 drawable dar_yellow
 drawable des_g
 drawable desert_red
@@ -1436,10 +1433,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dropdown_style
 drawable eroor
-drawable face_avatar
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
-drawable green_rool
 drawable home1
 drawable home3
 drawable homw
@@ -1454,10 +1449,21 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable icons8_add_database_50
+drawable icons8_android_50
+drawable icons8_checkmark_50
+drawable icons8_fingerprint_scan_50
+drawable icons8_iphone_spinner_50
+drawable icons8_iphone_x_50
+drawable icons8_mobile_50
+drawable icons8_multiple_devices_50
+drawable icons8_password_50
+drawable icons8_sim_card_50
+drawable icons8_touch_id_50
 drawable innerbutton
-drawable iphonex
-drawable key_icon
 drawable ligt_pink
+drawable login
+drawable login2
 drawable loginbutton
 drawable logout2
 drawable mixed
@@ -1504,8 +1510,7 @@ drawable sandy_purple
 drawable sim
 drawable splas_blue
 drawable splash
-drawable splashbg1
-drawable splashbg2
+drawable splash_bg
 drawable stylish
 drawable test_custom_background
 drawable textfield
@@ -1647,6 +1652,7 @@ id actions
 id activity_chooser_view_content
 id add
 id add_Sim_mob
+id add_buttin
 id add_imei1
 id add_m_imei2
 id add_m_serial
@@ -1744,11 +1750,12 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
-id imageView7
+id imageView8
 id info
 id invisible
 id issue_Bio_model
 id issue_Mobile_model
+id issue_but
 id issue_designation
 id issue_new_Device
 id italic
@@ -1823,7 +1830,6 @@ id peekHeight
 id percent
 id pin
 id post_cand
-id progressBar2
 id progress_circular
 id progress_horizontal
 id radio
@@ -1906,6 +1912,7 @@ id textView11
 id textView12
 id textView13
 id textView19
+id textView2
 id textView20
 id textView21
 id textView22
@@ -1913,6 +1920,7 @@ id textView23
 id textView26
 id textView27
 id textView28
+id textView3
 id textView4
 id textView6
 id textView7

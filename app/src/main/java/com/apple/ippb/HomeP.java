@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
@@ -56,7 +57,7 @@ public class HomeP extends AppCompatActivity {
    });
 
 
-   /* ImageButton plu =(ImageButton) findViewById(R.id.add_buttin);
+        ImageButton plu = findViewById(R.id.add_buttin);
    plu.setOnClickListener(new View.OnClickListener() {
        @Override
        public void onClick(View view) {
@@ -66,7 +67,7 @@ public class HomeP extends AppCompatActivity {
            startActivity(i);
        }
    });
-   ImageButton usi =(ImageButton) findViewById(R.id.issue_but);
+        ImageButton usi = findViewById(R.id.issue_but);
    usi.setOnClickListener(new View.OnClickListener() {
        @Override
        public void onClick(View view) {
@@ -75,7 +76,7 @@ public class HomeP extends AppCompatActivity {
            startActivity(i);
        }
    });
-
+/*
    ImageButton rpd =(ImageButton) findViewById(R.id.repall_but);
    rpd.setOnClickListener(new View.OnClickListener() {
        @Override
@@ -118,6 +119,11 @@ public class HomeP extends AppCompatActivity {
        }
    });*/
 
+
+    }
+
+    @Override
+    public void onBackPressed() {
 
     }
 
