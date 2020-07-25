@@ -71,6 +71,7 @@
             android:layout_marginTop="40dp"
             android:background="@drawable/username_field"
             android:fontFamily="@font/adamina"
+            android:gravity="center"
             android:textAlignment="center"
             android:textColor="#001E77"
             android:textSize="18sp" />
@@ -160,13 +161,36 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_marginStart="15dp"
-                    app:cardCornerRadius="20dp" />
+                    app:cardCornerRadius="20dp">
+
+
+                </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_marginStart="15dp"
-                    app:cardCornerRadius="20dp" />
+                    app:cardCornerRadius="20dp">
+
+                    <ImageButton
+                        android:id="@+id/m_isrep"
+                        android:layout_width="102dp"
+                        android:layout_height="108dp"
+                        android:layout_marginStart="23dp"
+                        android:contentDescription="@string/button"
+                        app:srcCompat="@drawable/icons8_iphone_x_50" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="100dp"
+                        android:gravity="center"
+                        android:text="@string/mobile"
+                        android:textAlignment="center"
+                        android:textColor="#CDCA05"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
 
             </androidx.gridlayout.widget.GridLayout>
 
@@ -203,7 +227,7 @@
                     app:cardCornerRadius="20dp" />
             </androidx.gridlayout.widget.GridLayout>
 
-            <androidx.gridlayout.widget.GridLayout
+            <!--<androidx.gridlayout.widget.GridLayout
                 android:id="@+id/gr3"
                 android:layout_width="match_parent"
                 android:layout_height="170dp"
@@ -237,7 +261,7 @@
                     app:cardCornerRadius="20dp"
                     app:layout_column="3"
                     app:layout_row="0" />
-            </androidx.gridlayout.widget.GridLayout>
+            </androidx.gridlayout.widget.GridLayout>-->
 
         </LinearLayout>
     </ScrollView>

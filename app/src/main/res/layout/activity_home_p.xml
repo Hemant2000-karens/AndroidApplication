@@ -52,6 +52,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/username_field"
             android:fontFamily="@font/adamina"
+            android:gravity="center"
             android:textAlignment="center"
             android:textColor="#001E77"
             android:textSize="18sp" />
@@ -164,7 +165,24 @@
                     app:cardElevation="10dp"
                     app:cardPreventCornerOverlap="true"
                     app:cardUseCompatPadding="false"
-                    app:layout_gravity="center" />
+                    app:layout_gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="100dp"
+                        android:gravity="center"
+                        android:text="@string/replace_multi_dev"
+                        android:textAlignment="center"
+                        android:textColor="#CDCA05"
+                        android:textSize="18sp" />
+                </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="150dp"
@@ -176,7 +194,26 @@
                     app:cardUseCompatPadding="false"
                     app:layout_gravity="center">
 
+                    <ImageButton
+                        android:id="@+id/m_isrep"
+                        android:layout_width="102dp"
+                        android:layout_height="108dp"
+                        android:layout_marginStart="23dp"
+                        android:contentDescription="@string/button"
+                        app:srcCompat="@drawable/icons8_iphone_x_50" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="100dp"
+                        android:gravity="center"
+                        android:text="@string/mobile"
+                        android:textAlignment="center"
+                        android:textColor="#CDCA05"
+                        android:textSize="20sp" />
                 </androidx.cardview.widget.CardView>
+
             </androidx.gridlayout.widget.GridLayout>
 
 
@@ -199,28 +236,19 @@
                     app:cardElevation="10dp"
                     app:cardPreventCornerOverlap="true"
                     app:cardUseCompatPadding="false"
-                    app:layout_gravity="center" />
+                    app:layout_gravity="center">
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginTop="50dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="10dp"
-                    app:cardPreventCornerOverlap="true"
-                    app:cardUseCompatPadding="false"
-                    app:layout_gravity="center" />
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="50dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="10dp"
-                    app:cardPreventCornerOverlap="true"
-                    app:cardUseCompatPadding="false"
-                    app:layout_gravity="center" />
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="100dp"
+                        android:gravity="center"
+                        android:text="@string/issue_mutli_dev"
+                        android:textAlignment="center"
+                        android:textColor="#CDCA05"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="150dp"
@@ -232,62 +260,117 @@
                     app:cardUseCompatPadding="false"
                     app:layout_gravity="center">
 
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="100dp"
+                        android:gravity="center"
+                        android:text="@string/issue_mutli_dev"
+                        android:textAlignment="center"
+                        android:textColor="#CDCA05"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="false"
+                    app:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="100dp"
+                        android:gravity="center"
+                        android:text="@string/issue_mutli_dev"
+                        android:textAlignment="center"
+                        android:textColor="#CDCA05"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="false"
+                    app:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="100dp"
+                        android:gravity="center"
+                        android:text="@string/issue_mutli_dev"
+                        android:textAlignment="center"
+                        android:textColor="#CDCA05"
+                        android:textSize="20sp" />
                 </androidx.cardview.widget.CardView>
             </androidx.gridlayout.widget.GridLayout>
+            <!--
+                        <androidx.gridlayout.widget.GridLayout
+                            android:id="@+id/gr3"
+                            android:layout_width="410dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            app:columnCount="2"
+                            app:rowCount="2"
+                            app:useDefaultMargins="true">
 
-            <androidx.gridlayout.widget.GridLayout
-                android:id="@+id/gr3"
-                android:layout_width="410dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                app:columnCount="2"
-                app:rowCount="2"
-                app:useDefaultMargins="true">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginStart="35dp"
+                                android:layout_marginTop="50dp"
+                                app:cardCornerRadius="20dp"
+                                app:cardElevation="10dp"
+                                app:cardPreventCornerOverlap="true"
+                                app:cardUseCompatPadding="false"
+                                app:layout_column="0"
+                                app:layout_gravity="center" />
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="50dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="10dp"
-                    app:cardPreventCornerOverlap="true"
-                    app:cardUseCompatPadding="false"
-                    app:layout_column="0"
-                    app:layout_gravity="center" />
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="50dp"
+                                app:cardCornerRadius="20dp"
+                                app:cardElevation="10dp"
+                                app:cardPreventCornerOverlap="true"
+                                app:cardUseCompatPadding="false"
+                                app:layout_gravity="center" />
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="50dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="10dp"
-                    app:cardPreventCornerOverlap="true"
-                    app:cardUseCompatPadding="false"
-                    app:layout_gravity="center" />
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginStart="35dp"
+                                android:layout_marginTop="50dp"
+                                app:cardCornerRadius="20dp"
+                                app:cardElevation="10dp"
+                                app:cardPreventCornerOverlap="true"
+                                app:cardUseCompatPadding="false"
+                                app:layout_gravity="center" />
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="50dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="10dp"
-                    app:cardPreventCornerOverlap="true"
-                    app:cardUseCompatPadding="false"
-                    app:layout_gravity="center" />
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginTop="50dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="10dp"
-                    app:cardPreventCornerOverlap="true"
-                    app:cardUseCompatPadding="false"
-                    app:layout_gravity="center" />
-            </androidx.gridlayout.widget.GridLayout>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="50dp"
+                                app:cardCornerRadius="20dp"
+                                app:cardElevation="10dp"
+                                app:cardPreventCornerOverlap="true"
+                                app:cardUseCompatPadding="false"
+                                app:layout_gravity="center" />
+                        </androidx.gridlayout.widget.GridLayout>-->
 
         </LinearLayout>
     </HorizontalScrollView>
