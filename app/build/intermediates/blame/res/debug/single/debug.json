@@ -1,275 +1,75 @@
 [
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_purple.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/purple.jpg"
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_pink.jpeg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/pink.jpeg"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_headland_one.ttf.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/headland_one.ttf"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_splas_blue.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/splas_blue.jpg"
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_multiple_devices_50.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_multiple_devices_50.png"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_splas_blue.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/splas_blue.jpg"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_clean_shade.jpg.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/clean_shade.jpg"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_dropdown_style.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/dropdown_style.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_des_g.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/des_g.jpg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_username_field.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/username_field.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_cr_red.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/cr_red.jpg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_pink_shad.jpeg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/pink_shad.jpeg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_mobile_50.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_mobile_50.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_yellow_sun.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/yellow_sun.jpg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_fingerprint_scan_50.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_fingerprint_scan_50.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_splash.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_spinner_dropdown.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/spinner_dropdown.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_touch_id_50.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_touch_id_50.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_iphone_spinner_50.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_iphone_spinner_50.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_stylish.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/stylish.jpg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_add_records.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_add_records.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_iphone_x_50.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_iphone_x_50.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_toolbar.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/toolbar.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_antic_slab.ttf.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/antic_slab.ttf"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_login2.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/login2.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_textfield.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/textfield.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_taviraj_medium.ttf.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/taviraj_medium.ttf"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout-land_activity_splash.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout-land/activity_splash.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_checkmark_50.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_checkmark_50.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_alef.ttf.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/alef.ttf"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_ac_pico.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/ac_pico.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_textvire.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/textvire.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_colour_spinning_layout.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/colour_spinning_layout.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_isue_dev.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_isue_dev.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_baumans.ttf.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/baumans.ttf"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_purple_shade.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/purple_shade.jpg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_mobile__replace.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_mobile__replace.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_splash_bg.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/splash_bg.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_red_sun.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/red_sun.jpg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_sim_replace.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_sim_replace.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_red_chec.jpeg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/red_chec.jpeg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_un_5.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/un_5.jpg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_loginbutton.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/loginbutton.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_adamina.ttf.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/adamina.ttf"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_password_50.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_password_50.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_all_replace.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/all_replace.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_mixed.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/mixed.jpg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_logout2.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/logout2.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_pur_shade.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/pur_shade.jpg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_pink.jpeg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/pink.jpeg"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_multiple_devices_50.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_multiple_devices_50.png"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_userui.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/userui.xml"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_buttondesign.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/buttondesign.xml"
-    },
-    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_home_p.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_home_p.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_des_g.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/des_g.jpg"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_username_field.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/username_field.xml"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_passui.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/passui.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_cr_red.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/cr_red.jpg"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_alegreya_bold.ttf.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/alegreya_bold.ttf"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_pink_shad.jpeg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/pink_shad.jpeg"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_alike_angular.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/alike_angular.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_yellow_sun.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/yellow_sun.jpg"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout-land_activity_main.xml.flat",
@@ -288,36 +88,92 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/vannila.jpg"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_spinner_dropdown.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/spinner_dropdown.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_home3.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/home3.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_addrecord.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/addrecord.xml"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_aurror.jpg.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/aurror.jpg"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_desert_red.jpeg.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/desert_red.jpeg"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_ligt_pink.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/ligt_pink.jpg"
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_stylish.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/stylish.jpg"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_addrcordbg.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/addrcordbg.xml"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_add_records.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_add_records.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_iphone_x_50.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_iphone_x_50.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_antic_slab.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/antic_slab.ttf"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_login2.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/login2.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_textfield.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/textfield.xml"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_biometrics_replace.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_biometrics_replace.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_taviraj_medium.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/taviraj_medium.ttf"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_white_design3.jpg.flat",
@@ -328,20 +184,40 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/homw.png"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_yellow_chec.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/yellow_chec.jpg"
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout-land_activity_splash.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout-land/activity_splash.xml"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_pink_shade.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/pink_shade.jpg"
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_alef.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/alef.ttf"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_eroor.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/eroor.xml"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_report.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/report.png"
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_ac_pico.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/ac_pico.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_colour_spinning_layout.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/colour_spinning_layout.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_isue_dev.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_isue_dev.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_baumans.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/baumans.ttf"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_splash.png.flat",
@@ -352,8 +228,28 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/login.xml"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_mobile__replace.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_mobile__replace.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_splash_bg.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/splash_bg.xml"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_sim_replace.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_sim_replace.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_un_5.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/un_5.jpg"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_art_purple.jpg.flat",
@@ -364,8 +260,20 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/red_shaded.jpg"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_loginbutton.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/loginbutton.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_adamina.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/adamina.ttf"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_home1.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/home1.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_ac_ico.xml.flat",
@@ -376,27 +284,35 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout-land/activity_home_p.xml"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_android_50.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_android_50.png"
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_all_replace.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/all_replace.xml"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_innerbutton.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/innerbutton.xml"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_sandy_purple.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/sandy_purple.jpg"
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_add_database_50.png.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_add_database_50.png"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_logout2.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/logout2.xml"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_sim_card_50.png.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_sim_card_50.png"
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_icons8_maintenance_50.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/icons8_maintenance_50.png"
     }
 ]

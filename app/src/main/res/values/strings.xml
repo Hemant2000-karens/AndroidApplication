@@ -1,17 +1,12 @@
 <resources>
     <string name="app_name">Inventory Management</string>
     <string name="todo">TODO</string>
-    <string name="welcome">Welcome</string>
-    <string name="login_here">LOGIN HERE</string>
     <string name="reset">Reset</string>
     <string name="login">Login</string>
     <string name="enter_username">Enter Username</string>
     <string name="enter_password">Enter Password</string>
     <string name="logout">Logout</string>
     <string name="add_records">Add Records</string>
-    <string name="title_activity_add_record">Add_record</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
     <string name="issue_device">Issue Devices</string>
     <string name="name">Name</string>
     <string name="post">EmpID</string>
@@ -21,22 +16,17 @@
     <string name="mobile">Mobile</string>
     <string name="bio_metrics">Bio-Metrics</string>
     <string name="submit">Submit</string>
-    <string name="enter_model">Enter Model</string>
     <string name="enter_serial">Enter Serial</string>
     <string name="imei_1">IMEI 1</string>
     <string name="imei_2">IMEI 2</string>
     <string name="serial_no">Serial No.</string>
     <string name="mobile_number">Mobile Number</string>
-    <string name="operator">Operator</string>
-    <string name="model">Model</string>
     <string name="replace_device">Replace Device</string>
     <string name="replace_multi_dev">Replace Multi-Dev</string>
-    <string name="single_issue_replace">Single Issue/Replace</string>
     <string name="issue_mutli_dev">Issue Mutli-dev</string>
     <string name="mobile_issue_replace">Mobile Issue/Replace</string>
     <string name="enter_old_device_details">Enter Old Device Details</string>
     <string name="enter_user_s_details">Enter User\'s Details</string>
-    <string name="enter_branch">Enter Branch</string>
     <string name="enter_empid">Enter EmpID</string>
     <string name="enter_name">Enter name</string>
     <string name="enter_imei_2">Enter IMEI 2</string>
@@ -44,13 +34,11 @@
     <string name="enter_new_device_details">Enter New Device Details</string>
     <string name="issue">Issue</string>
     <string name="replace">Replace</string>
-    <string name="enter_operator">Enter Operator</string>
     <string name="sim_replace">Sim Replace</string>
     <string name="biometrics_replace">BioMetrics Replace</string>
     <string name="enter_mobile_no">Enter Mobile No.</string>
     <string name="select">Select</string>
     <string name="button">Button</string>
-    <string name="hemant_kumar">Hemant Kumar</string>
     <string-array name="Bio_model">
         <item>Select Biometric Model</item>
         <item>Mantra</item>
