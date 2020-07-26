@@ -1384,6 +1384,7 @@ drawable add_record_bg
 drawable add_record_bg2
 drawable add_record_bg3
 drawable add_record_bg4
+drawable add_record_textfield
 drawable aurror
 drawable avd_hide_password
 drawable avd_show_password
@@ -1510,13 +1511,19 @@ font baumans
 font headland_one
 font taviraj_medium
 id ALT
+id Add_Biom_Model
+id Add_bio_serial
 id Add_home
+id Add_mobile_Model
+id Add_record_button
+id Add_sim_serial
 id All_replace_BioMedel
 id All_replace_M_Model
 id BOTTOM_END
 id BOTTOM_START
 id Biomet_repel
 id CTRL
+id Cance_button
 id Cancel_button
 id FUNCTION
 id Is_bac_button
@@ -1564,6 +1571,7 @@ id Sim_t7
 id Sim_t8
 id Spimmer
 id Spimmer2
+id Spinner3
 id Submit_button
 id TOP_END
 id TOP_START
@@ -1621,7 +1629,11 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_Sim_mob
 id add_buttin
+id add_imei1
+id add_m_imei2
+id add_m_serial
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1698,6 +1710,7 @@ id ghost_view_holder
 id gone
 id gr1
 id gr2
+id gr3
 id group_divider
 id groups
 id hideable
@@ -1844,7 +1857,6 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
-id spinner
 id spinner4
 id spinner5
 id split_action_bar
@@ -1892,6 +1904,8 @@ id textView19
 id textView2
 id textView20
 id textView21
+id textView22
+id textView23
 id textView3
 id textView4
 id textView5

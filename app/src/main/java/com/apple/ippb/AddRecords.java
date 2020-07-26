@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Spinner;
@@ -22,12 +21,13 @@ import com.google.firebase.database.ValueEventListener;
 
 public class AddRecords extends AppCompatActivity {
 
-    EditText at2, at3 , at4, at5 , at6 , at8 ;
-    Button add_r , cancel ;
-    Spinner spm3 , add_mob , bio_model ;
-    String acarrier_name,mobile_model,Biometric_model ;
-    DatabaseReference reff ;
+    EditText at2, at3, at4, at5, at6, at8;
+    ImageButton add_r, cancel;
+    Spinner spm3, add_mob, bio_model;
+    String acarrier_name, mobile_model, Biometric_model;
+    DatabaseReference reff;
     long countID;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,13 +39,12 @@ public class AddRecords extends AppCompatActivity {
         at5 = findViewById(R.id.Add_sim_serial);
         at6 = findViewById(R.id.add_Sim_mob);
         at8 = findViewById(R.id.Add_bio_serial);
-        reff = FirebaseDatabase.getInstance().getReference().child("Rec_ords");
+        reff = FirebaseDatabase.getInstance().getReference().child("Records");
         reff.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if(snapshot.exists())
-                {
-                     countID = snapshot.getChildrenCount();
+                if (snapshot.exists()) {
+                    countID = snapshot.getChildrenCount();
                 }
             }
 
@@ -192,6 +191,5 @@ public class AddRecords extends AppCompatActivity {
                 at8.setText("");
             }
         });
-*/
     }
 }

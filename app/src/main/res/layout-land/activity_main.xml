@@ -96,7 +96,7 @@
             android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:textAlignment="center"
-            android:textColor="#BD8904"
+            android:textColor="#014357"
             android:textStyle="bold" />
 
         <EditText
@@ -116,7 +116,7 @@
             android:importantForAutofill="no"
             android:inputType="textPassword"
             android:textAlignment="center"
-            android:textColor="#BD8904"
+            android:textColor="#014357"
             android:textStyle="bold" />
 
         <Button
