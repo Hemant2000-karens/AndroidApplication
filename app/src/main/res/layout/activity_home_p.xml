@@ -221,7 +221,7 @@
                         android:layout_height="40dp"
                         android:layout_marginTop="100dp"
                         android:gravity="center"
-                        android:text="@string/mobile"
+                        android:text="@string/mobile_only"
                         android:textAlignment="center"
                         android:textColor="#CDCA05"
                         android:textSize="20sp" />

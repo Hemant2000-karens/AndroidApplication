@@ -145,8 +145,7 @@
                         android:id="@+id/issue_but"
                         android:layout_width="102dp"
                         android:layout_height="108dp"
-                        android:layout_marginStart="25dp"
-                        android:background="#FFFFFF"
+                        android:layout_marginStart="23dp"
                         android:backgroundTint="#FFFFFF"
                         android:contentDescription="@string/todo"
                         android:elevation="3dp"
@@ -216,7 +215,7 @@
                         android:layout_height="40dp"
                         android:layout_marginTop="100dp"
                         android:gravity="center"
-                        android:text="@string/mobile"
+                        android:text="@string/mobile_only"
                         android:textAlignment="center"
                         android:textColor="#CDCA05"
                         android:textSize="20sp" />

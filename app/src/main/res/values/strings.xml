@@ -13,7 +13,7 @@
     <string name="branch">Designation</string>
     <string name="phone_no">Access Point</string>
     <string name="sim_card">Sim Card</string>
-    <string name="mobile">Mobile Only</string>
+    <string name="mobile_only">Mobile Only</string>
     <string name="bio_metrics">Bio-Metrics</string>
     <string name="submit">Submit</string>
     <string name="enter_serial">Enter Serial</string>
@@ -39,6 +39,7 @@
     <string name="enter_mobile_no">Enter Mobile No.</string>
     <string name="select">Select</string>
     <string name="button">Button</string>
+    <string name="mobile">Mobile</string>
     <string-array name="Bio_model">
         <item>Select Biometric Model</item>
         <item>Mantra</item>
