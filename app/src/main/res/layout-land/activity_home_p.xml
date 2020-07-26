@@ -61,7 +61,10 @@
             android:layout_marginStart="480dp"
             android:layout_marginTop="45dp"
             android:background="@drawable/logout2"
-            android:text="@string/logout" />
+            android:fontFamily="@font/alegreya_bold"
+            android:text="@string/logout"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/usr_name"

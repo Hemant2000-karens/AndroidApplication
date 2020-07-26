@@ -60,14 +60,15 @@
         <Button
             android:id="@+id/logout_home"
             android:layout_width="124dp"
-            android:layout_height="wrap_content"
+            android:layout_height="61dp"
             android:layout_marginStart="200dp"
             android:layout_marginTop="115dp"
             android:background="@drawable/logout2"
             android:text="@string/logout"
+            android:fontFamily="@font/alegreya_bold"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="24sp" />
     </androidx.cardview.widget.CardView>
 
     <HorizontalScrollView
@@ -121,10 +122,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_marginTop="100dp"
+                        android:gravity="center"
                         android:text="@string/add_records"
                         android:textAlignment="center"
                         android:textColor="#CDCA05"
-                        android:textSize="24sp" />
+                        android:textSize="20sp" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -312,19 +314,7 @@
                     app:cardElevation="10dp"
                     app:cardPreventCornerOverlap="true"
                     app:cardUseCompatPadding="false"
-                    app:layout_gravity="center">
-
-                    <TextView
-                        android:id="@+id/textView17"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_marginTop="100dp"
-                        android:gravity="center"
-                        android:text="@string/issue_mutli_dev"
-                        android:textAlignment="center"
-                        android:textColor="#CDCA05"
-                        android:textSize="20sp" />
-                </androidx.cardview.widget.CardView>
+                    app:layout_gravity="center" />
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="150dp"
@@ -334,19 +324,7 @@
                     app:cardElevation="10dp"
                     app:cardPreventCornerOverlap="true"
                     app:cardUseCompatPadding="false"
-                    app:layout_gravity="center">
-
-                    <TextView
-                        android:id="@+id/textView18"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_marginTop="100dp"
-                        android:gravity="center"
-                        android:text="@string/issue_mutli_dev"
-                        android:textAlignment="center"
-                        android:textColor="#CDCA05"
-                        android:textSize="20sp" />
-                </androidx.cardview.widget.CardView>
+                    app:layout_gravity="center" />
             </androidx.gridlayout.widget.GridLayout>
             <!--
                         <androidx.gridlayout.widget.GridLayout
