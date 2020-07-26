@@ -12,6 +12,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Objects;
+
 public class HomeP extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,18 +22,18 @@ public class HomeP extends AppCompatActivity {
 
 
         final TextView Nme_usr = findViewById(R.id.usr_name);
-        String user = getIntent().getExtras().getString("name_vale");
-   Nme_usr.setText(user);
+        String user = Objects.requireNonNull(getIntent().getExtras()).getString("name_vale");
+        Nme_usr.setText(user);
 
 
-   Button bc_btn = findViewById(R.id.logout_home);
-   bc_btn.setOnClickListener(new View.OnClickListener() {
-       @Override
-       public void onClick(View view) {
-           // JOptionPane Starts here
-           final AlertDialog.Builder abc = new AlertDialog.Builder(HomeP.this);
-           abc.setMessage("You will be loged OUT !");//xloxk+"sec"*);
-           abc.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        Button bc_btn = findViewById(R.id.logout_home);
+        bc_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // JOptionPane Starts here
+                final AlertDialog.Builder abc = new AlertDialog.Builder(HomeP.this);
+                abc.setMessage("You will be loged OUT !");//xloxk+"sec"*);
+                abc.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                @Override
                public void onClick(DialogInterface dialogInterface, int i) {
                    try {
@@ -68,26 +70,26 @@ public class HomeP extends AppCompatActivity {
        }
    });
         ImageButton usi = findViewById(R.id.issue_but);
-   usi.setOnClickListener(new View.OnClickListener() {
-       @Override
-       public void onClick(View view) {
-           Intent i = new Intent(getApplicationContext(),Isue_dev.class);
-           finish();
-           startActivity(i);
-       }
-   });
-/*
-   ImageButton rpd =(ImageButton) findViewById(R.id.repall_but);
-   rpd.setOnClickListener(new View.OnClickListener() {
-       @Override
-       public void onClick(View view) {
-           Intent i = new Intent(getApplicationContext(),Replace_device.class);
-           finish();
-           startActivity(i);
-       }
-   });
+        usi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), Isue_dev.class);
+                finish();
+                startActivity(i);
+            }
+        });
 
-   ImageButton m_m =(ImageButton) findViewById(R.id.m_isrep);
+        ImageButton rpd = findViewById(R.id.repall_but);
+        rpd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), Replace_device.class);
+                finish();
+                startActivity(i);
+            }
+        });
+
+        ImageButton m_m = findViewById(R.id.m_isrep);
    m_m.setOnClickListener(new View.OnClickListener() {
        @Override
        public void onClick(View view) {
@@ -98,7 +100,7 @@ public class HomeP extends AppCompatActivity {
    });
 
 
-   ImageButton s_m =(ImageButton) findViewById(R.id.Sim_repel);
+        ImageButton s_m = findViewById(R.id.Sim_repel);
    s_m.setOnClickListener(new View.OnClickListener() {
        @Override
        public void onClick(View view) {
@@ -109,15 +111,15 @@ public class HomeP extends AppCompatActivity {
    });
 
 
-   ImageButton b_m =(ImageButton) findViewById(R.id.Biomet_repel);
-   b_m.setOnClickListener(new View.OnClickListener() {
-       @Override
-       public void onClick(View view) {
-           Intent i = new Intent(getApplicationContext(),Biometrics_replace.class);
-           finish();
-           startActivity(i);
-       }
-   });*/
+        ImageButton b_m = findViewById(R.id.Biomet_repel);
+        b_m.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), Biometrics_replace.class);
+                finish();
+                startActivity(i);
+            }
+        });
 
 
     }

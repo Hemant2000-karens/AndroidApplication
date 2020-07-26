@@ -1445,7 +1445,10 @@ drawable ic_mtrl_chip_close_circle
 drawable icons8_add_database_50
 drawable icons8_iphone_x_50
 drawable icons8_maintenance_50
+drawable icons8_mobile_50
 drawable icons8_multiple_devices_50
+drawable icons8_sim_card_50
+drawable icons8_touch_id_50
 drawable innerbutton
 drawable login
 drawable login2
@@ -1512,6 +1515,7 @@ id All_replace_M_Model
 id BOTTOM_END
 id BOTTOM_START
 id Bio_back
+id Biomet_repel
 id CTRL
 id Cance_button
 id Cancel_button
@@ -1550,6 +1554,7 @@ id SHIFT
 id SYM
 id Sim_designation
 id Sim_issue_button
+id Sim_repel
 id Sim_replace_button
 id Sim_t1
 id Sim_t10
@@ -1710,7 +1715,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageButton3
 id imageView
 id imageView2
 id imageView3
@@ -1801,6 +1805,7 @@ id post_cand
 id progress_circular
 id progress_horizontal
 id radio
+id repall_but
 id res_but
 id right
 id right_icon

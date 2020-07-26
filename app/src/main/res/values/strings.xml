@@ -13,7 +13,7 @@
     <string name="branch">Designation</string>
     <string name="phone_no">Access Point</string>
     <string name="sim_card">Sim Card</string>
-    <string name="mobile">Mobile</string>
+    <string name="mobile">Mobile Only</string>
     <string name="bio_metrics">Bio-Metrics</string>
     <string name="submit">Submit</string>
     <string name="enter_serial">Enter Serial</string>
@@ -34,8 +34,8 @@
     <string name="enter_new_device_details">Enter New Device Details</string>
     <string name="issue">Issue</string>
     <string name="replace">Replace</string>
-    <string name="sim_replace">Sim Replace</string>
-    <string name="biometrics_replace">BioMetrics Replace</string>
+    <string name="sim_replace">Sim Only</string>
+    <string name="biometrics_replace">BioMetric Only</string>
     <string name="enter_mobile_no">Enter Mobile No.</string>
     <string name="select">Select</string>
     <string name="button">Button</string>

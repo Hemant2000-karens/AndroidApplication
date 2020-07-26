@@ -97,6 +97,7 @@
             android:inputType="textPersonName"
             android:textAlignment="center"
             android:textColor="#BD8904"
+            android:carbon_elevationShadowColor="#AA0C70"
             android:textStyle="bold" />
 
         <EditText
