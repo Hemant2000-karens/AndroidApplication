@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:contentDescription="@string/add_records"
+        app:srcCompat="@drawable/add_record_bg3" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="348dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/add_record_bg4"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/add_record_bg"
+        android:contentDescription="@string/add_records" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="329dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="-3dp"
+        android:background="@drawable/add_record_bg2"
+        android:contentDescription="@string/todo" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="356dp"
+        android:layout_height="630dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="61dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <ImageButton
+            android:id="@+id/Add_home"
+            android:layout_width="61dp"
+            android:layout_height="57dp"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/icons8_logout_rounded_left_50" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:background="#00FFFFFF"
+            android:elevation="30dp"
+            android:fontFamily="@font/headland_one"
+            android:text="@string/add_records"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="50dp"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:id="@+id/gr1"
+                    android:layout_width="650dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="2dp"
+                    app:columnCount="2"
+                    app:rowCount="2"
+                    app:useDefaultMargins="true">
+
+                    <Spinner
+                        android:id="@+id/Add_mobile_Model"
+                        android:layout_width="320dp"
+                        android:layout_height="69dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/add_record_textfield" />
+
+                    <EditText
+                        android:id="@+id/add_m_serial"
+                        android:layout_width="318dp"
+                        android:layout_height="69dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/add_record_textfield"
+                        android:ems="10"
+                        android:fontFamily="@font/alike_angular"
+                        android:hint="@string/enter_serial"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:shadowColor="#730000"
+                        android:textAlignment="textStart"
+                        android:textColor="#0A0161"
+                        android:textSize="24sp"
+                        tools:layout_margin="5dp" />
+
+                    <EditText
+                        android:id="@+id/add_imei1"
+                        android:layout_width="320dp"
+                        android:layout_height="69dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/add_record_textfield"
+                        android:ems="10"
+                        android:fontFamily="@font/alike_angular"
+                        android:hint="@string/enter_imei_1"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:textAlignment="textStart"
+                        android:textColor="#0A0161"
+                        android:textSize="24sp"
+                        tools:layout_margin="5dp" />
+
+                    <EditText
+                        android:id="@+id/add_m_imei2"
+                        android:layout_width="318dp"
+                        android:layout_height="69dp"
+                        android:background="@drawable/add_record_textfield"
+                        android:ems="10"
+                        android:fontFamily="@font/alike_angular"
+                        android:hint="@string/enter_imei_2"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:textAlignment="textStart"
+                        android:textColor="#0A0161"
+                        android:textSize="24sp"
+                        tools:layout_margin="5dp" />
+                </androidx.gridlayout.widget.GridLayout>
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:id="@+id/gr2"
+                    android:layout_width="650dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    app:columnCount="2"
+                    app:rowCount="2"
+                    app:useDefaultMargins="true">
+
+                    <Spinner
+                        android:id="@+id/Spinner3"
+                        android:layout_width="320dp"
+                        android:layout_height="69dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/add_record_textfield" />
+
+                    <EditText
+                        android:id="@+id/Add_sim_serial"
+                        android:layout_width="318dp"
+                        android:layout_height="69dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/add_record_textfield"
+                        android:ems="10"
+                        android:fontFamily="@font/alike_angular"
+                        android:hint="@string/enter_serial"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:textAlignment="textStart"
+                        android:textColor="#070067"
+                        android:textSize="24sp" />
+
+                    <EditText
+                        android:id="@+id/add_Sim_mob"
+                        android:layout_width="318dp"
+                        android:layout_height="69dp"
+                        android:background="@drawable/add_record_textfield"
+                        android:ems="10"
+                        android:fontFamily="@font/alike_angular"
+                        android:hint="@string/enter_mobile_no"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:textAlignment="textStart"
+                        android:textColor="#070067"
+                        android:textSize="24sp" />
+
+                </androidx.gridlayout.widget.GridLayout>
+
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:id="@+id/gr3"
+                    android:layout_width="650dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    app:columnCount="2"
+                    app:rowCount="2"
+                    app:useDefaultMargins="true"
+                    tools:layout_marginStart="5dp">
+
+                    <Spinner
+                        android:id="@+id/Add_Biom_Model"
+                        android:layout_width="320dp"
+                        android:layout_height="69dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/add_record_textfield" />
+
+                    <EditText
+                        android:id="@+id/Add_bio_serial"
+                        android:layout_width="318dp"
+                        android:layout_height="69dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/add_record_textfield"
+                        android:ems="10"
+                        android:fontFamily="@font/alike_angular"
+                        android:hint="@string/enter_serial"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:textAlignment="textStart"
+                        android:textColor="#000A5C"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+
+                </androidx.gridlayout.widget.GridLayout>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageButton
+            android:id="@+id/Add_record_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="240dp"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="@string/add_records"
+            app:srcCompat="@drawable/icons8_ok_50" />
+
+        <ImageButton
+            android:id="@+id/Cance_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="450dp"
+            android:layout_marginTop="240dp"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="@string/add_records"
+            app:srcCompat="@drawable/icons8_cancel_50" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
