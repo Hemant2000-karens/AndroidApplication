@@ -1711,7 +1711,6 @@ id ghost_view_holder
 id gone
 id gr1
 id gr2
-id gr3
 id group_divider
 id groups
 id hideable
@@ -1729,11 +1728,10 @@ id imageView11
 id imageView12
 id imageView13
 id imageView2
+id imageView3
 id imageView4
-id imageView5
 id imageView6
 id imageView7
-id imageView8
 id imageView9
 id info
 id invisible
@@ -1751,7 +1749,6 @@ id light
 id linaer
 id line1
 id line3
-id linear
 id listMode
 id list_item
 id log_btn
@@ -1938,6 +1935,7 @@ id up
 id useLogo
 id usr_name
 id vertical
+id view
 id view10
 id view11
 id view12
