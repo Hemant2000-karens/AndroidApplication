@@ -43,6 +43,7 @@
     <string name="email_message">Enter your email address</string>
     <string name="we_will_send_you_a_otp_mail">We will send you a OTP mail</string>
     <string name="send_otp">Send OTP</string>
+    <string name="enter_here">Enter Here</string>
     <string-array name="Bio_model">
         <item>Select Biometric Model</item>
         <item>Mantra</item>

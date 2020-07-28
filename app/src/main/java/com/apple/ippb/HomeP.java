@@ -1,25 +1,16 @@
 package com.apple.ippb;
 
 
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.TextView;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
-import java.util.Objects;
 
 public class HomeP extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_p);
-
+/*
 
         final TextView Nme_usr = findViewById(R.id.usr_name);
         String user = Objects.requireNonNull(getIntent().getExtras()).getString("name_vale");
@@ -133,6 +124,8 @@ public class HomeP extends AppCompatActivity {
         Intent activity2Intent = new Intent(getApplicationContext(), MainActivity.class);
         finish();
         startActivity(activity2Intent);
+
+ */
     }
     //External Save Instances
 }
