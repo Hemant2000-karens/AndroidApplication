@@ -13,22 +13,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddRecords"/>
+        <activity
+            android:name=".AddRecords"
+            android:screenOrientation="locked" />
         <activity android:name=".Splash" >
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ForgetPassword" />
         <activity android:name=".Biometrics_replace" />
         <activity android:name=".Sim_replace" />
         <activity android:name=".Mobile_Replace" />
         <activity android:name=".Replace_device" />
         <activity android:name=".Isue_dev" />
         <activity android:name=".HomeP" />
-        <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

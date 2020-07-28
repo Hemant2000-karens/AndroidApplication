@@ -28,7 +28,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.apple.ippb.AddRecords" />
+        <activity
+            android:name="com.apple.ippb.AddRecords"
+            android:screenOrientation="locked" />
         <activity android:name="com.apple.ippb.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,15 +38,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.apple.ippb.ForgetPassword" />
         <activity android:name="com.apple.ippb.Biometrics_replace" />
         <activity android:name="com.apple.ippb.Sim_replace" />
         <activity android:name="com.apple.ippb.Mobile_Replace" />
         <activity android:name="com.apple.ippb.Replace_device" />
         <activity android:name="com.apple.ippb.Isue_dev" />
         <activity android:name="com.apple.ippb.HomeP" />
-        <activity
-            android:name="com.apple.ippb.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.apple.ippb.MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

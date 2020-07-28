@@ -40,6 +40,8 @@
     <string name="select">Select</string>
     <string name="button">Button</string>
     <string name="mobile">Mobile</string>
+    <string name="please_sign_in_to_continue">to continue</string>
+    <string name="forgot">Forgot</string>
     <string-array name="Bio_model">
         <item>Select Biometric Model</item>
         <item>Mantra</item>

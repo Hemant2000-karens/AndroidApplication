@@ -4,8 +4,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,16 +24,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final EditText usrn, pswd;
-        Button lBut, rBut;
+        ImageButton lBut;
+        TextView forget;
         usrn = findViewById(R.id.t1);
         pswd = findViewById(R.id.t2);
 
-        rBut = findViewById(R.id.res_but);
-        rBut.setOnClickListener(new View.OnClickListener() {
+        forget = findViewById(R.id.forgot);
+        forget.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                usrn.setText("");
-                pswd.setText("");
+                Intent i = new Intent(getApplicationContext(), ForgetPassword.class);
+                startActivity(i);
             }
         });
 
