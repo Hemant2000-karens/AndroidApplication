@@ -1378,10 +1378,6 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable add_record_bg
-drawable add_record_bg2
-drawable add_record_bg3
-drawable add_record_bg4
 drawable add_record_textfield
 drawable aurror
 drawable avd_hide_password
@@ -1426,6 +1422,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dropdown_style
 drawable eroor
+drawable forgetpass
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable home1
@@ -1460,7 +1457,6 @@ drawable logar
 drawable login1
 drawable login2
 drawable loginbutton
-drawable logintxt
 drawable mail
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
@@ -1943,6 +1939,7 @@ id view13
 id view14
 id view15
 id view16
+id view2
 id view6
 id view7
 id view_offset_helper

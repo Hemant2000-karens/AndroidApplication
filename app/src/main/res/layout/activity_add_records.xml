@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="365dp"
         android:contentDescription="@string/add_records"
-        app:srcCompat="@drawable/add_record_bg3" />
+         />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -22,7 +22,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
-        android:background="@drawable/add_record_bg4"
+
         android:contentDescription="@string/todo" />
 
     <ImageView
@@ -35,7 +35,6 @@
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
-        android:background="@drawable/add_record_bg"
         android:contentDescription="@string/add_records" />
 
     <ImageView
@@ -48,7 +47,7 @@
         android:layout_marginStart="-2dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="-3dp"
-        android:background="@drawable/add_record_bg2"
+
         android:contentDescription="@string/todo" />
 
     <androidx.cardview.widget.CardView
