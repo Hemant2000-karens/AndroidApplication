@@ -87,7 +87,6 @@
         app:layout_constraintTop_toTopOf="@+id/view7" />
 
     <TextView
-        android:id="@+id/textView6"
         android:layout_width="60dp"
         android:layout_height="28dp"
         android:layout_marginStart="8dp"
@@ -119,7 +118,6 @@
         app:layout_constraintTop_toTopOf="@+id/view7" />
 
     <TextView
-        android:id="@+id/textView8"
         android:layout_width="114dp"
         android:layout_height="27dp"
         android:layout_marginStart="8dp"
@@ -135,7 +133,6 @@
         app:layout_constraintTop_toTopOf="@+id/view7" />
 
     <TextView
-        android:id="@+id/textView9"
         android:layout_width="128dp"
         android:layout_height="28dp"
         android:layout_marginStart="8dp"
@@ -342,7 +339,6 @@
         app:layout_constraintTop_toTopOf="@+id/view12" />
 
     <TextView
-        android:id="@+id/textView11"
         android:layout_width="96dp"
         android:layout_height="29dp"
         android:layout_marginStart="125dp"
@@ -358,7 +354,6 @@
         app:layout_constraintStart_toStartOf="@+id/view11" />
 
     <TextView
-        android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="132dp"
@@ -388,7 +383,6 @@
         app:layout_constraintStart_toStartOf="@+id/view13" />
 
     <TextView
-        android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"

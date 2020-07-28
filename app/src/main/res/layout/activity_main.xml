@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/constrait_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -34,7 +33,6 @@
         android:contentDescription="@string/todo" />
 
     <TextView
-        android:id="@+id/textView24"
         android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView7"
@@ -50,7 +48,6 @@
         android:textSize="56sp" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_above="@+id/imageView11"
@@ -82,7 +79,6 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_above="@+id/imageView11"

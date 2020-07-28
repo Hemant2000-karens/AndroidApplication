@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Inventory Management</string>
     <string name="todo">TODO</string>
-    <string name="reset">Reset</string>
     <string name="login">Login</string>
     <string name="enter_username">Enter Username</string>
     <string name="enter_password">Enter Password</string>
@@ -37,11 +36,13 @@
     <string name="sim_replace">Sim Only</string>
     <string name="biometrics_replace">BioMetric Only</string>
     <string name="enter_mobile_no">Enter Mobile No.</string>
-    <string name="select">Select</string>
     <string name="button">Button</string>
     <string name="mobile">Mobile</string>
-    <string name="please_sign_in_to_continue">to continue</string>
     <string name="forgot">Forgot</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="email_message">Enter your email address</string>
+    <string name="we_will_send_you_a_otp_mail">We will send you a OTP mail</string>
+    <string name="send_otp">Send OTP</string>
     <string-array name="Bio_model">
         <item>Select Biometric Model</item>
         <item>Mantra</item>

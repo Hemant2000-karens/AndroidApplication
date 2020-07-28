@@ -1422,7 +1422,10 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dropdown_style
 drawable eroor
-drawable forgetpass
+drawable forget1
+drawable forget2
+drawable forget_bg
+drawable forgetotp
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable home1
@@ -1493,7 +1496,9 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable un_5
 drawable vannila
+drawable verifyotp
 drawable white_design3
+drawable whitebutton
 drawable yellow_sun
 font adamina
 font alef
@@ -1641,6 +1646,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
 id buttonPanel
 id cancel_action
 id cancel_button
@@ -1683,6 +1689,7 @@ id dimensions
 id direct
 id disableHome
 id dropdown_menu
+id editTextTextPersonName
 id edit_query
 id end
 id end_padder
@@ -1724,6 +1731,10 @@ id imageView11
 id imageView12
 id imageView13
 id imageView2
+id imageView20
+id imageView22
+id imageView23
+id imageView24
 id imageView3
 id imageView4
 id imageView6
@@ -1884,6 +1895,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textView10
 id textView11
 id textView12
@@ -1900,6 +1912,8 @@ id textView21
 id textView22
 id textView23
 id textView24
+id textView25
+id textView26
 id textView3
 id textView4
 id textView5
@@ -2160,6 +2174,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
+string email_message
 string enter_empid
 string enter_imei_1
 string enter_imei_2
@@ -2230,6 +2245,7 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string name
+string otp_verification
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2245,12 +2261,14 @@ string replace_multi_dev
 string reset
 string search_menu_title
 string select
+string send_otp
 string serial_no
 string sim_card
 string sim_replace
 string status_bar_notification_info_overflow
 string submit
 string todo
+string we_will_send_you_a_otp_mail
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

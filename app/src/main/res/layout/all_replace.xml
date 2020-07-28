@@ -123,7 +123,6 @@
         android:importantForAutofill="no" />
 
     <TextView
-        android:id="@+id/textView6"
         android:layout_width="60dp"
         android:layout_height="28dp"
         android:layout_marginStart="8dp"
@@ -155,7 +154,6 @@
         app:layout_constraintTop_toTopOf="@+id/view7" />
 
     <TextView
-        android:id="@+id/textView8"
         android:layout_width="119dp"
         android:layout_height="28dp"
         android:layout_marginStart="8dp"
@@ -171,7 +169,6 @@
         app:layout_constraintTop_toTopOf="@+id/view7" />
 
     <TextView
-        android:id="@+id/textView9"
         android:layout_width="127dp"
         android:layout_height="28dp"
         android:layout_marginStart="8dp"
@@ -207,7 +204,6 @@
         app:layout_constraintStart_toStartOf="@+id/view10" />
 
     <EditText
-        android:id="@+id/R_t12"
         android:layout_width="145dp"
         android:layout_height="39dp"
         android:layout_marginStart="7dp"
@@ -236,7 +232,6 @@
         app:layout_constraintStart_toStartOf="@+id/view10" />
 
     <EditText
-        android:id="@+id/R_t6"
         android:layout_width="145dp"
         android:layout_height="39dp"
         android:layout_marginStart="196dp"
@@ -254,7 +249,6 @@
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/R_t8"
         android:layout_width="145dp"
         android:layout_height="39dp"
         android:layout_marginStart="196dp"
@@ -284,7 +278,6 @@
         app:layout_constraintStart_toStartOf="@+id/view10" />
 
     <EditText
-        android:id="@+id/R_t11"
         android:layout_width="145dp"
         android:layout_height="39dp"
         android:layout_marginStart="105dp"
@@ -302,7 +295,6 @@
         app:layout_constraintTop_toTopOf="@+id/view12" />
 
     <TextView
-        android:id="@+id/textView11"
         android:layout_width="96dp"
         android:layout_height="29dp"
         android:layout_marginStart="125dp"
@@ -319,7 +311,6 @@
         app:layout_constraintStart_toStartOf="@+id/view11" />
 
     <TextView
-        android:id="@+id/textView12"
         android:layout_width="81dp"
         android:layout_height="25dp"
         android:layout_marginStart="136dp"
@@ -335,7 +326,6 @@
         app:layout_constraintStart_toStartOf="@+id/view12" />
 
     <TextView
-        android:id="@+id/textView13"
         android:layout_width="102dp"
         android:layout_height="25dp"
         android:layout_marginStart="128dp"
@@ -350,7 +340,6 @@
         app:layout_constraintStart_toStartOf="@+id/view13" />
 
     <EditText
-        android:id="@+id/R_t7"
         android:layout_width="145dp"
         android:layout_height="39dp"
         android:layout_marginStart="11dp"
@@ -368,7 +357,6 @@
         app:layout_constraintTop_toTopOf="@+id/view11" />
 
     <EditText
-        android:id="@+id/R_t9"
         android:layout_width="145dp"
         android:layout_height="39dp"
         android:layout_marginStart="12dp"
@@ -386,7 +374,6 @@
         android:importantForAutofill="no" />
 
     <Button
-        android:id="@+id/R_issue_button"
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:layout_marginStart="32dp"
@@ -401,7 +388,6 @@
         app:layout_constraintTop_toTopOf="@+id/view13" />
 
     <Button
-        android:id="@+id/R_cancel_button"
         android:layout_width="100dp"
         android:layout_height="47dp"
         android:layout_marginStart="229dp"
