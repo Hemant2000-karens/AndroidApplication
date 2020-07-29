@@ -133,7 +133,7 @@
         android:layout_marginTop="212dp"
         android:layout_marginEnd="189dp"
         android:background="#F9F1F1"
-        android:popupBackground="@drawable/clean_shade"
+        android:popupBackground="@drawable/add_record_textfield"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
@@ -347,7 +347,7 @@
         android:layout_marginTop="51dp"
         android:layout_marginEnd="191dp"
         android:background="#F9F1F1"
-        android:popupBackground="@drawable/clean_shade"
+        android:popupBackground="@drawable/add_record_textfield"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />

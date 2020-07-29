@@ -1379,6 +1379,8 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable add_record_textfield
+drawable addrecord1
+drawable addrecord2
 drawable aurror
 drawable avd_hide_password
 drawable avd_show_password
@@ -1390,7 +1392,6 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-drawable clean_shade
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1428,8 +1429,8 @@ drawable forget_bg
 drawable forgetotp
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
-drawable home1
-drawable home3
+drawable hoembg2
+drawable homebg1
 drawable homw
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
@@ -1451,6 +1452,8 @@ drawable icons8_multiple_devices_50
 drawable icons8_ok_50
 drawable icons8_sim_card_50
 drawable icons8_touch_id_50
+drawable issueall1
+drawable issueall2
 drawable lock
 drawable logar
 drawable login1
@@ -1484,13 +1487,15 @@ drawable pink_shad
 drawable red_shaded
 drawable splas_blue
 drawable splash
-drawable splash_bg
 drawable stylish
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable un_5
 drawable vannila
+drawable verifyotp
+drawable wave_7
+drawable wave_8
 drawable white_design3
 drawable whitebutton
 drawable yellow_sun
@@ -1609,6 +1614,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
 id buttonPanel
 id cancel_action
 id cancel_button
@@ -1648,6 +1654,10 @@ id dimensions
 id direct
 id disableHome
 id dropdown_menu
+id editTextTextPersonName
+id editTextTextPersonName2
+id editTextTextPersonName3
+id editTextTextPersonName4
 id edit_query
 id emailtxt
 id end
@@ -1684,8 +1694,10 @@ id ifRoom
 id image
 id imageView
 id imageView11
+id imageView2
 id imageView20
 id imageView22
+id imageView3
 id imageView4
 id imageView7
 id info
@@ -1705,6 +1717,7 @@ id line3
 id listMode
 id list_item
 id log_btn
+id logout_home
 id m_im1
 id m_im2
 id m_serial
@@ -1839,8 +1852,10 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textView10
 id textView25
+id textView3
 id textView4
 id textView7
 id text_input_end_icon
@@ -1865,7 +1880,11 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usr_name
+id veri1
+id veri2
 id vertical
+id very3
 id view
 id view10
 id view11
@@ -1952,6 +1971,7 @@ layout activity_main
 layout activity_mobile__replace
 layout activity_sim_replace
 layout activity_splash
+layout activity_verifyotp
 layout all_replace
 layout colour_spinning_layout
 layout custom_dialog
@@ -2107,6 +2127,7 @@ string enter_password
 string enter_serial
 string enter_user_s_details
 string enter_username
+string enter_your_otp
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2187,6 +2208,7 @@ string status_bar_notification_info_overflow
 string submit
 string todo
 string we_will_send_you_a_otp_mail
+string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

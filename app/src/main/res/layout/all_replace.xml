@@ -448,7 +448,7 @@
         android:layout_marginTop="117dp"
         android:layout_marginEnd="12dp"
         android:background="@drawable/vannila"
-        android:popupBackground="@drawable/clean_shade"
+        android:popupBackground="@drawable/add_record_textfield"
         app:layout_constraintEnd_toEndOf="@+id/view7"
         app:layout_constraintStart_toStartOf="@+id/view7"
         app:layout_constraintTop_toTopOf="@+id/view7" />
