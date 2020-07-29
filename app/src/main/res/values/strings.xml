@@ -2,8 +2,8 @@
     <string name="app_name">Inventory Management</string>
     <string name="todo">TODO</string>
     <string name="login">Login</string>
-    <string name="enter_username">Enter Username</string>
-    <string name="enter_password">Enter Password</string>
+    <string name="enter_username">Username</string>
+    <string name="enter_password">Password</string>
     <string name="logout">Logout</string>
     <string name="add_records">Add Records</string>
     <string name="name">Name</string>
@@ -28,19 +28,24 @@
     <string name="sim_replace">Sim Only</string>
     <string name="enter_mobile_no">Enter Mobile No.</string>
     <string name="mobile">Mobile</string>
-    <string name="forgot">Forgot</string>
+    <string name="forgot">Forgot Password ?</string>
     <string name="otp_verification">OTP Verification</string>
     <string name="email_message">Enter your email address</string>
     <string name="send_otp">Send OTP</string>
     <string name="enter_here">Enter Here</string>
     <string name="enter_your_otp">Enter your OTP</string>
     <string name="welcome">Welcome</string>
+    <string name="sign_in">Sign In</string>
+    <string name="verify">Verify</string>
+
+
     <string-array name="Bio_model">
         <item>Select Biometric Model</item>
         <item>Mantra</item>
         <item>Starek</item>
         <item>Morpho</item>
     </string-array>
+
 
     <string-array name="Mobile_Model">
         <item>Select Mobile Model</item>
@@ -50,12 +55,15 @@
         <item>Moto C</item>
         <item>iVoomi</item>
     </string-array>
+
+
     <string-array name="mane">
         <item>Select Operators</item>
         <item>VodaFone</item>
         <item>Airtel</item>
         <item>Jio</item>
     </string-array>
+
 
     <string-array name="Designation">
         <item>Select Designation</item>

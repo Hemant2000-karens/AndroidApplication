@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".verifyotp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/veri1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/forget_bg" />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="59dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="162dp"
+        android:backgroundTint="#FF7700"
+        android:ems="10"
+        android:fontFamily="@font/headland_one"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:labelFor="@+id/txt2"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/txt3"
+        android:layout_width="59dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#FF7700"
+        android:ems="10"
+        android:fontFamily="@font/headland_one"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:labelFor="@id/txt3"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="59dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#FF7700"
+        android:ems="10"
+        android:fontFamily="@font/headland_one"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:labelFor="@id/editTextTextPersonName4"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/veri2"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_above="@+id/veri1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/forget2"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_above="@+id/veri1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-4dp"
+        android:background="@drawable/forget1"
+        android:contentDescription="@string/todo" />
+
+
+    <TextView
+        android:layout_width="203dp"
+        android:layout_height="43dp"
+        android:layout_above="@+id/veri2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="325dp"
+        android:fontFamily="@font/alike_angular"
+        android:text="@string/otp_verification"
+        android:textAlignment="center"
+        android:textColor="#FDAC09"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/very3"
+        android:layout_width="317dp"
+        android:layout_height="37dp"
+        android:layout_above="@+id/veri1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="139dp"
+        android:fontFamily="@font/alegreya_bold"
+        android:text="@string/enter_your_otp"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="24sp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="223dp"
+        android:layout_above="@+id/very3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/verifyotp"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="59dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#FF7700"
+        android:ems="10"
+        android:fontFamily="@font/headland_one"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:labelFor="@id/txt1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="142dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/whitebutton"
+        android:text="@string/verify"
+        android:textAlignment="center"
+        android:textColor="#FEB80A"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="313dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/veri1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="91dp" />
+
+
+</RelativeLayout>

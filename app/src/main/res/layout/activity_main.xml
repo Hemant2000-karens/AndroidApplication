@@ -33,30 +33,30 @@
         android:contentDescription="@string/todo" />
 
     <TextView
-        android:layout_width="175dp"
+        android:layout_width="224dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView7"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="204dp"
-        android:fontFamily="sans-serif-medium"
-        android:text="@string/login"
-        android:textAlignment="center"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="168dp"
+        android:fontFamily="@font/alegreya_bold"
+        android:text="@string/sign_in"
+        android:textAlignment="textStart"
         android:textColor="#000000"
         android:textSize="56sp" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="300dp"
-        android:layout_height="60dp"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/imageView11"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="56dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="200dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginBottom="330dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="323dp"
         app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="2dp"
         app:cardElevation="5dp">
@@ -67,27 +67,28 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:drawableStart="@drawable/mail"
-            android:drawablePadding="10dp"
+            android:drawablePadding="20dp"
             android:ems="10"
-            android:fontFamily="sans-serif-medium"
+            android:fontFamily="sans-serif"
             android:hint="@string/enter_username"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:textAlignment="textStart"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#000000" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="18sp" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="300dp"
-        android:layout_height="60dp"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/imageView11"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="56dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="3dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginBottom="260dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="253dp"
         app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="2dp"
         app:cardElevation="5dp">
@@ -98,40 +99,47 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:drawableStart="@drawable/lock"
-            android:drawablePadding="10dp"
+            android:drawablePadding="20dp"
             android:ems="10"
-            android:fontFamily="sans-serif-medium"
+            android:fontFamily="sans-serif"
             android:hint="@string/enter_password"
             android:importantForAutofill="no"
             android:inputType="textPassword"
             android:textAlignment="textStart"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#000000" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/forgot"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:layout_marginStart="215dp"
-            android:layout_marginTop="0dp"
-            android:gravity="center"
-            android:text="@string/forgot"
-            android:textAlignment="center"
-            android:textColor="#FEC322"
-            android:textSize="16sp" />
     </androidx.cardview.widget.CardView>
 
-    <ImageButton
+    <Button
         android:id="@+id/log_btn"
-        android:layout_width="170dp"
-        android:layout_height="63dp"
+        android:layout_width="158dp"
+        android:layout_height="68dp"
         android:layout_above="@+id/imageView11"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="43dp"
-        android:layout_marginBottom="125dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="119dp"
         android:background="@drawable/loginbutton"
-        android:contentDescription="@string/todo"
-        android:elevation="5dp"
-        android:src="@drawable/logar" />
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="216dp"
+        android:layout_height="36dp"
+        android:layout_above="@+id/imageView11"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="215dp"
+        android:fontFamily="@font/headland_one"
+        android:gravity="center"
+        android:text="@string/forgot"
+        android:textAlignment="center"
+        android:textColor="#FEC322"
+        android:textSize="16sp" />
 
 </RelativeLayout>

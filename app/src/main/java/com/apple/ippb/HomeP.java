@@ -67,7 +67,9 @@ public class HomeP extends AppCompatActivity {
            startActivity(i);
        }
    });
-        ImageButton usi = findViewById(R.id.issue_but);
+   */
+
+        Button usi = findViewById(R.id.issue_but);
         usi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -76,7 +78,7 @@ public class HomeP extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
+/*
         ImageButton rpd = findViewById(R.id.repall_but);
         rpd.setOnClickListener(new View.OnClickListener() {
             @Override
