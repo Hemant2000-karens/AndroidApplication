@@ -1602,7 +1602,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
 id buttonPanel
 id cancel_action
 id cancel_button
@@ -1641,7 +1640,6 @@ id dimensions
 id direct
 id disableHome
 id dropdown_menu
-id editTextTextPersonName4
 id edit_query
 id emailtxt
 id end
@@ -1854,6 +1852,7 @@ id transition_transform
 id txt1
 id txt2
 id txt3
+id txt4
 id unchecked
 id uniform
 id unlabeled
@@ -1862,6 +1861,7 @@ id useLogo
 id usr_name
 id veri1
 id veri2
+id verify_button
 id vertical
 id very3
 id view

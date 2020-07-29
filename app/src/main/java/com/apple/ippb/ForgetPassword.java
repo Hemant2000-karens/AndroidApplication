@@ -20,14 +20,13 @@ public class ForgetPassword extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.forget_activity);
 
-        EditText emailh = findViewById(R.id.emailtxt);
-        emailid = emailh.getText().toString();
+        final EditText emailh = findViewById(R.id.emailtxt);
 
         Button SendButton = findViewById(R.id.sendbutton);
         SendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                emailid = emailh.getText().toString();
                 Intent i = new Intent(getApplicationContext(), verifyotp.class);
                 startActivity(i);
             }
