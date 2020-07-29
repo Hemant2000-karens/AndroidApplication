@@ -1641,9 +1641,6 @@ id dimensions
 id direct
 id disableHome
 id dropdown_menu
-id editTextTextPersonName
-id editTextTextPersonName2
-id editTextTextPersonName3
 id editTextTextPersonName4
 id edit_query
 id emailtxt
@@ -1854,6 +1851,9 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id txt1
+id txt2
+id txt3
 id unchecked
 id uniform
 id unlabeled
@@ -2180,6 +2180,7 @@ string sim_card
 string sim_replace
 string status_bar_notification_info_overflow
 string todo
+string verify
 string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

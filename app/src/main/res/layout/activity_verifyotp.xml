@@ -47,7 +47,7 @@
         android:inputType="number"
         android:labelFor="@+id/txt2"
         android:textAlignment="center"
-        android:textColor="#FFFFFF" />
+        android:textColor="#DA5E00" />
 
     <EditText
         android:id="@+id/txt3"
@@ -64,10 +64,10 @@
         android:inputType="number"
         android:labelFor="@id/txt3"
         android:textAlignment="center"
-        android:textColor="#FFFFFF" />
+        android:textColor="#DA5E00" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/txt4"
         android:layout_width="59dp"
         android:layout_height="74dp"
         android:layout_alignParentEnd="true"
@@ -79,9 +79,9 @@
         android:fontFamily="@font/headland_one"
         android:importantForAutofill="no"
         android:inputType="number"
-        android:labelFor="@id/editTextTextPersonName4"
+        android:labelFor="@id/txt4"
         android:textAlignment="center"
-        android:textColor="#FFFFFF" />
+        android:textColor="#DA5E00" />
 
     <ImageView
         android:id="@+id/veri2"
@@ -168,10 +168,10 @@
         android:inputType="number"
         android:labelFor="@id/txt1"
         android:textAlignment="center"
-        android:textColor="#FFFFFF" />
+        android:textColor="#DA5E00" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/verify_button"
         android:layout_width="142dp"
         android:layout_height="64dp"
         android:layout_alignParentStart="true"
