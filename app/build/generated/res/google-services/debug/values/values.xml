@@ -7,5 +7,4 @@
     <string name="google_app_id" translatable="false">1:572157922994:android:2c4553d5198a2adf7a03ab</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAYXWyuTYfkoysForkI51OK83hazTMtXrw</string>
     <string name="google_storage_bucket" translatable="false">ippb-inventory.appspot.com</string>
-    <string name="project_id" translatable="false">ippb-inventory</string>
 </resources>

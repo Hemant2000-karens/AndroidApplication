@@ -9,7 +9,7 @@ public class Biometrics_replace extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_biometrics_replace);
+        //setContentView(R.layout.activity_biometrics_replace);
 /*
         ImageButton bio_h = findViewById(R.id.Bio_back);
         bio_h.setOnClickListener(new View.OnClickListener() {

@@ -127,37 +127,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hema
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6cdf211888e0a7ccbf81d39b63072413/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:15:9-40
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-40
 activity#com.apple.ippb.verifyotp
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-56
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-47
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:19-44
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:19-44
 activity#com.apple.ippb.AddRecords
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-19:50
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:18:9-20:50
 	android:screenOrientation
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:19:13-47
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:20:13-47
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:18:13-39
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:19:13-39
 activity#com.apple.ippb.Splash
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:20:9-26:20
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:21:9-26:20
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:20:19-41
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:21:19-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
 ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:17-77
 	android:name

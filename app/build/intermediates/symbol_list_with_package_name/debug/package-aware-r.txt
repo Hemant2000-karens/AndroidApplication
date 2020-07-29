@@ -1487,6 +1487,7 @@ drawable pink_shad
 drawable red_shaded
 drawable splas_blue
 drawable splash
+drawable splash_bg
 drawable stylish
 drawable test_custom_background
 drawable tooltip_frame_dark

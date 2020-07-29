@@ -308,7 +308,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material/icons/materialicons/keyboard_backspace/baseline_keyboard_backspace_24.xml" />
+                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material/icons/materialicons/phone_iphone/baseline_phone_iphone_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -319,7 +319,8 @@
                         <option name="values">
                           <map>
                             <entry key="autoMirrored" value="true" />
-                            <entry key="outputName" value="back" />
+                            <entry key="color" value="f7e812" />
+                            <entry key="outputName" value="phoneico" />
                             <entry key="sourceFile" value="$USER_HOME$/Downloads/wave-13.svg" />
                           </map>
                         </option>
