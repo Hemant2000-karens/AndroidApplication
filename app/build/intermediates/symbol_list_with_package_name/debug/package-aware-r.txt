@@ -1378,6 +1378,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable account
 drawable add_record_textfield
 drawable aurror
 drawable avd_hide_password
@@ -1420,8 +1421,6 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable dropdown_style
-drawable eroor
 drawable forget1
 drawable forget2
 drawable forget_bg
@@ -1429,6 +1428,7 @@ drawable forgetotp
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable googleservice
+drawable home
 drawable homw
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
@@ -1441,11 +1441,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable icons8_cancel_50
-drawable icons8_logout_rounded_left_50
-drawable icons8_ok_50
 drawable lock
-drawable logar
 drawable login1
 drawable login2
 drawable loginbutton
@@ -1472,21 +1468,24 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable phonecontact
 drawable phoneico
 drawable pink
 drawable pink_shad
 drawable red_shaded
+drawable signupbottom
+drawable signuptop
 drawable simm
 drawable splash
 drawable splash_bg
 drawable stylish
 drawable test_custom_background
+drawable textfieldui
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable un_5
 drawable vannila
 drawable verifyotp
-drawable wave_8
 drawable whitebutton
 drawable yellow_sun
 font adamina
@@ -1505,6 +1504,7 @@ id BOTTOM_START
 id Biometric
 id CTRL
 id FUNCTION
+id FirstName
 id Google_signIN
 id META
 id M_back_buttin
@@ -1519,12 +1519,14 @@ id R_t4
 id Replace_all_designation
 id SHIFT
 id SYM
+id Signupnext
 id Sim
 id Sim_designation
 id Spimmer
 id Spimmer2
 id TOP_END
 id TOP_START
+id Userid
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -1595,6 +1597,11 @@ id bottom
 id buttonPanel
 id cancel_action
 id cancel_button
+id card1
+id card2
+id card3
+id card4
+id card5
 id center
 id center_horizontal
 id center_vertical
@@ -1609,6 +1616,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id confirm_button
+id confirmpassword
 id container
 id content
 id contentPanel
@@ -1632,6 +1640,7 @@ id disableHome
 id divider
 id divider2
 id dropdown_menu
+id edit
 id edit_query
 id emailtxt
 id end
@@ -1674,10 +1683,11 @@ id imageView20
 id imageView22
 id imageView3
 id imageView4
+id imageView5
+id imageView6
 id imageView7
 id info
 id invisible
-id issue_but
 id issue_new_Device
 id italic
 id item_touch_helper_previous_elevation
@@ -1747,6 +1757,7 @@ id peekHeight
 id percent
 id pin
 id progressBar
+id progressBar1
 id progress_circular
 id progress_horizontal
 id radio
@@ -1780,6 +1791,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signinoption
 id skipCollapsed
 id slide
 id smallLabel
@@ -1826,6 +1838,8 @@ id textView2
 id textView25
 id textView3
 id textView4
+id textView5
+id textView6
 id textView7
 id text_input_end_icon
 id text_input_start_icon
@@ -1853,6 +1867,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userContact
+id userpassword
 id usr_name
 id veri1
 id veri2
@@ -1948,7 +1964,6 @@ layout activity_splash
 layout activity_verifyotp
 layout all_replace
 layout biometricissue
-layout colour_spinning_layout
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2014,7 +2029,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout simissue
-layout spinner_dropdown
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_design_checkbox
@@ -2060,7 +2074,6 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string add_records
 string app_name
 string appbar_scrolling_view_behavior
 string bio_metrics
@@ -2089,9 +2102,14 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string confirm_password
 string create_new_account
 string default_web_client_id
+string edit_profile
 string email_message
+string enter_contact_no
+string enter_details_to_continue
+string enter_email_address
 string enter_empid
 string enter_here
 string enter_imei_1
@@ -2104,6 +2122,7 @@ string enter_password
 string enter_serial
 string enter_user_s_details
 string enter_username
+string enter_your_name
 string enter_your_otp
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -2174,6 +2193,8 @@ string replace_device
 string search_menu_title
 string send_otp
 string sign_in
+string sign_in_message
+string sign_up
 string sim_card
 string sim_replace
 string status_bar_notification_info_overflow

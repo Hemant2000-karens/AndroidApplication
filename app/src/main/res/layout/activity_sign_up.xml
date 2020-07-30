@@ -32,6 +32,7 @@
         android:contentDescription="@string/todo" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
         android:layout_width="385dp"
         android:layout_height="55dp"
         android:layout_alignParentStart="true"
@@ -69,6 +70,7 @@
         android:textSize="36sp" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
         android:layout_width="385dp"
         android:layout_height="55dp"
         android:layout_alignParentStart="true"
@@ -92,6 +94,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
         android:layout_width="385dp"
         android:layout_height="55dp"
         android:layout_alignBottom="@id/imageView5"
@@ -114,6 +117,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
         android:layout_width="385dp"
         android:layout_height="55dp"
         android:layout_alignBottom="@id/imageView5"
@@ -136,6 +140,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card5"
         android:layout_width="385dp"
         android:layout_height="55dp"
         android:layout_alignParentStart="true"
@@ -159,14 +164,14 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="246dp"
-        android:layout_height="42dp"
+        android:layout_width="274dp"
+        android:layout_height="39dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="83dp"
-        android:layout_marginEnd="82dp"
-        android:layout_marginBottom="567dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="582dp"
         android:fontFamily="@font/headland_one"
         android:gravity="center"
         android:text="@string/enter_details_to_continue"

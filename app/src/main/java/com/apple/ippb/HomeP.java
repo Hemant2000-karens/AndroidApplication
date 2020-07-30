@@ -6,23 +6,29 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
-
-import java.util.Objects;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.UserProfileChangeRequest;
 
 public class HomeP extends AppCompatActivity {
+    FirebaseUser fbauth = FirebaseAuth.getInstance().getCurrentUser();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_p);
 
         final TextView Nme_usr = findViewById(R.id.usr_name);
-        String user = Objects.requireNonNull(getIntent().getExtras()).getString("name_vale");
+        String user = fbauth.getDisplayName();
         Nme_usr.setText(user);
 
 
@@ -59,6 +65,45 @@ public class HomeP extends AppCompatActivity {
             }
         });
 
+
+        Button edit_profile = findViewById(R.id.edit);
+        edit_profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final AlertDialog.Builder builder = new AlertDialog.Builder(HomeP.this);
+                builder.setCancelable(true);
+                builder.setTitle("Edit Profile");
+                final EditText text = new EditText(getApplicationContext());
+                builder.setView(text);
+                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
+                                .setDisplayName(String.valueOf(text))
+                                .build();
+                        fbauth.updateProfile(profileUpdates)
+                                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if (task.isSuccessful()) {
+                                            Toast.makeText(getApplicationContext(), "Successfully Added", Toast.LENGTH_SHORT).show();
+                                        }
+                                    }
+                                });
+                    }
+                });
+                builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        //Function Of the Negative Button
+
+
+                    }
+                });
+                AlertDialog buld = builder.create();
+                buld.show();
+            }
+        });
 /*
         ImageButton plu = findViewById(R.id.add_buttin);
    plu.setOnClickListener(new View.OnClickListener() {
@@ -72,15 +117,15 @@ public class HomeP extends AppCompatActivity {
    });
    */
 
-        Button usi = findViewById(R.id.issue_but);
-        usi.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), Isue_dev.class);
-                finish();
-                startActivity(i);
-            }
-        });
+        //  Button usi = findViewById(R.id.issue_but);
+        //  usi.setOnClickListener(new View.OnClickListener() {
+        //  @Override
+        //  public void onClick(View view) {
+        //    Intent i = new Intent(getApplicationContext(), Isue_dev.class);
+        ///     finish();
+        //    startActivity(i);
+        //  }
+        //});
 /*
         ImageButton rpd = findViewById(R.id.repall_but);
         rpd.setOnClickListener(new View.OnClickListener() {

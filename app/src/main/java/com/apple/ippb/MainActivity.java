@@ -23,8 +23,9 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
     public static String usernameq;
+    EditText usrn, pswd;
     FirebaseAuth mAuth;
-    FirebaseUser user;
+
 
     public static String ID() {
         return usernameq;
@@ -34,17 +35,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-// ..
-// Initialize Firebase Auth
-        mAuth = FirebaseAuth.getInstance();
-
-        final EditText usrn, pswd;
         final Button lBut;
         TextView forget;
         usrn = findViewById(R.id.t1);
         pswd = findViewById(R.id.t2);
 
+
+// ..
+// Initialize Firebase Auth
+        mAuth = FirebaseAuth.getInstance();
+        final FirebaseUser user = mAuth.getCurrentUser();
         forget = findViewById(R.id.forgot);
         forget.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,17 +70,14 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                usernameq = user.getDisplayName();
-                                Toast.makeText(getApplicationContext(), "Successfully Login!!", Toast.LENGTH_LONG);
+                                Toast.makeText(getApplicationContext(), "Successfully Login!!", Toast.LENGTH_LONG).show();
                                 Intent i = new Intent(getApplicationContext(), HomeP.class);
-                                i.putExtra("name_vale", usernameq);
                                 ProgressBar prb = findViewById(R.id.progressBar);
                                 prb.setVisibility(View.VISIBLE);
                                 startActivity(i);
                                 finish();
                             } else
-
-                                Toast.makeText(getApplicationContext(), "Check Error And Try Again!!", Toast.LENGTH_LONG);
+                                Toast.makeText(getApplicationContext(), "Check Error And Try Again!!", Toast.LENGTH_LONG).show();
                         }
                     });
 
@@ -123,4 +120,5 @@ public class MainActivity extends AppCompatActivity {
         FirebaseUser currentUser = mAuth.getCurrentUser();
         updateUI(currentUser);
     }
+
 }
