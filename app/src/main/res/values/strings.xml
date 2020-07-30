@@ -41,6 +41,11 @@
     <string name="create_new_account">Create New Account</string>
     <string name="sign_up">Sign Up</string>
     <string name="enter_details_to_continue">Enter Details to Continue</string>
+    <string name="sign_in_message">Already have Account ? Sign In</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_contact_no">Enter Contact No.</string>
 
 
     <string-array name="Bio_model">
