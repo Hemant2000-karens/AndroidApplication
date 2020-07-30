@@ -74,19 +74,21 @@ public class HomeP extends AppCompatActivity {
                 builder.setCancelable(true);
                 builder.setTitle("Edit Profile");
                 final EditText text = new EditText(getApplicationContext());
+                text.setHint("Enter Your Display Name");
+                text.setEms(10);
                 builder.setView(text);
                 builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
-                                .setDisplayName(String.valueOf(text))
+                                .setDisplayName(text.getText().toString().trim())
                                 .build();
                         fbauth.updateProfile(profileUpdates)
                                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if (task.isSuccessful()) {
-                                            Toast.makeText(getApplicationContext(), "Successfully Added", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(getApplicationContext(), "Successfully Updated Your Name", Toast.LENGTH_SHORT).show();
                                         }
                                     }
                                 });
