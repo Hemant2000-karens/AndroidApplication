@@ -37,6 +37,10 @@
     <string name="welcome">Welcome</string>
     <string name="sign_in">Sign In</string>
     <string name="verify">Verify</string>
+    <string name="or">OR</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_details_to_continue">Enter Details to Continue</string>
 
 
     <string-array name="Bio_model">

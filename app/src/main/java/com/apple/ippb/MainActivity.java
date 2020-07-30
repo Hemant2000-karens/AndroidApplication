@@ -1,30 +1,46 @@
 package com.apple.ippb;
 
-import android.content.DialogInterface;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import androidx.appcompat.app.AlertDialog;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
-    public static String usernameq , password;
-    public static String ID()
-    {
+public class MainActivity extends AppCompatActivity {
+    public static String usernameq;
+    FirebaseAuth mAuth;
+    FirebaseUser user;
+
+    public static String ID() {
         return usernameq;
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+// ..
+// Initialize Firebase Auth
+        mAuth = FirebaseAuth.getInstance();
+
         final EditText usrn, pswd;
-        Button lBut;
+        final Button lBut;
         TextView forget;
         usrn = findViewById(R.id.t1);
         pswd = findViewById(R.id.t2);
@@ -42,64 +58,69 @@ public class MainActivity extends AppCompatActivity {
         lBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String a = usrn.getText().toString().trim();
+                String b = pswd.getText().toString().trim();
 
-                String a = usrn.getText().toString();
-                String b = pswd.getText().toString();
-
-                //USER LIST WITH PASSWORD
-                if (a.equalsIgnoreCase("Admin") && b.equals("#234_@gmail")) {
-                     usernameq = "Administrator" ; password = "#234_@gmail";
-                }
-                else if(a.equalsIgnoreCase("Ravi_4431")&& b.equals("990_abc"))
-                {
-                    usernameq = "Ravi Prakash" ; password = "990_abc";
-                }
-                else if(a.equalsIgnoreCase("Hemant_2002")&& b.equals("hemant"))
-                {
-                    usernameq = "HEMANT KUMAR" ; password = "hemant";
-                }
-
-                //LIST OVER AND CASE VERIFICATION STARTS
-                if (a.equalsIgnoreCase(a) && b.equals(password))
-                {
-                    Intent ab = new Intent(getApplicationContext(), HomeP.class);
-                    //NAME OF THE USER IN HOME PAGE TO BE SHOWN
-                    if(a.equalsIgnoreCase("Admin"))
-                    {
-                        ab.putExtra("name_vale",usernameq);
-                    }
-                    else if(a.equalsIgnoreCase("Ravi_4431"))
-                    {
-                        ab.putExtra("name_vale",usernameq);
-                    }
-                    else if(a.equalsIgnoreCase("Hemant_2002"))
-                    {
-                        ab.putExtra("name_vale",usernameq);
-                    }
-                    // FORWARDED NAME
-                    finish();
-                    startActivity(ab);
-                }
-                else
-                {
-                    final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                    builder.setCancelable(true);
-                    builder.setIcon(R.drawable.eroor);
-                    builder.setMessage("Invalid Uername or Password , Try Again");
-                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                if (TextUtils.isEmpty(a) && TextUtils.isEmpty(b)) {
+                    usrn.setError("Empty Email !!");
+                    pswd.setError("Empty Password !!");
+                } else {
+                    mAuth.signInWithEmailAndPassword(a, b).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @SuppressLint("ShowToast")
                         @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            dialogInterface.cancel();
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if (task.isSuccessful()) {
+                                usernameq = user.getDisplayName();
+                                Toast.makeText(getApplicationContext(), "Successfully Login!!", Toast.LENGTH_LONG);
+                                Intent i = new Intent(getApplicationContext(), HomeP.class);
+                                i.putExtra("name_vale", usernameq);
+                                ProgressBar prb = findViewById(R.id.progressBar);
+                                prb.setVisibility(View.VISIBLE);
+                                startActivity(i);
+                                finish();
+                            } else
+
+                                Toast.makeText(getApplicationContext(), "Check Error And Try Again!!", Toast.LENGTH_LONG);
                         }
                     });
-                    AlertDialog buld = builder.create();
-                    buld.show();
+
                 }
             }
         });
 
 
+        ImageButton gsi = findViewById(R.id.Google_signIN);
+        gsi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                // Now nothing
+            }
+        });
 
 
+        TextView signup = findViewById(R.id.newAccount);
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), SignUp.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+
+    }
+
+    private FirebaseUser updateUI(FirebaseUser currentUser) {
+        return currentUser;
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        // Check if user is signed in (non-null) and update UI accordingly.
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        updateUI(currentUser);
     }
 }

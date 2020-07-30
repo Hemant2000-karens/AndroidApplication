@@ -11,6 +11,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import java.util.Objects;
 
 public class HomeP extends AppCompatActivity {
@@ -36,6 +38,7 @@ public class HomeP extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         try {
                             LogOut();
+                            FirebaseAuth.getInstance().signOut();
                         } catch (Exception e) {
                             e.printStackTrace();
                         }

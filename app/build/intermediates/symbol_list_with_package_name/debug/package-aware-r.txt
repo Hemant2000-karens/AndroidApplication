@@ -1428,6 +1428,7 @@ drawable forget_bg
 drawable forgetotp
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable googleservice
 drawable homw
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
@@ -1497,20 +1498,14 @@ font baumans
 font headland_one
 font taviraj_medium
 id ALT
-id Add_Biom_Model
-id Add_bio_serial
-id Add_home
-id Add_mobile_Model
-id Add_record_button
-id Add_sim_serial
 id All_replace_BioMedel
 id All_replace_M_Model
 id BOTTOM_END
 id BOTTOM_START
 id Biometric
 id CTRL
-id Cance_button
 id FUNCTION
+id Google_signIN
 id META
 id M_back_buttin
 id Mobile
@@ -1528,7 +1523,6 @@ id Sim
 id Sim_designation
 id Spimmer
 id Spimmer2
-id Spinner3
 id TOP_END
 id TOP_START
 id accessibility_action_clickable_span
@@ -1585,10 +1579,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id add_Sim_mob
-id add_imei1
-id add_m_imei2
-id add_m_serial
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1639,6 +1629,8 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id divider
+id divider2
 id dropdown_menu
 id edit_query
 id emailtxt
@@ -1735,6 +1727,7 @@ id multiply
 id navbar
 id navigation_header_container
 id never
+id newAccount
 id noScroll
 id none
 id normal
@@ -1753,6 +1746,7 @@ id password_toggle
 id peekHeight
 id percent
 id pin
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
@@ -1828,6 +1822,7 @@ id textSpacerNoTitle
 id textStart
 id textView
 id textView10
+id textView2
 id textView25
 id textView3
 id textView4
@@ -1947,6 +1942,7 @@ layout activity_home_p
 layout activity_isue_dev
 layout activity_main
 layout activity_mobile__replace
+layout activity_sign_up
 layout activity_sim_replace
 layout activity_splash
 layout activity_verifyotp
@@ -2093,6 +2089,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string create_new_account
 string default_web_client_id
 string email_message
 string enter_empid
@@ -2162,6 +2159,7 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string name
+string or
 string otp_verification
 string password_toggle_content_description
 string path_password_eye

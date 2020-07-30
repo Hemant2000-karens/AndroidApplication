@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="175dp"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginBottom="196dp"
+        android:background="?android:attr/listDivider" />
+
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="match_parent"
@@ -87,7 +97,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="3dp"
-        android:layout_marginEnd="23dp"
+        android:layout_marginEnd="21dp"
         android:layout_marginBottom="253dp"
         app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="2dp"
@@ -141,5 +151,72 @@
         android:textAlignment="center"
         android:textColor="#FEC322"
         android:textSize="16sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="175dp"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="196dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView11"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="178dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="92dp"
+        android:text="@string/or"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/Google_signIN"
+        android:layout_width="65dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="133dp"
+        android:background="#F9F9F9"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/googleservice" />
+
+    <TextView
+        android:id="@+id/newAccount"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="102dp"
+        android:fontFamily="@font/headland_one"
+        android:text="@string/create_new_account"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="72dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="274dp"
+        android:visibility="invisible" />
 
 </RelativeLayout>
