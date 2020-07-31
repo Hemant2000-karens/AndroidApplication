@@ -31,29 +31,6 @@
         android:background="@drawable/signuptop"
         android:contentDescription="@string/todo" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card1"
-        android:layout_width="385dp"
-        android:layout_height="55dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="500dp">
-
-        <EditText
-            android:id="@+id/FirstName"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:drawableStart="@drawable/account"
-            android:drawablePadding="20dp"
-            android:ems="10"
-            android:hint="@string/enter_your_name"
-            android:importantForAutofill="no"
-            android:inputType="textPersonName" />
-    </androidx.cardview.widget.CardView>
-
     <TextView
         android:id="@+id/textView5"
         android:layout_width="197dp"
@@ -84,13 +61,15 @@
             android:id="@+id/Userid"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#FFFFFF"
             android:drawableStart="@drawable/mail"
             android:drawablePadding="20dp"
             android:ems="10"
             android:hint="@string/enter_email_address"
             android:importantForAutofill="no"
             android:inputType="textEmailAddress"
-            android:textAlignment="textStart" />
+            android:textAlignment="textStart"
+            android:textColor="#000000" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -108,12 +87,15 @@
             android:id="@+id/confirmpassword"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#FFFFFF"
             android:drawableStart="@drawable/lock"
             android:drawablePadding="20dp"
             android:ems="10"
             android:hint="@string/confirm_password"
             android:importantForAutofill="no"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textAlignment="textStart"
+            android:textColor="#000000" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -131,35 +113,15 @@
             android:id="@+id/userpassword"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#FFFFFF"
             android:drawableStart="@drawable/lock"
             android:drawablePadding="20dp"
             android:ems="10"
             android:hint="@string/enter_password"
             android:importantForAutofill="no"
-            android:inputType="textPassword" />
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card5"
-        android:layout_width="385dp"
-        android:layout_height="55dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="249dp">
-
-        <EditText
-            android:id="@+id/userContact"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:drawableStart="@drawable/phonecontact"
-            android:drawablePadding="20dp"
-            android:ems="10"
-            android:hint="@string/enter_contact_no"
-            android:importantForAutofill="no"
-            android:inputType="number" />
+            android:inputType="textPassword"
+            android:textAlignment="textStart"
+            android:textColor="#000000" />
     </androidx.cardview.widget.CardView>
 
     <TextView

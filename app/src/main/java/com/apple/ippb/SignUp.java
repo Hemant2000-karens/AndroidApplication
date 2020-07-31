@@ -23,7 +23,7 @@ public class SignUp extends AppCompatActivity {
     ProgressBar prgbr;
     Button signupbutton;
     FirebaseAuth firebaseAuth;
-    EditText person, emailAdderss, password, confirm_password, phonenumber;
+    EditText emailAdderss, password, confirm_password;
 
 
     @Override
@@ -31,11 +31,9 @@ public class SignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-        person = findViewById(R.id.FirstName);
         emailAdderss = findViewById(R.id.Userid);
         password = findViewById(R.id.userpassword);
         confirm_password = findViewById(R.id.confirmpassword);
-        phonenumber = findViewById(R.id.userContact);
         signupbutton = findViewById(R.id.Signupnext);
         prgbr = findViewById(R.id.progressBar1);
         firebaseAuth = FirebaseAuth.getInstance();
@@ -45,44 +43,66 @@ public class SignUp extends AppCompatActivity {
         signupbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final String newUser = person.getText().toString().trim();
                 String newEmail = emailAdderss.getText().toString().trim();
                 String newPassword = password.getText().toString().trim();
                 String newC_password = confirm_password.getText().toString().trim();
-                String newPhone = phonenumber.getText().toString().trim();
 
 
-                if (TextUtils.isEmpty(newUser) && TextUtils.isEmpty(newEmail) && TextUtils.isEmpty(newC_password) && TextUtils.isEmpty(newPhone)) {
-                    person.setError("Name Cannot be Empty");
+                if (TextUtils.isEmpty(newEmail) && TextUtils.isEmpty(newC_password)) {
                     emailAdderss.setError("Name Cannot be Empty");
                     password.setError("Name Cannot be Empty");
                     confirm_password.setError("Name Cannot be Empty");
-                    phonenumber.setError("Name Cannot be Empty");
                     return;
                 }
 
+                if (newPassword.equals(newC_password)) {
+                    firebaseAuth.createUserWithEmailAndPassword(newEmail, newC_password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if (task.isSuccessful()) {
+                                firebaseUser.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if (task.isSuccessful()) {
+                                            Toast.makeText(getApplicationContext(), "Successfully Verified  !!", Toast.LENGTH_LONG).show();
+                                            Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                                            startActivity(i);
+                                            finish();
+                                        } else
+                                            Toast.makeText(getApplicationContext(), "Error Try Again", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                            }
 
-                firebaseAuth.createUserWithEmailAndPassword(newEmail, newC_password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            firebaseUser.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
-                                @Override
-                                public void onComplete(@NonNull Task<Void> task) {
-                                    if (task.isSuccessful()) {
-                                        Toast.makeText(getApplicationContext(), "Successfully Verified  !!", Toast.LENGTH_SHORT).show();
-                                        Intent i = new Intent(getApplicationContext(), MainActivity.class);
-                                        startActivity(i);
-                                        finish();
-                                    } else
-                                        Toast.makeText(getApplicationContext(), "Error Try Again", Toast.LENGTH_SHORT).show();
-                                }
-                            });
                         }
+                    });
+                    prgbr.setVisibility(View.VISIBLE);
+                } else if (newC_password.equals(newPassword)) {
+                    firebaseAuth.createUserWithEmailAndPassword(newEmail, newC_password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if (task.isSuccessful()) {
+                                firebaseUser.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if (task.isSuccessful()) {
+                                            Toast.makeText(getApplicationContext(), "Successfully Verified  !!", Toast.LENGTH_LONG).show();
+                                            Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                                            startActivity(i);
+                                            finish();
+                                        } else
+                                            Toast.makeText(getApplicationContext(), "Error Try Again", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                            }
 
-                    }
-                });
-                prgbr.setVisibility(View.VISIBLE);
+                        }
+                    });
+                    prgbr.setVisibility(View.VISIBLE);
+                } else {
+                    password.setError("Check Your Password Then Try");
+                    confirm_password.setError("Check Your Password Then Try");
+                }
             }
         });
 
