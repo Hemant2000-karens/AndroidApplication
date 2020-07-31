@@ -958,7 +958,7 @@
     <string name="replace">Replace</string>
     <string name="replace_device">Replace Device</string>
     <string name="search_menu_title">Search</string>
-    <string name="send_otp">Send OTP</string>
+    <string name="send_otp">Send Reset Link</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_in_message">Already have Account ? Sign In</string>
     <string name="sign_up">Sign Up</string>
@@ -966,6 +966,10 @@
     <string name="sim_replace">Sim Only</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="todo">TODO</string>
+    <string name="upadate_password">Upadate Password</string>
+    <string name="update_email">Update Email</string>
+    <string name="update_name">Update Name</string>
+    <string name="updateprofile">UpdateProfile</string>
     <string name="verify">Verify</string>
     <string name="welcome">Welcome</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

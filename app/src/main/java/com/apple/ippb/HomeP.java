@@ -66,7 +66,7 @@ public class HomeP extends AppCompatActivity {
         edit_profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), ProfileUpdate.class);
+                Intent i = new Intent(HomeP.this, ProfileUpdate.class);
                 finish();
                 startActivity(i);
             }

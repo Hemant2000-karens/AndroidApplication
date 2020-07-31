@@ -104,6 +104,10 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_back_arrow.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/back_arrow.xml"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
     },
@@ -276,8 +280,16 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_profile_update.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_profile_update.xml"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_all_replace.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/all_replace.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_option.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/option.xml"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",

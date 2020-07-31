@@ -1383,6 +1383,7 @@ drawable add_record_textfield
 drawable aurror
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_arrow
 drawable biome
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1468,6 +1469,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable option
 drawable phonecontact
 drawable phoneico
 drawable pink
@@ -1504,7 +1506,6 @@ id BOTTOM_START
 id Biometric
 id CTRL
 id FUNCTION
-id FirstName
 id Google_signIN
 id META
 id M_back_buttin
@@ -1526,6 +1527,7 @@ id Spimmer
 id Spimmer2
 id TOP_END
 id TOP_START
+id Update_NAME
 id Userid
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1601,7 +1603,6 @@ id card1
 id card2
 id card3
 id card4
-id card5
 id center
 id center_horizontal
 id center_vertical
@@ -1642,6 +1643,7 @@ id divider2
 id dropdown_menu
 id edit
 id edit_query
+id emailUpdate
 id emailtxt
 id end
 id end_padder
@@ -1670,6 +1672,7 @@ id groups
 id hideable
 id home
 id homeAsUp
+id home_back
 id horizontal
 id icon
 id icon_group
@@ -1686,6 +1689,8 @@ id imageView4
 id imageView5
 id imageView6
 id imageView7
+id imageView8
+id imageView9
 id info
 id invisible
 id issue_new_Device
@@ -1700,6 +1705,7 @@ id line3
 id listMode
 id list_item
 id log_btn
+id login_back
 id logout_home
 id masked
 id media_actions
@@ -1734,6 +1740,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id name_update
 id navbar
 id navigation_header_container
 id never
@@ -1752,6 +1759,7 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
+id passwordUpdate
 id password_toggle
 id peekHeight
 id percent
@@ -1841,6 +1849,7 @@ id textView4
 id textView5
 id textView6
 id textView7
+id textView8
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1867,7 +1876,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id userContact
 id userpassword
 id usr_name
 id veri1
@@ -1883,6 +1891,7 @@ id view13
 id view14
 id view15
 id view16
+id view2
 id view6
 id view7
 id view_offset_helper
@@ -1958,6 +1967,7 @@ layout activity_home_p
 layout activity_isue_dev
 layout activity_main
 layout activity_mobile__replace
+layout activity_profile_update
 layout activity_sign_up
 layout activity_sim_replace
 layout activity_splash
@@ -2199,6 +2209,10 @@ string sim_card
 string sim_replace
 string status_bar_notification_info_overflow
 string todo
+string upadate_password
+string update_email
+string update_name
+string updateprofile
 string verify
 string welcome
 style AlertDialog_AppCompat

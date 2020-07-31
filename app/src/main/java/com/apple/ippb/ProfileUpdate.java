@@ -21,18 +21,17 @@ import com.google.firebase.auth.UserProfileChangeRequest;
 
 public class ProfileUpdate extends AppCompatActivity {
     FirebaseUser fbauth;
-
-    EditText updatename = findViewById(R.id.name_update);
-    Button emailupdate, updatepassword, NameUpdate;
-
-    FirebaseUser userProfile = FirebaseAuth.getInstance().getCurrentUser();
-
-    String name = userProfile.getDisplayName();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_update);
+
+
+        final EditText updatename = findViewById(R.id.name_update);
+        final Button emailupdate, updatepassword, NameUpdate;
+
+        FirebaseUser userProfile = FirebaseAuth.getInstance().getCurrentUser();
+        String name = userProfile.getDisplayName();
 
         updatename.setText(name);
 
@@ -49,7 +48,7 @@ public class ProfileUpdate extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
-                                    Toast.makeText(getApplicationContext(), "Successfully Updated Your Name", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(ProfileUpdate.this, "Successfully Updated Your Name", Toast.LENGTH_SHORT).show();
                                 }
                             }
                         });
@@ -65,7 +64,7 @@ public class ProfileUpdate extends AppCompatActivity {
                 final AlertDialog.Builder builder = new AlertDialog.Builder(ProfileUpdate.this);
                 builder.setCancelable(true);
                 builder.setTitle("Edit Profile");
-                final EditText text = new EditText(getApplicationContext());
+                final EditText text = new EditText(ProfileUpdate.this);
                 text.setHint("Enter Your Display Name");
                 text.setEms(10);
                 builder.setView(text);
@@ -74,13 +73,13 @@ public class ProfileUpdate extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
 
                         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-
+                        assert user != null;
                         user.updateEmail(text.getText().toString().trim())
                                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if (task.isSuccessful()) {
-                                            Toast.makeText(getApplicationContext(), "Email Updated Successfully", Toast.LENGTH_LONG).show();
+                                            Toast.makeText(ProfileUpdate.this, "Email Updated Successfully", Toast.LENGTH_LONG).show();
                                         }
                                     }
                                 });
@@ -107,7 +106,7 @@ public class ProfileUpdate extends AppCompatActivity {
                 final AlertDialog.Builder builder = new AlertDialog.Builder(ProfileUpdate.this);
                 builder.setCancelable(true);
                 builder.setTitle("Edit Profile");
-                final EditText newpass = new EditText(getApplicationContext());
+                final EditText newpass = new EditText(ProfileUpdate.this);
                 newpass.setHint("Enter New Password");
                 newpass.setEms(10);
                 builder.setView(newpass);
@@ -116,15 +115,17 @@ public class ProfileUpdate extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
 
                         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                        assert user != null;
                         user.updatePassword(newpass.getText().toString().trim())
                                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if (task.isSuccessful()) {
-                                            Toast.makeText(getApplicationContext(), "Password Updated Successfully", Toast.LENGTH_LONG).show();
+                                            Toast.makeText(ProfileUpdate.this, "Password Updated Successfully", Toast.LENGTH_LONG).show();
                                         }
                                     }
                                 });
+
                     }
                 });
                 builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -143,7 +144,7 @@ public class ProfileUpdate extends AppCompatActivity {
         bc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), HomeP.class);
+                Intent i = new Intent(ProfileUpdate.this, HomeP.class);
                 startActivity(i);
                 finish();
             }

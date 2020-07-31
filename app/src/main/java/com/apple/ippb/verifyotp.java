@@ -27,9 +27,6 @@ public class verifyotp extends AppCompatActivity implements TextWatcher {
         t3.addTextChangedListener(this);
         t4.addTextChangedListener(this);
 
-
-        String email = ForgetPassword.Email();
-
         Button VerifyButton = findViewById(R.id.verify_button);
         VerifyButton.setOnClickListener(new View.OnClickListener() {
             @Override
