@@ -155,11 +155,11 @@ public class ProfileUpdate extends AppCompatActivity {
         final FirebaseUser usr = FirebaseAuth.getInstance().getCurrentUser();
         assert usr != null;
         if (usr.isEmailVerified()) {
-            status.setTextColor(Color.GREEN);
+            status.setTextColor(Color.parseColor("#FF007802"));
             status.setText("Email is verified!!");
             verifyb.setVisibility(View.INVISIBLE);
         } else if (usr.isEmailVerified()) {
-            status.setTextColor(Color.RED);
+            status.setTextColor(Color.parseColor("#930000"));
             status.setText("Verify Your Email");
             verifyb.setVisibility(View.VISIBLE);
         }
