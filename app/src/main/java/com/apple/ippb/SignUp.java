@@ -24,7 +24,7 @@ public class SignUp extends AppCompatActivity {
     Button signupbutton;
     FirebaseAuth firebaseAuth;
     EditText emailAdderss, password, confirm_password;
-
+    FirebaseUser firebaseUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +37,6 @@ public class SignUp extends AppCompatActivity {
         signupbutton = findViewById(R.id.Signupnext);
         prgbr = findViewById(R.id.progressBar1);
         firebaseAuth = FirebaseAuth.getInstance();
-        final FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
 
 
         signupbutton.setOnClickListener(new View.OnClickListener() {
@@ -86,7 +85,7 @@ public class SignUp extends AppCompatActivity {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if (task.isSuccessful()) {
-                                            Toast.makeText(getApplicationContext(), "Successfully Verified  !!", Toast.LENGTH_LONG).show();
+                                            Toast.makeText(getApplicationContext(), "Successfully Verified  !!", Toast.LENGTH_SHORT).show();
                                             Intent i = new Intent(getApplicationContext(), MainActivity.class);
                                             startActivity(i);
                                             finish();
@@ -114,10 +113,10 @@ public class SignUp extends AppCompatActivity {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = firebaseAuth.getCurrentUser();
-        updateUI(currentUser);
+        updateUI();
     }
 
-    private FirebaseUser updateUI(FirebaseUser currentUser) {
-        return currentUser;
+    private void updateUI() {
+        return;
     }
 }

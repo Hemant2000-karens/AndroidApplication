@@ -17,11 +17,12 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class ForgetPassword extends AppCompatActivity {
 
-    EditText emailh = findViewById(R.id.emailtxt);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.forget_activity);
+        final EditText emailh = findViewById(R.id.emailtxt);
 
         Button SendButton = findViewById(R.id.sendbutton);
         SendButton.setOnClickListener(new View.OnClickListener() {

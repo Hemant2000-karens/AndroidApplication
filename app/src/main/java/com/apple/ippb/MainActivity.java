@@ -45,12 +45,15 @@ public class MainActivity extends AppCompatActivity {
 // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
         final FirebaseUser user = mAuth.getCurrentUser();
+
+
         forget = findViewById(R.id.forgot);
         forget.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), ForgetPassword.class);
+                Intent i = new Intent(MainActivity.this, ForgetPassword.class);
                 startActivity(i);
+                finish();
             }
         });
 

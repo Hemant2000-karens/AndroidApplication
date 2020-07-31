@@ -1748,6 +1748,7 @@ id newAccount
 id noScroll
 id none
 id normal
+id notice
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -1881,6 +1882,7 @@ id usr_name
 id veri1
 id veri2
 id verify_button
+id verifyemailbutton
 id vertical
 id very3
 id view
@@ -2214,6 +2216,7 @@ string update_email
 string update_name
 string updateprofile
 string verify
+string verify_email
 string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

@@ -1,12 +1,15 @@
 package com.apple.ippb;
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -20,7 +23,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
 
 public class ProfileUpdate extends AppCompatActivity {
-    FirebaseUser fbauth;
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,9 +31,9 @@ public class ProfileUpdate extends AppCompatActivity {
 
 
         final EditText updatename = findViewById(R.id.name_update);
-        final Button emailupdate, updatepassword, NameUpdate;
-
-        FirebaseUser userProfile = FirebaseAuth.getInstance().getCurrentUser();
+        final Button emailupdate, updatepassword, NameUpdate, verifyb;
+        final TextView status = findViewById(R.id.notice);
+        final FirebaseUser userProfile = FirebaseAuth.getInstance().getCurrentUser();
         assert userProfile != null;
         String name = userProfile.getDisplayName();
 
@@ -40,16 +43,18 @@ public class ProfileUpdate extends AppCompatActivity {
         NameUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String newOfName = updatename.getText().toString().trim();
 
+                String newOfName = updatename.getText().toString().trim();
                 UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
                         .setDisplayName(newOfName).build();
-                fbauth.updateProfile(profileUpdates)
+                userProfile.updateProfile(profileUpdates)
                         .addOnCompleteListener(new OnCompleteListener<Void>() {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(ProfileUpdate.this, "Successfully Updated Your Name", Toast.LENGTH_SHORT).show();
+                                } else if (task.isCanceled()) {
+                                    Toast.makeText(ProfileUpdate.this, "Error !! , Try Again", Toast.LENGTH_LONG).show();
                                 }
                             }
                         });
@@ -73,13 +78,19 @@ public class ProfileUpdate extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
 
-                        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                        final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                         assert user != null;
                         user.updateEmail(text.getText().toString().trim())
                                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if (task.isSuccessful()) {
+                                            user.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                @Override
+                                                public void onComplete(@NonNull Task<Void> task) {
+                                                    Toast.makeText(ProfileUpdate.this, "Email Verification Link Sended", Toast.LENGTH_LONG).show();
+                                                }
+                                            });
                                             Toast.makeText(ProfileUpdate.this, "Email Updated Successfully", Toast.LENGTH_LONG).show();
                                         }
                                     }
@@ -137,6 +148,33 @@ public class ProfileUpdate extends AppCompatActivity {
                 });
                 AlertDialog buld = builder.create();
                 buld.show();
+            }
+        });
+
+        verifyb = findViewById(R.id.verifyemailbutton);
+        final FirebaseUser usr = FirebaseAuth.getInstance().getCurrentUser();
+        assert usr != null;
+        if (usr.isEmailVerified()) {
+            status.setTextColor(Color.GREEN);
+            status.setText("Email is verified!!");
+            verifyb.setVisibility(View.INVISIBLE);
+        } else if (usr.isEmailVerified()) {
+            status.setTextColor(Color.RED);
+            status.setText("Verify Your Email");
+            verifyb.setVisibility(View.VISIBLE);
+        }
+
+        verifyb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                usr.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+
+                        Toast.makeText(ProfileUpdate.this, "Email Sended Successfully", Toast.LENGTH_SHORT).show();
+
+                    }
+                });
             }
         });
 

@@ -14,5 +14,6 @@ public class Biometric extends Fragment {
     public View onCreate(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle SavedInstanceState) {
         return inflater.inflate(R.layout.biometricissue, container, false);
 
+
     }
 }

@@ -971,6 +971,7 @@
     <string name="update_name">Update Name</string>
     <string name="updateprofile">UpdateProfile</string>
     <string name="verify">Verify</string>
+    <string name="verify_email">Verify Email</string>
     <string name="welcome">Welcome</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
