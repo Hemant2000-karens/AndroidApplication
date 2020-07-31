@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -73,16 +74,30 @@
         android:textAlignment="center"
         android:textSize="36sp" />
 
-    <Button
-        android:id="@+id/edit"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView2"
+    <view
+        android:id="@+id/view2"
+        class="androidx.viewpager.widget.ViewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="480dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="133dp"
-        android:background="@drawable/whitebutton"
-        android:text="@string/edit_profile"
-        android:textColor="#FD9A09" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="25dp"
+        android:background="#68FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="42dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/option" />
 
 </RelativeLayout>

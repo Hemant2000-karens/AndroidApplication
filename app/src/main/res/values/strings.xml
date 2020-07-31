@@ -46,6 +46,10 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="enter_contact_no">Enter Contact No.</string>
     <string name="edit_profile">Edit Profile</string>
+    <string name="update_name">Update Name</string>
+    <string name="updateprofile">UpdateProfile</string>
+    <string name="update_email">Update Email</string>
+    <string name="upadate_password">Upadate Password</string>
 
 
     <string-array name="Bio_model">
