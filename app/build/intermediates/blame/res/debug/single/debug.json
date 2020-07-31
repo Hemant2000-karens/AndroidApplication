@@ -12,6 +12,10 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_homeawve.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/homeawve.xml"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_sign_up.xml"
     },
@@ -192,10 +196,6 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_phonecontact.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/phonecontact.xml"
-    },
-    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_alef.ttf.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/alef.ttf"
     },
@@ -288,6 +288,10 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/all_replace.xml"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_powerbutton.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/powerbutton.xml"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_option.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/option.xml"
     },
@@ -314,9 +318,5 @@
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_phoneico.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/phoneico.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_home.xml.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/home.xml"
     }
 ]

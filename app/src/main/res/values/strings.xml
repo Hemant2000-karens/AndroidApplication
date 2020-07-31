@@ -4,7 +4,6 @@
     <string name="login">Login</string>
     <string name="enter_username">Username</string>
     <string name="enter_password">Password</string>
-    <string name="logout">Logout</string>
     <string name="name">Name</string>
     <string name="post">EmpID</string>
     <string name="branch">Designation</string>
@@ -44,8 +43,6 @@
     <string name="enter_your_name">Enter Your Name</string>
     <string name="enter_email_address">Enter Email Address</string>
     <string name="confirm_password">Confirm Password</string>
-    <string name="enter_contact_no">Enter Contact No.</string>
-    <string name="edit_profile">Edit Profile</string>
     <string name="update_name">Update Name</string>
     <string name="updateprofile">UpdateProfile</string>
     <string name="update_email">Update Email</string>

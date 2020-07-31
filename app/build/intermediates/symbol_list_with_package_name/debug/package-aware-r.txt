@@ -1429,7 +1429,7 @@ drawable forgetotp
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable googleservice
-drawable home
+drawable homeawve
 drawable homw
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
@@ -1470,10 +1470,10 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable option
-drawable phonecontact
 drawable phoneico
 drawable pink
 drawable pink_shad
+drawable powerbutton
 drawable red_shaded
 drawable signupbottom
 drawable signuptop
@@ -1599,10 +1599,6 @@ id bottom
 id buttonPanel
 id cancel_action
 id cancel_button
-id card1
-id card2
-id card3
-id card4
 id center
 id center_horizontal
 id center_vertical
@@ -1638,8 +1634,6 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
-id divider
-id divider2
 id dropdown_menu
 id edit
 id edit_query
@@ -1683,13 +1677,10 @@ id imageView
 id imageView11
 id imageView2
 id imageView20
-id imageView22
-id imageView3
 id imageView4
 id imageView5
 id imageView6
 id imageView7
-id imageView8
 id imageView9
 id info
 id invisible
@@ -1800,7 +1791,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signinoption
 id skipCollapsed
 id slide
 id smallLabel
@@ -1841,16 +1831,9 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textView10
-id textView2
 id textView25
-id textView3
 id textView4
-id textView5
-id textView6
-id textView7
-id textView8
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1893,7 +1876,6 @@ id view13
 id view14
 id view15
 id view16
-id view2
 id view6
 id view7
 id view_offset_helper
@@ -2117,9 +2099,7 @@ string common_signin_button_text_long
 string confirm_password
 string create_new_account
 string default_web_client_id
-string edit_profile
 string email_message
-string enter_contact_no
 string enter_details_to_continue
 string enter_email_address
 string enter_empid
@@ -2151,7 +2131,6 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string issue
 string login
-string logout
 string mobile
 string mobile_issue_replace
 string mobile_number

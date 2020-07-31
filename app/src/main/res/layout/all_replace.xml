@@ -138,7 +138,6 @@
         app:layout_constraintTop_toTopOf="@+id/view7" />
 
     <TextView
-        android:id="@+id/textView7"
         android:layout_width="79dp"
         android:layout_height="28dp"
         android:layout_marginStart="8dp"

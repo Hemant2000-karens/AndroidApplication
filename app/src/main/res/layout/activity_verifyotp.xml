@@ -191,7 +191,6 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="313dp"
         android:layout_height="35dp"
         android:layout_above="@+id/veri1"

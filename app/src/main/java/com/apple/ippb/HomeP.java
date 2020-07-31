@@ -5,7 +5,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -28,7 +27,7 @@ public class HomeP extends AppCompatActivity {
         Nme_usr.setText(user);
 
 
-        Button bc_btn = findViewById(R.id.logout_home);
+        ImageButton bc_btn = findViewById(R.id.logout_home);
         bc_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
