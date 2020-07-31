@@ -31,6 +31,7 @@ public class ProfileUpdate extends AppCompatActivity {
         final Button emailupdate, updatepassword, NameUpdate;
 
         FirebaseUser userProfile = FirebaseAuth.getInstance().getCurrentUser();
+        assert userProfile != null;
         String name = userProfile.getDisplayName();
 
         updatename.setText(name);
