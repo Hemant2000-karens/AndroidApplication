@@ -47,7 +47,7 @@ public class ForgetPassword extends AppCompatActivity {
         bc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                Intent i = new Intent(ForgetPassword.this, MainActivity.class);
                 startActivity(i);
                 finish();
             }
