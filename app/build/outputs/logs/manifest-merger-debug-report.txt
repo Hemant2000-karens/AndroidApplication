@@ -97,10 +97,10 @@ MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/
 MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:27:5-67
 	android:name
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:22-64
-uses-permission#android.hardware.camera.autofocus
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:5-73
+uses-permission#android.hardware.CAMERA>AUTO_FOCUS
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:5-74
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:22-70
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:22-71
 application
 ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:9:5-45:19
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ae1be6d96d300b045ae2520a77aabf40/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
@@ -164,7 +164,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hema
 	android:theme
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-40
 activity#com.apple.ippb.ProfileUpdate
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-60
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-50
 	android:name
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:19-48
 activity#com.apple.ippb.SignUp

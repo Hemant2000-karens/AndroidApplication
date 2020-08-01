@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.hardware.CAMERA>AUTO_FOCUS" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfileUpdate"></activity>
+        <activity android:name=".ProfileUpdate" />
         <activity android:name=".SignUp" />
         <activity android:name=".verifyotp" />
         <activity

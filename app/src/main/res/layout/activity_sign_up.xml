@@ -150,6 +150,7 @@
         android:textSize="18sp" />
 
     <TextView
+        android:id="@+id/signINp"
         android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

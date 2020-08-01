@@ -1,13 +1,14 @@
 package com.apple.ippb;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,10 +18,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.OnCanceledListener;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -33,26 +34,33 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
-import de.hdodenhof.circleimageview.CircleImageView;
+import java.io.ByteArrayOutputStream;
+import java.util.Objects;
+
 
 public class ProfileUpdate extends AppCompatActivity {
+    final FirebaseUser userProfile = FirebaseAuth.getInstance().getCurrentUser();
+    ImageView ppu;
+    String displayname = null, profileurl = null;
+    int time = 1000;
+
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_update);
 
-        final CircleImageView ppu;
-        ppu = findViewById(R.id.upadteprofile);
+
+        assert userProfile != null;
         final EditText updatename = findViewById(R.id.name_update);
         final Button emailupdate, updatepassword, NameUpdate, verifyb;
         final TextView status = findViewById(R.id.notice);
-        final FirebaseUser userProfile = FirebaseAuth.getInstance().getCurrentUser();
-        assert userProfile != null;
+        ppu = findViewById(R.id.upadteprofile);
         String name = userProfile.getDisplayName();
         updatename.setText(name);
 
-        Glide.with(this).load(userProfile.getPhotoUrl()).into(ppu);
+        Uri reference = Uri.parse(Objects.requireNonNull(userProfile.getPhotoUrl()).toString());
+        ppu.setImageURI(reference);
 
         NameUpdate = findViewById(R.id.Update_NAME);
         NameUpdate.setOnClickListener(new View.OnClickListener() {
@@ -219,66 +227,80 @@ public class ProfileUpdate extends AppCompatActivity {
         });
 
 
-        ppu.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Intent opg = new Intent(MediaStore.ACTION_IMAGE_CAPTURE_SECURE);
-                Intent opg = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                startActivityForResult(opg, 1000);
-            }
-        });
+        // Saved Instances Ended Here //
     }
 
-
-    // Uploading Methods
-    @Override
-    protected void onActivityResult(int requestcode, int resultcode, @androidx.annotation.Nullable Intent data) {
-
-        super.onActivityResult(requestcode, resultcode, data);
-        if (requestcode == 1000) {
-            if (resultcode == Activity.RESULT_OK) {
-                ImageView ppu = findViewById(R.id.upadteprofile);
-                assert data != null;
-                Uri npp = data.getData();
-                ppu.setImageURI(npp);
-                uploadImage(npp);
-            }
+    public void handlerImage(View view) {
+        Intent i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE_SECURE);
+        if (i.resolveActivity(getPackageManager()) != null) {
+            startActivityForResult(i, time);
         }
     }
 
-    // Uploading Methods
-    private void uploadImage(final Uri npp) {
-        String uid = FirebaseAuth.getInstance().getUid();
-        StorageReference str = FirebaseStorage.getInstance().getReference();
-        StorageReference newPP = str.child("Profile Pictures").child("PP" + " " + uid + ".jpeg");
-        newPP.putFile(npp).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == time) {
+            switch (resultCode) {
+                case RESULT_OK:
+                    Bitmap bmp = (Bitmap) data.getExtras().get("Data");
+                    ppu.setImageBitmap(bmp);
+                    uploadActivity(bmp);
+            }
+
+        }
+
+    }
+
+    private void uploadActivity(Bitmap bmp) {
+        ByteArrayOutputStream by = new ByteArrayOutputStream();
+        bmp.compress(Bitmap.CompressFormat.JPEG, 100, by);
+        String uid = userProfile.getUid();
+        final StorageReference reff = FirebaseStorage.getInstance().getReference().child("Profile Pictures").child("PP" + uid + "jpeg");
+        reff.putBytes(by.toByteArray()).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
-                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                UserProfileChangeRequest req = new UserProfileChangeRequest.Builder().setPhotoUri(npp).build();
-                assert user != null;
-                user.updateProfile(req).addOnSuccessListener(new OnSuccessListener<Void>() {
-                    @Override
-                    public void onSuccess(Void aVoid) {
-                        Toast.makeText(ProfileUpdate.this, "Profile Image Updated SuccessFully", Toast.LENGTH_SHORT).show();
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(ProfileUpdate.this, "Profile Image Updating Failed", Toast.LENGTH_SHORT).show();
-                    }
-                });
-
-                Toast.makeText(ProfileUpdate.this, "Profile Image Updated SuccessFully", Toast.LENGTH_SHORT).show();
+                getDownload(reff);
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Toast.makeText(ProfileUpdate.this, "Profile Image Updating Failed", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+    }
+
+    private void getDownload(StorageReference reference) {
+        reference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+            @Override
+            public void onSuccess(Uri uri) {
+                Log.d(null, "onSucess" + uri);
+                setUerProfile(uri);
+            }
+        });
+    }
+
+    private void setUerProfile(Uri uri) {
+        UserProfileChangeRequest userProfileChangeRequest = new UserProfileChangeRequest.Builder().setPhotoUri(uri).build();
+
+        userProfile.updateProfile(userProfileChangeRequest).addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+                Toast.makeText(ProfileUpdate.this, "Updated Suceesfully", Toast.LENGTH_SHORT).show();
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Toast.makeText(ProfileUpdate.this, "Updating Failed", Toast.LENGTH_SHORT).show();
             }
         });
 
     }
+// Uploading Methods
+
+
+    // Uploading Method
+
 
     /// New Methods Created Here
 

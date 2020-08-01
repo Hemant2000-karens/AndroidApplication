@@ -308,7 +308,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material/icons/materialicons/power_settings_new/baseline_power_settings_new_24.xml" />
+                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material/icons/materialicons/add_circle/baseline_add_circle_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -320,7 +320,7 @@
                           <map>
                             <entry key="autoMirrored" value="true" />
                             <entry key="color" value="fd9a09" />
-                            <entry key="outputName" value="powerbutton" />
+                            <entry key="outputName" value="add" />
                             <entry key="sourceFile" value="$USER_HOME$/Downloads/wave-2.svg" />
                           </map>
                         </option>

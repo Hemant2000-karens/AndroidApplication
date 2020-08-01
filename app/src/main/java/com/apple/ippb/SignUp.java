@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -102,6 +103,17 @@ public class SignUp extends AppCompatActivity {
                     password.setError("Check Your Password Then Try");
                     confirm_password.setError("Check Your Password Then Try");
                 }
+            }
+        });
+
+
+        TextView signinp = findViewById(R.id.signINp);
+        signinp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(SignUp.this, MainActivity.class);
+                startActivity(i);
+                finish();
             }
         });
 

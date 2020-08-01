@@ -142,6 +142,7 @@
         android:textAlignment="center"
         android:textSize="20sp" />
 
+
     <Button
         android:id="@+id/verifyemailbutton"
         android:layout_width="156dp"
@@ -151,7 +152,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="130dp"
         android:layout_marginEnd="125dp"
-        android:layout_marginBottom="161dp"
+        android:layout_marginBottom="93dp"
         android:background="@drawable/loginbutton"
         android:text="@string/verify_email"
         android:textAlignment="center"
@@ -159,18 +160,53 @@
         android:textSize="18sp"
         android:visibility="invisible" />
 
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/upadteprofile"
-        android:layout_width="193dp"
-        android:layout_height="119dp"
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="109dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="108dp"
-        android:layout_marginEnd="110dp"
-        android:layout_marginBottom="465dp"
-        android:src="@drawable/account"
-        app:civ_border_color="#6C6100"
-        app:civ_border_width="2dp" />
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="467dp"
+        app:cardCornerRadius="60dp">
+
+        <ImageView
+            android:id="@+id/upadteprofile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/account" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/ppadd"
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="467dp"
+        android:contentDescription="@string/todo"
+        android:onClick="handlerImage"
+        app:srcCompat="@drawable/add" />
+
+    <Button
+        android:id="@+id/COntact"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/loginbutton"
+        android:padding="2dp"
+        android:text="@string/add_update_contact"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
 </RelativeLayout>

@@ -16,9 +16,9 @@
 12    <uses-permission android:name="android.permission.INTERNET" />
 12-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:5-67
 12-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:22-64
-13    <uses-permission android:name="android.hardware.camera.autofocus" />
-13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:5-73
-13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:22-70
+13    <uses-permission android:name="android.hardware.CAMERA>AUTO_FOCUS" />
+13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:5-74
+13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:22-71
 14
 15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -48,7 +48,7 @@
 30        android:theme="@style/AppTheme" >
 30-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-40
 31        <activity android:name="com.apple.ippb.ProfileUpdate" />
-31-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-60
+31-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-50
 31-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:19-48
 32        <activity android:name="com.apple.ippb.SignUp" />
 32-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:18:9-44

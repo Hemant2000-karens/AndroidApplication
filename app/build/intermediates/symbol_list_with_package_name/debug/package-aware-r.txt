@@ -1383,6 +1383,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable account
+drawable add
 drawable add_record_textfield
 drawable aurror
 drawable avd_hide_password
@@ -1508,6 +1509,7 @@ id All_replace_M_Model
 id BOTTOM_END
 id BOTTOM_START
 id Biometric
+id COntact
 id CTRL
 id FUNCTION
 id Google_signIN
@@ -1762,6 +1764,7 @@ id password_toggle
 id peekHeight
 id percent
 id pin
+id ppadd
 id profilepic
 id progressBar
 id progressBar1
@@ -1798,6 +1801,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signINp
 id skipCollapsed
 id slide
 id smallLabel
@@ -2076,6 +2080,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add_update_contact
 string app_name
 string appbar_scrolling_view_behavior
 string bio_metrics
