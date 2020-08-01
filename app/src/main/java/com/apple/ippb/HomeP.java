@@ -3,18 +3,19 @@ package com.apple.ippb;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 
 public class HomeP extends AppCompatActivity {
@@ -28,9 +29,9 @@ public class HomeP extends AppCompatActivity {
         String user = fbauth.getDisplayName();
         Nme_usr.setText(user);
 
-        final ImageView pp = findViewById(R.id.profilepic);
-        Uri bmp = fbauth.getPhotoUrl();
-        pp.setImageURI(bmp);
+        final CircleImageView pp = findViewById(R.id.profilepic);
+        Glide.with(this).load(fbauth.getPhotoUrl()).into(pp);
+
 
         ImageButton bc_btn = findViewById(R.id.logout_home);
         bc_btn.setOnClickListener(new View.OnClickListener() {

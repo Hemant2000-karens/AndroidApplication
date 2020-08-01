@@ -20,6 +20,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.OnCanceledListener;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -32,21 +33,26 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class ProfileUpdate extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_update);
-        final ImageView ppu = findViewById(R.id.upadteprofile);
+
+        final CircleImageView ppu;
+        ppu = findViewById(R.id.upadteprofile);
         final EditText updatename = findViewById(R.id.name_update);
         final Button emailupdate, updatepassword, NameUpdate, verifyb;
         final TextView status = findViewById(R.id.notice);
         final FirebaseUser userProfile = FirebaseAuth.getInstance().getCurrentUser();
         assert userProfile != null;
         String name = userProfile.getDisplayName();
-
         updatename.setText(name);
+
+        Glide.with(this).load(userProfile.getPhotoUrl()).into(ppu);
 
         NameUpdate = findViewById(R.id.Update_NAME);
         NameUpdate.setOnClickListener(new View.OnClickListener() {
@@ -216,6 +222,7 @@ public class ProfileUpdate extends AppCompatActivity {
         ppu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Intent opg = new Intent(MediaStore.ACTION_IMAGE_CAPTURE_SECURE);
                 Intent opg = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 startActivityForResult(opg, 1000);
             }
@@ -231,6 +238,7 @@ public class ProfileUpdate extends AppCompatActivity {
         if (requestcode == 1000) {
             if (resultcode == Activity.RESULT_OK) {
                 ImageView ppu = findViewById(R.id.upadteprofile);
+                assert data != null;
                 Uri npp = data.getData();
                 ppu.setImageURI(npp);
                 uploadImage(npp);
@@ -242,12 +250,13 @@ public class ProfileUpdate extends AppCompatActivity {
     private void uploadImage(final Uri npp) {
         String uid = FirebaseAuth.getInstance().getUid();
         StorageReference str = FirebaseStorage.getInstance().getReference();
-        StorageReference newPP = str.child("Profile Pictures").child("PP.jpeg" + uid);
+        StorageReference newPP = str.child("Profile Pictures").child("PP" + " " + uid + ".jpeg");
         newPP.putFile(npp).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 UserProfileChangeRequest req = new UserProfileChangeRequest.Builder().setPhotoUri(npp).build();
+                assert user != null;
                 user.updateProfile(req).addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {

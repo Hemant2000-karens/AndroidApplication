@@ -4,6 +4,8 @@ ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest
 INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-47:12
 INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-47:12
 INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-47:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ae1be6d96d300b045ae2520a77aabf40/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/55cdd1cb5f873838de5123a4dae796cb/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e8170964da10c0aa08ef4ff1142fca13/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/396e7ddea1addefd32f4f3d87ec48909/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5fde9b470ca241c13fa0641ca95ae4a/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -16,11 +18,9 @@ MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/hemant/.gradl
 MERGED from [com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.android.gms:play-services-vision:20.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0db1d706fd8df4f2598ebc96060d2637/jetified-play-services-vision-20.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e66da8b5301e9a6b4d099a6eed9ee5b8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/226817fd352d0debd037c03d8ec9b5c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6984223d1aa8f315c8c42812a9db3a3b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8c1aed4303e761aac5e34d2036bbfc96/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4ed62775c58d00d3809b67bee6e0a138/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/dbe13819e3ebf098a865ce8aedc31d6e/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/002708d22968cd54df02d5dfedd6cae2/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4bd111c56cbfef19d0a73d50a80a2fee/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
@@ -34,13 +34,18 @@ MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/c
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/61b6250f2312bb6eaf48524efa92324f/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5eb669ce5a805bc6842a7cd8fb336c21/jetified-play-services-basement-17.1.1/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cdecc60ed074ffd1f6faa56bd9e0e901/fragment-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e66da8b5301e9a6b4d099a6eed9ee5b8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7369d370d1c3f03944cff7adb4eeb0ab/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/34d8e6fccc0ab5b895e5ef716d51459c/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/226817fd352d0debd037c03d8ec9b5c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6984223d1aa8f315c8c42812a9db3a3b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8c1aed4303e761aac5e34d2036bbfc96/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bd24342c93fd52cb5e9c9c7bb35f50f1/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4ee2c6fbb04620a960d68455ede34459/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2be247bf8cbe2dd724b705391ddac84d/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/47ce40ad459cbf22b0d81e337967e729/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/92ce016465e3a6bb2a1c0eeefed0193e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a444f209b7c59a0fec306c6e0a516b3f/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7369d370d1c3f03944cff7adb4eeb0ab/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/57d4ae6adbb5ccfa9dafa8ad36f43ff8/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/148f2fd794536689e5a7e95e250ac390/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/db6ea2a636bcb3ab9eb7b581c5db983e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -88,6 +93,8 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:5-67
 MERGED from [com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:27:5-67
 	android:name
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.hardware.camera.autofocus
@@ -96,6 +103,10 @@ ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:22-70
 application
 ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:9:5-45:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ae1be6d96d300b045ae2520a77aabf40/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ae1be6d96d300b045ae2520a77aabf40/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/55cdd1cb5f873838de5123a4dae796cb/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/55cdd1cb5f873838de5123a4dae796cb/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e8170964da10c0aa08ef4ff1142fca13/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e8170964da10c0aa08ef4ff1142fca13/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5fde9b470ca241c13fa0641ca95ae4a/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -108,8 +119,12 @@ MERGED from [com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/cac
 MERGED from [com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.android.gms:play-services-vision:20.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0db1d706fd8df4f2598ebc96060d2637/jetified-play-services-vision-20.1.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:20.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0db1d706fd8df4f2598ebc96060d2637/jetified-play-services-vision-20.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4ed62775c58d00d3809b67bee6e0a138/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4ed62775c58d00d3809b67bee6e0a138/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/002708d22968cd54df02d5dfedd6cae2/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/002708d22968cd54df02d5dfedd6cae2/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ea2102710e8867a849a2ccb5fafe4043/jetified-play-services-vision-common-19.1.0/AndroidManifest.xml:7:5-20
@@ -228,6 +243,10 @@ uses-sdk
 INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
 INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ae1be6d96d300b045ae2520a77aabf40/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ae1be6d96d300b045ae2520a77aabf40/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/55cdd1cb5f873838de5123a4dae796cb/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/55cdd1cb5f873838de5123a4dae796cb/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e8170964da10c0aa08ef4ff1142fca13/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e8170964da10c0aa08ef4ff1142fca13/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/396e7ddea1addefd32f4f3d87ec48909/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -252,16 +271,12 @@ MERGED from [com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/cac
 MERGED from [com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-vision:20.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0db1d706fd8df4f2598ebc96060d2637/jetified-play-services-vision-20.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:20.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0db1d706fd8df4f2598ebc96060d2637/jetified-play-services-vision-20.1.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e66da8b5301e9a6b4d099a6eed9ee5b8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e66da8b5301e9a6b4d099a6eed9ee5b8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/226817fd352d0debd037c03d8ec9b5c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/226817fd352d0debd037c03d8ec9b5c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6984223d1aa8f315c8c42812a9db3a3b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6984223d1aa8f315c8c42812a9db3a3b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8c1aed4303e761aac5e34d2036bbfc96/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8c1aed4303e761aac5e34d2036bbfc96/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4ed62775c58d00d3809b67bee6e0a138/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4ed62775c58d00d3809b67bee6e0a138/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/dbe13819e3ebf098a865ce8aedc31d6e/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/dbe13819e3ebf098a865ce8aedc31d6e/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/002708d22968cd54df02d5dfedd6cae2/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
@@ -288,6 +303,18 @@ MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/hemant
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5eb669ce5a805bc6842a7cd8fb336c21/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cdecc60ed074ffd1f6faa56bd9e0e901/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cdecc60ed074ffd1f6faa56bd9e0e901/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e66da8b5301e9a6b4d099a6eed9ee5b8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e66da8b5301e9a6b4d099a6eed9ee5b8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7369d370d1c3f03944cff7adb4eeb0ab/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7369d370d1c3f03944cff7adb4eeb0ab/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/34d8e6fccc0ab5b895e5ef716d51459c/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/34d8e6fccc0ab5b895e5ef716d51459c/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/226817fd352d0debd037c03d8ec9b5c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/226817fd352d0debd037c03d8ec9b5c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6984223d1aa8f315c8c42812a9db3a3b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6984223d1aa8f315c8c42812a9db3a3b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8c1aed4303e761aac5e34d2036bbfc96/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8c1aed4303e761aac5e34d2036bbfc96/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bd24342c93fd52cb5e9c9c7bb35f50f1/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bd24342c93fd52cb5e9c9c7bb35f50f1/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4ee2c6fbb04620a960d68455ede34459/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -300,8 +327,6 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hemant/.gra
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/92ce016465e3a6bb2a1c0eeefed0193e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a444f209b7c59a0fec306c6e0a516b3f/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a444f209b7c59a0fec306c6e0a516b3f/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7369d370d1c3f03944cff7adb4eeb0ab/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7369d370d1c3f03944cff7adb4eeb0ab/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/57d4ae6adbb5ccfa9dafa8ad36f43ff8/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/57d4ae6adbb5ccfa9dafa8ad36f43ff8/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/148f2fd794536689e5a7e95e250ac390/loader-1.0.0/AndroidManifest.xml:20:5-44
@@ -358,12 +383,16 @@ INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManif
 		INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:26:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:22-76
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
 MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
 	android:exported
@@ -422,6 +451,12 @@ ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gra
 		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:34:17-107
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
 	android:exported
