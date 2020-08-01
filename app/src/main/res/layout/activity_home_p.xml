@@ -56,6 +56,7 @@
         app:cardElevation="20dp">
 
         <ImageView
+            android:id="@+id/profilepic"
             android:layout_width="115dp"
             android:layout_height="103dp"
             android:layout_marginStart="120dp"
@@ -134,8 +135,9 @@
                     app:layout_gravity="center">
 
                     <ImageButton
-                        android:layout_width="114dp"
-                        android:layout_height="102dp"
+                        android:id="@+id/add_buttin"
+                        android:layout_width="116dp"
+                        android:layout_height="126dp"
                         android:layout_gravity="center_horizontal"
                         android:contentDescription="@string/todo" />
                 </androidx.cardview.widget.CardView>
