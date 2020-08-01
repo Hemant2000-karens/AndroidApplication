@@ -173,20 +173,4 @@
         android:src="@drawable/account"
         app:civ_border_color="#6C6100"
         app:civ_border_width="2dp" />
-
-
-    <!-- <ImageView
-         android:id="@+id/upadteprofile"
-         android:layout_width="145dp"
-         android:layout_height="115dp"
-         android:layout_alignParentStart="true"
-         android:layout_alignParentEnd="true"
-         android:layout_alignParentBottom="true"
-         android:layout_marginStart="133dp"
-         android:layout_marginEnd="133dp"
-         android:layout_marginBottom="467dp"
-         android:contentDescription="@string/todo"
-         app:srcCompat="@drawable/account" />-->
-
-
 </RelativeLayout>
