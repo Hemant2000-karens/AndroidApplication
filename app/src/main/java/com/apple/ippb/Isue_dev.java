@@ -1,5 +1,6 @@
 package com.apple.ippb;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -42,4 +43,10 @@ public class Isue_dev extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, new MobileIssue()).commit();
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(Isue_dev.this, HomeP.class));
+
+    }
 }
