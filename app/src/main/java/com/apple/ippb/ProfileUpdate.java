@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,10 +34,12 @@ import com.google.firebase.storage.UploadTask;
 
 import java.util.Objects;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 
 public class ProfileUpdate extends AppCompatActivity {
     final FirebaseUser userProfile = FirebaseAuth.getInstance().getCurrentUser();
-    ImageView ppu;
+    CircleImageView ppu;
     int time = 1000;
     StorageReference REFFERENCE;
     @SuppressLint("SetTextI18n")
