@@ -57,7 +57,7 @@ public class ProfileUpdate extends AppCompatActivity {
         final TextView status = findViewById(R.id.notice);
 
         pgrbb = findViewById(R.id.updateBar);
-        ppu = findViewById(R.id.upadteprofile);
+        ppu = findViewById(R.id.upadteprofilepic);
         String name = userProfile.getDisplayName();
         updatename.setText(name);
 

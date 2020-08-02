@@ -4,15 +4,11 @@
     <string name="login">Login</string>
     <string name="enter_username">Username</string>
     <string name="enter_password">Password</string>
-    <string name="name">Name</string>
-    <string name="post">EmpID</string>
-    <string name="branch">Designation</string>
     <string name="phone_no">Access Point</string>
     <string name="sim_card">Sim Card</string>
     <string name="bio_metrics">Bio-Metrics</string>
     <string name="enter_serial">Enter Serial</string>
     <string name="mobile_number">Mobile Number</string>
-    <string name="replace_device">Replace Device</string>
     <string name="mobile_issue_replace">Mobile Issue/Replace</string>
     <string name="enter_old_device_details">Enter Old Device Details</string>
     <string name="enter_user_s_details">Enter User\'s Details</string>
@@ -24,7 +20,6 @@
     <string name="issue">Issue</string>
     <string name="replace">Replace</string>
     <string name="sim_replace">Sim Only</string>
-    <string name="enter_mobile_no">Enter Mobile No.</string>
     <string name="mobile">Mobile</string>
     <string name="forgot">Forgot Password ?</string>
     <string name="otp_verification">OTP Verification</string>
@@ -32,7 +27,7 @@
     <string name="send_otp">Send Reset Link</string>
     <string name="enter_here">Enter Here</string>
     <string name="enter_your_otp">Enter your OTP</string>
-    <string name="welcome">Welcome</string>
+    <string name="welcome">Hi ,</string>
     <string name="sign_in">Sign In</string>
     <string name="verify">Verify</string>
     <string name="or">OR</string>
@@ -48,14 +43,10 @@
     <string name="update_email">Update Email</string>
     <string name="upadate_password">Upadate Password</string>
     <string name="verify_email">Verify Email</string>
-
-
-    <string-array name="Bio_model">
-        <item>Select Biometric Model</item>
-        <item>Mantra</item>
-        <item>Starek</item>
-        <item>Morpho</item>
-    </string-array>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="select_options">Select Options</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="log_out">Log out</string>
 
 
     <string-array name="Mobile_Model">

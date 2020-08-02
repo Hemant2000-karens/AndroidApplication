@@ -5,7 +5,6 @@
     android:background="#EDF16A">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="344dp"
         android:layout_height="62dp"
         android:layout_alignParentStart="true"

@@ -4,7 +4,9 @@ package com.apple.ippb;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -37,70 +39,89 @@ public class HomeP extends AppCompatActivity {
                 .centerCrop()
                 .into(pp);
 
-        ImageButton bc_btn = findViewById(R.id.logout_home);
-        bc_btn.setOnClickListener(new View.OnClickListener() {
+        pp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // JOptionPane Starts here
-                final AlertDialog.Builder abc = new AlertDialog.Builder(HomeP.this);
-                abc.setMessage("You will be loged OUT !");//xloxk+"sec"*);
-                abc.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+
+
+                //All the Functions with DialogBox
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(HomeP.this);
+
+                LayoutInflater inflater = getLayoutInflater();
+                View dialogView = inflater.inflate(R.layout.dialogbox, null);
+                builder.setCancelable(true);
+                builder.setView(dialogView);
+                Button update = (Button) dialogView.findViewById(R.id.updateProfile);
+                Button logout = (Button) dialogView.findViewById(R.id.Logout_button);
+
+                final AlertDialog dialog = builder.create();
+
+                logout.setOnClickListener(new View.OnClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        try {
-                            LogOut();
-                            FirebaseAuth.getInstance().signOut();
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
+                    public void onClick(View view) {
+                        // JOptionPane Starts here
+                        final AlertDialog.Builder abc = new AlertDialog.Builder(HomeP.this);
+                        abc.setMessage("You will be loged OUT !");//xloxk+"sec"*);
+                        abc.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                try {
+                                    LogOut();
+                                    FirebaseAuth.getInstance().signOut();
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+
+                            }
+                        });
+                        abc.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                dialogInterface.cancel();
+                            }
+                        });
+
+                        AlertDialog amc = abc.create();
+                        amc.show();
+                        //JoptionPane Ends
 
                     }
                 });
-                abc.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+
+                update.setOnClickListener(new View.OnClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        dialogInterface.cancel();
+                    public void onClick(View view) {
+                        startActivity(new Intent(HomeP.this, ProfileUpdate.class));
+                        finish();
                     }
                 });
 
-                AlertDialog amc = abc.create();
-                amc.show();
-                //JoptionPane Ends
+                dialog.show();
 
             }
         });
 
 
-        ImageButton edit_profile = findViewById(R.id.edit);
-        edit_profile.setOnClickListener(new View.OnClickListener() {
+        ImageButton plu = findViewById(R.id.add_buttin);
+        plu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(HomeP.this, ProfileUpdate.class);
+
+                Intent i = new Intent(HomeP.this, AddRecords.class);
                 finish();
                 startActivity(i);
             }
         });
 
-        ImageButton plu = findViewById(R.id.add_buttin);
-   plu.setOnClickListener(new View.OnClickListener() {
-       @Override
-       public void onClick(View view) {
-
-           Intent i = new Intent(HomeP.this, AddRecords.class);
-           finish();
-           startActivity(i);
-       }
-   });
-
-        //  Button usi = findViewById(R.id.issue_but);
-        //  usi.setOnClickListener(new View.OnClickListener() {
-        //  @Override
-        //  public void onClick(View view) {
-        //    Intent i = new Intent(getApplicationContext(), Isue_dev.class);
-        ///     finish();
-        //    startActivity(i);
-        //  }
-        //});
+        ImageButton usi = findViewById(R.id.issue_but);
+        usi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+                startActivity(new Intent(HomeP.this, Isue_dev.class));
+            }
+        });
 /*
         ImageButton rpd = findViewById(R.id.repall_but);
         rpd.setOnClickListener(new View.OnClickListener() {

@@ -28,10 +28,6 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/activity_home_p.xml"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_des_g.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/des_g.jpg"
-    },
-    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
@@ -42,10 +38,6 @@
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_alegreya_bold.ttf.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/alegreya_bold.ttf"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_pink_shad.jpeg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/pink_shad.jpeg"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_forget_activity.xml.flat",
@@ -252,16 +244,16 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/un_5.jpg"
     },
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/layout_dialogbox.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/dialogbox.xml"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_forget_bg.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/forget_bg.xml"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_whitebutton.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/whitebutton.xml"
-    },
-    {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_red_shaded.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/red_shaded.jpg"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_loginbutton.xml.flat",

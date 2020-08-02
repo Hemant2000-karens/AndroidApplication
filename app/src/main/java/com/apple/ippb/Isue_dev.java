@@ -12,22 +12,21 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Isue_dev extends AppCompatActivity {
 
+
     private BottomNavigationView.OnNavigationItemSelectedListener navlist = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            Fragment selected = null;
-            switch (item.getItemId()) {
-                case R.id.Mobile:
-                    selected = new MobileIssue();
-                    break;
-                case R.id.Sim:
-                    selected = new SimIssue();
-                    break;
-                case R.id.Biometric:
-                    selected = new Biometric();
-                    break;
+            if (item.getItemId() == 1) {
+                Fragment selected = new MobileIssue();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, selected).commit();
+            } else if (item.getItemId() == 2) {
+                Fragment selected = new SimIssue();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, selected).commit();
+            } else if (item.getItemId() == 3) {
+                Fragment selected = new SimIssue();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, selected).commit();
             }
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, selected).commit();
+
             return true;
         }
     };
@@ -36,7 +35,6 @@ public class Isue_dev extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isue_dev);
-
 
         BottomNavigationView navigationView = findViewById(R.id.navbar);
         navigationView.setOnNavigationItemSelectedListener(navlist);
