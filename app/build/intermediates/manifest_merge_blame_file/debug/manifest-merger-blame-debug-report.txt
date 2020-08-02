@@ -11,213 +11,216 @@
 9-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:5:5-65
-11-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:5:22-62
+11-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:5-65
+11-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:22-62
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:5-67
-12-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:22-64
-13    <uses-permission android:name="android.hardware.CAMERA>AUTO_FOCUS" />
-13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:5-74
-13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:22-71
-14
-15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:5-79
-17-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:22-76
-18
-19    <application
-19-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:9:5-45:19
-20        android:allowBackup="true"
-20-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:10:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6cdf211888e0a7ccbf81d39b63072413/core-1.1.0/AndroidManifest.xml:24:18-86
-22        android:debuggable="true"
-23        android:extractNativeLibs="false"
-24        android:fullBackupContent="true"
-24-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:11:9-41
-25        android:icon="@mipmap/ic_launcher"
-25-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:12:9-43
-26        android:label="@string/app_name"
-26-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:13:9-41
-27        android:roundIcon="@mipmap/ic_launcher_round"
-27-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:14:9-54
-28        android:supportsRtl="true"
-28-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:15:9-35
-29        android:testOnly="true"
-30        android:theme="@style/AppTheme" >
-30-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-40
-31        <activity android:name="com.apple.ippb.ProfileUpdate" />
-31-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-50
-31-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:19-48
-32        <activity android:name="com.apple.ippb.SignUp" />
-32-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:18:9-44
-32-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:18:19-41
-33        <activity android:name="com.apple.ippb.verifyotp" />
-33-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:19:9-47
-33-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:19:19-44
-34        <activity
-34-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:20:9-22:50
-35            android:name="com.apple.ippb.AddRecords"
-35-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:21:13-39
-36            android:screenOrientation="locked" />
-36-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:13-47
-37        <activity android:name="com.apple.ippb.Splash" >
-37-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:9-29:20
-37-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:19-41
-38            <intent-filter>
-38-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:13-28:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:25:17-69
-39-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:25:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:27:17-77
-41-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:27:27-74
-42            </intent-filter>
-43        </activity>
-44        <activity android:name="com.apple.ippb.ForgetPassword" />
-44-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:9-52
-44-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:19-49
-45        <activity android:name="com.apple.ippb.Biometrics_replace" />
-45-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:31:9-56
-45-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:31:19-53
-46        <activity android:name="com.apple.ippb.Sim_replace" />
-46-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:32:9-49
-46-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:32:19-46
-47        <activity android:name="com.apple.ippb.Mobile_Replace" />
-47-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:33:9-52
-47-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:33:19-49
-48        <activity android:name="com.apple.ippb.Replace_device" />
-48-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:34:9-52
-48-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:34:19-49
-49        <activity android:name="com.apple.ippb.Isue_dev" />
-49-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:35:9-46
-49-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:35:19-43
-50        <activity android:name="com.apple.ippb.HomeP" />
-50-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:36:9-43
-50-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:36:19-40
-51        <activity android:name="com.apple.ippb.MainActivity" />
-51-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:9-50
-51-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:19-47
-52
-53        <meta-data
-53-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:39:9-41:57
-54            android:name="preloaded_fonts"
-54-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:40:13-43
-55            android:resource="@array/preloaded_fonts" />
-55-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:41:13-54
-56        <meta-data
-56-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:42:9-44:39
-57            android:name="com.google.android.gms.vision.DEPENDENCIES"
-57-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:43:13-70
-58            android:value="barcode" />
-58-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:44:13-36
-59
-60        <service
-60-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:29:9-35:19
-61            android:name="com.google.firebase.components.ComponentDiscoveryService"
-61-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:30:13-84
-62            android:directBootAware="true"
-62-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
-63            android:exported="false" >
-63-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:31:13-37
-64            <meta-data
-64-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:32:13-34:85
-65                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-65-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:33:17-109
-66                android:value="com.google.firebase.components.ComponentRegistrar" />
-66-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:34:17-82
-67            <meta-data
-67-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:36:13-38:85
-68                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-68-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:37:17-109
-69                android:value="com.google.firebase.components.ComponentRegistrar" />
-69-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:38:17-82
-70            <meta-data
-70-->[com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:33:13-35:85
-71                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-71-->[com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:34:17-107
-72                android:value="com.google.firebase.components.ComponentRegistrar" />
-72-->[com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:35:17-82
-73        </service>
-74
-75        <activity
-75-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:24:9-31:50
-76            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-76-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:25:13-85
-77            android:excludeFromRecents="true"
-77-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:26:13-46
-78            android:exported="true"
-78-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:27:13-36
-79            android:launchMode="singleTask"
-79-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:28:13-44
-80            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-80-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:29:13-102
-81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-81-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:30:13-72
-82        <activity
-82-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
-83            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-83-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
-84            android:excludeFromRecents="true"
-84-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
-85            android:exported="false"
-85-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
-86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-86-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
-87        <!--
-88            Service handling Google Sign-In user revocation. For apps that do not integrate with
-89            Google Sign-In, this service will never be started.
-90        -->
-91        <service
-91-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
-92            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-92-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
-93            android:exported="true"
-93-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
-94            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-94-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
-95            android:visibleToInstantApps="true" />
-95-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
-96
-97        <activity
-97-->[com.google.android.gms:play-services-base:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-98-->[com.google.android.gms:play-services-base:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-99            android:exported="false"
-99-->[com.google.android.gms:play-services-base:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-100-->[com.google.android.gms:play-services-base:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-101
-102        <provider
-102-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-103            android:name="com.google.firebase.provider.FirebaseInitProvider"
-103-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-104            android:authorities="com.apple.ippb.firebaseinitprovider"
-104-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
-105            android:exported="false"
-105-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-106            android:initOrder="100" />
-106-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
-107
-108        <meta-data
-108-->[com.google.android.gms:play-services-basement:17.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5eb669ce5a805bc6842a7cd8fb336c21/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
-109            android:name="com.google.android.gms.version"
-109-->[com.google.android.gms:play-services-basement:17.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5eb669ce5a805bc6842a7cd8fb336c21/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
-110            android:value="@integer/google_play_services_version" />
-110-->[com.google.android.gms:play-services-basement:17.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5eb669ce5a805bc6842a7cd8fb336c21/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
-111
-112        <provider
-112-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
-113            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-113-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
-114            android:authorities="com.apple.ippb.lifecycle-process"
-114-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
-115            android:exported="false"
-115-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
-116            android:multiprocess="true" />
-116-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
-117    </application>
-118
-119</manifest>
+12-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:5-67
+12-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.FLASHLIGHT" />
+13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:8:5-69
+13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:8:22-66
+14    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+14-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:9:5-11:47
+14-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:10:9-64
+15
+16    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+17    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:5-79
+18-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:22-76
+19
+20    <application
+20-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:14:5-50:19
+21        android:allowBackup="true"
+21-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:15:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6cdf211888e0a7ccbf81d39b63072413/core-1.1.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="true"
+25-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-41
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-43
+27        android:label="@string/app_name"
+27-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:18:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:19:9-54
+29        android:supportsRtl="true"
+29-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:20:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:21:9-40
+32        <activity android:name="com.apple.ippb.ProfileUpdate" />
+32-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:9-51
+32-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:19-48
+33        <activity android:name="com.apple.ippb.SignUp" />
+33-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:9-44
+33-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:19-41
+34        <activity android:name="com.apple.ippb.verifyotp" />
+34-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:9-47
+34-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:19-44
+35        <activity
+35-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:25:9-27:50
+36            android:name="com.apple.ippb.AddRecords"
+36-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:26:13-39
+37            android:screenOrientation="locked" />
+37-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:27:13-47
+38        <activity android:name="com.apple.ippb.Splash" >
+38-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:28:9-34:20
+38-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:28:19-41
+39            <intent-filter>
+39-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:29:13-33:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:17-69
+40-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:32:17-77
+42-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:32:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.apple.ippb.ForgetPassword" />
+45-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:35:9-52
+45-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:35:19-49
+46        <activity android:name="com.apple.ippb.Biometrics_replace" />
+46-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:36:9-56
+46-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:36:19-53
+47        <activity android:name="com.apple.ippb.Sim_replace" />
+47-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:9-49
+47-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:19-46
+48        <activity android:name="com.apple.ippb.Mobile_Replace" />
+48-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:38:9-52
+48-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:38:19-49
+49        <activity android:name="com.apple.ippb.Replace_device" />
+49-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:39:9-52
+49-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:39:19-49
+50        <activity android:name="com.apple.ippb.Isue_dev" />
+50-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:40:9-46
+50-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:40:19-43
+51        <activity android:name="com.apple.ippb.HomeP" />
+51-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:41:9-43
+51-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:41:19-40
+52        <activity android:name="com.apple.ippb.MainActivity" />
+52-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:42:9-50
+52-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:42:19-47
+53
+54        <meta-data
+54-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:44:9-46:57
+55            android:name="preloaded_fonts"
+55-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:45:13-43
+56            android:resource="@array/preloaded_fonts" />
+56-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:46:13-54
+57        <meta-data
+57-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:47:9-49:39
+58            android:name="com.google.android.gms.vision.DEPENDENCIES"
+58-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:48:13-70
+59            android:value="barcode" />
+59-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:49:13-36
+60
+61        <service
+61-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:29:9-35:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:30:13-84
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:31:13-37
+65            <meta-data
+65-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:32:13-34:85
+66                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+66-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:33:17-109
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:34:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:36:13-38:85
+69                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+69-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:37:17-109
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:38:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:33:13-35:85
+72                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+72-->[com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:34:17-107
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-storage:19.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:35:17-82
+74        </service>
+75
+76        <activity
+76-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:24:9-31:50
+77            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+77-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:25:13-85
+78            android:excludeFromRecents="true"
+78-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:26:13-46
+79            android:exported="true"
+79-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:27:13-36
+80            android:launchMode="singleTask"
+80-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:28:13-44
+81            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+81-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:29:13-102
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.google.firebase:firebase-auth:19.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:30:13-72
+83        <activity
+83-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+84            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+84-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+85            android:excludeFromRecents="true"
+85-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+88        <!--
+89            Service handling Google Sign-In user revocation. For apps that do not integrate with
+90            Google Sign-In, this service will never be started.
+91        -->
+92        <service
+92-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+93            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+93-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+94            android:exported="true"
+94-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+95            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+95-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+96            android:visibleToInstantApps="true" />
+96-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc0e002cee3c62e9d228887e35f0b209/jetified-play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+97
+98        <activity
+98-->[com.google.android.gms:play-services-base:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+99-->[com.google.android.gms:play-services-base:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-base:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.android.gms:play-services-base:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+102
+103        <provider
+103-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+104            android:name="com.google.firebase.provider.FirebaseInitProvider"
+104-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+105            android:authorities="com.apple.ippb.firebaseinitprovider"
+105-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:19.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+108
+109        <meta-data
+109-->[com.google.android.gms:play-services-basement:17.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5eb669ce5a805bc6842a7cd8fb336c21/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+110            android:name="com.google.android.gms.version"
+110-->[com.google.android.gms:play-services-basement:17.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5eb669ce5a805bc6842a7cd8fb336c21/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+111            android:value="@integer/google_play_services_version" />
+111-->[com.google.android.gms:play-services-basement:17.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5eb669ce5a805bc6842a7cd8fb336c21/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+112
+113        <provider
+113-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+114            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+114-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+115            android:authorities="com.apple.ippb.lifecycle-process"
+115-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+116            android:exported="false"
+116-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+117            android:multiprocess="true" />
+117-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+118    </application>
+119
+120</manifest>

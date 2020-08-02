@@ -48,7 +48,6 @@
     <string name="update_email">Update Email</string>
     <string name="upadate_password">Upadate Password</string>
     <string name="verify_email">Verify Email</string>
-    <string name="add_update_contact">Add/Update Contact</string>
 
 
     <string-array name="Bio_model">

@@ -16,20 +16,27 @@ import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.util.Objects;
+
 
 public class HomeP extends AppCompatActivity {
-    FirebaseUser fbauth = FirebaseAuth.getInstance().getCurrentUser();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_p);
-
+        FirebaseUser fbauth = FirebaseAuth.getInstance().getCurrentUser();
         final TextView Nme_usr = findViewById(R.id.usr_name);
+        assert fbauth != null;
         String user = fbauth.getDisplayName();
         Nme_usr.setText(user);
 
         ImageView pp = findViewById(R.id.profilepic);
-        Glide.with(this).load(fbauth.getPhotoUrl()).into(pp);
+        Glide.with(HomeP.this)
+                .load(Objects.requireNonNull(fbauth.getPhotoUrl()).toString())
+                .error(R.drawable.account)
+                .centerCrop()
+                .into(pp);
 
         ImageButton bc_btn = findViewById(R.id.logout_home);
         bc_btn.setOnClickListener(new View.OnClickListener() {
