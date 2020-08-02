@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
+        android:id="@+id/mobile"
         android:icon="@drawable/phoneico"
         android:title="@string/mobile" />
 
     <item
+        android:id="@+id/sim"
         android:icon="@drawable/simm"
         android:title="@string/sim_card" />
 
     <item
+        android:id="@+id/fingerprint"
         android:icon="@drawable/biome"
         android:title="@string/bio_metrics" />
 

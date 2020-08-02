@@ -6,28 +6,34 @@ import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Isue_dev extends AppCompatActivity {
 
+    MobileIssue mobileIssue = new MobileIssue();
+    SimIssue simIssue = new SimIssue();
+    Biometric biometric = new Biometric();
+
 
     private BottomNavigationView.OnNavigationItemSelectedListener navlist = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            if (item.getItemId() == 1) {
-                Fragment selected = new MobileIssue();
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, selected).commit();
-            } else if (item.getItemId() == 2) {
-                Fragment selected = new SimIssue();
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, selected).commit();
-            } else if (item.getItemId() == 3) {
-                Fragment selected = new SimIssue();
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, selected).commit();
-            }
+            switch (item.getItemId()) {
+                case R.id.mobile:
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, mobileIssue).commit();
+                    return true;
 
-            return true;
+                case R.id.sim:
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, simIssue).commit();
+                    return true;
+
+                case R.id.fingerprint:
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, biometric).commit();
+                    return true;
+
+            }
+            return false;
         }
     };
 
@@ -36,9 +42,10 @@ public class Isue_dev extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isue_dev);
 
+
         BottomNavigationView navigationView = findViewById(R.id.navbar);
         navigationView.setOnNavigationItemSelectedListener(navlist);
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_hoem, new MobileIssue()).commit();
+        navigationView.setSelectedItemId(R.id.mobile);
     }
 
     @Override

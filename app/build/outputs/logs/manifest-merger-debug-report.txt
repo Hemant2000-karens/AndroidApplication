@@ -1,11 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-51:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/55cdd1cb5f873838de5123a4dae796cb/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ae1be6d96d300b045ae2520a77aabf40/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e76261ce6a7167d3416ae90c1aa6f5a4/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/07f8d18d25cc2c07a6a5ffa517a56bf1/navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e8170964da10c0aa08ef4ff1142fca13/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/396e7ddea1addefd32f4f3d87ec48909/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5fde9b470ca241c13fa0641ca95ae4a/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -37,6 +39,8 @@ MERGED from [androidx.fragment:fragment:1.2.0] /Users/hemant/.gradle/caches/tran
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e66da8b5301e9a6b4d099a6eed9ee5b8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7369d370d1c3f03944cff7adb4eeb0ab/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/34d8e6fccc0ab5b895e5ef716d51459c/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cff6fbc979d8fa2f0fe45b4f284d1026/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a444f209b7c59a0fec306c6e0a516b3f/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/226817fd352d0debd037c03d8ec9b5c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6984223d1aa8f315c8c42812a9db3a3b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8c1aed4303e761aac5e34d2036bbfc96/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -45,9 +49,9 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hemant/.
 MERGED from [androidx.customview:customview:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2be247bf8cbe2dd724b705391ddac84d/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/47ce40ad459cbf22b0d81e337967e729/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/92ce016465e3a6bb2a1c0eeefed0193e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a444f209b7c59a0fec306c6e0a516b3f/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/57d4ae6adbb5ccfa9dafa8ad36f43ff8/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/148f2fd794536689e5a7e95e250ac390/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/27e8484d614028dd13a4eb989b53a469/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/db6ea2a636bcb3ab9eb7b581c5db983e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ccd497c0d55509e00fa2c4ec5a0ae967/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/31b1b5f945c48f9a38ecdd855f083480/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -68,22 +72,22 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hema
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6ca55331635d9ca1071738b385928a75/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d5fd7fbc692311a845217063332ce16c/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6435850e23f2d01013861f1c8dbdb3a0/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-51:12
 	package
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:4:5-29
 		INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-51:12
 		INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:1-51:12
 		INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:2:11-69
@@ -110,7 +114,7 @@ ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest
 	android:name
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:10:9-64
 application
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:14:5-50:19
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:13:5-49:19
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/55cdd1cb5f873838de5123a4dae796cb/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/55cdd1cb5f873838de5123a4dae796cb/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ae1be6d96d300b045ae2520a77aabf40/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
@@ -158,95 +162,95 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hema
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6cdf211888e0a7ccbf81d39b63072413/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:18:9-41
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-41
 	android:fullBackupContent
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:19:9-54
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-43
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:21:9-40
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:20:9-40
 activity#com.apple.ippb.ProfileUpdate
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:9-51
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:21:9-51
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:19-48
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:21:19-48
 activity#com.apple.ippb.SignUp
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:9-44
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:9-44
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:19-41
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:19-41
 activity#com.apple.ippb.verifyotp
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:9-47
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:9-47
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:19-44
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:19-44
 activity#com.apple.ippb.AddRecords
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:25:9-27:50
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:9-26:50
 	android:screenOrientation
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:27:13-47
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:26:13-47
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:26:13-39
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:25:13-39
 activity#com.apple.ippb.Splash
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:28:9-34:20
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:27:9-33:20
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:28:19-41
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:27:19-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:29:13-33:29
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:17-69
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:25-66
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:32:17-77
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:32:27-74
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:31:27-74
 activity#com.apple.ippb.ForgetPassword
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:35:9-52
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:34:9-52
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:35:19-49
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:34:19-49
 activity#com.apple.ippb.Biometrics_replace
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:36:9-56
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:35:9-56
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:36:19-53
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:35:19-53
 activity#com.apple.ippb.Sim_replace
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:9-49
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:36:9-49
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:19-46
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:36:19-46
 activity#com.apple.ippb.Mobile_Replace
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:9-52
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:19-49
+activity#com.apple.ippb.Replace_device
 ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:38:9-52
 	android:name
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:38:19-49
-activity#com.apple.ippb.Replace_device
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:39:9-52
-	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:39:19-49
 activity#com.apple.ippb.Isue_dev
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:40:9-46
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:39:9-46
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:40:19-43
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:39:19-43
 activity#com.apple.ippb.HomeP
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:41:9-43
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:40:9-43
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:41:19-40
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:40:19-40
 activity#com.apple.ippb.MainActivity
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:42:9-50
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:41:9-50
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:42:19-47
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:41:19-47
 meta-data#preloaded_fonts
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:44:9-46:57
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:43:9-45:57
 	android:resource
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:46:13-54
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:45:13-54
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:45:13-43
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:44:13-43
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:47:9-49:39
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:46:9-48:39
 	android:value
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:49:13-36
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:48:13-36
 	android:name
-		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:48:13-70
+		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:47:13-70
 uses-sdk
 INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
@@ -255,6 +259,10 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/tr
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/55cdd1cb5f873838de5123a4dae796cb/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ae1be6d96d300b045ae2520a77aabf40/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ae1be6d96d300b045ae2520a77aabf40/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e76261ce6a7167d3416ae90c1aa6f5a4/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e76261ce6a7167d3416ae90c1aa6f5a4/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/07f8d18d25cc2c07a6a5ffa517a56bf1/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/07f8d18d25cc2c07a6a5ffa517a56bf1/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e8170964da10c0aa08ef4ff1142fca13/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e8170964da10c0aa08ef4ff1142fca13/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/396e7ddea1addefd32f4f3d87ec48909/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -317,6 +325,10 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/heman
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7369d370d1c3f03944cff7adb4eeb0ab/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/34d8e6fccc0ab5b895e5ef716d51459c/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/34d8e6fccc0ab5b895e5ef716d51459c/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cff6fbc979d8fa2f0fe45b4f284d1026/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cff6fbc979d8fa2f0fe45b4f284d1026/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a444f209b7c59a0fec306c6e0a516b3f/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a444f209b7c59a0fec306c6e0a516b3f/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/226817fd352d0debd037c03d8ec9b5c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/226817fd352d0debd037c03d8ec9b5c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6984223d1aa8f315c8c42812a9db3a3b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -333,12 +345,12 @@ MERGED from [androidx.media:media:1.0.0] /Users/hemant/.gradle/caches/transforms
 MERGED from [androidx.media:media:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/47ce40ad459cbf22b0d81e337967e729/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/92ce016465e3a6bb2a1c0eeefed0193e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/92ce016465e3a6bb2a1c0eeefed0193e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a444f209b7c59a0fec306c6e0a516b3f/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a444f209b7c59a0fec306c6e0a516b3f/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/57d4ae6adbb5ccfa9dafa8ad36f43ff8/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/57d4ae6adbb5ccfa9dafa8ad36f43ff8/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/148f2fd794536689e5a7e95e250ac390/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/148f2fd794536689e5a7e95e250ac390/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/27e8484d614028dd13a4eb989b53a469/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/27e8484d614028dd13a4eb989b53a469/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/db6ea2a636bcb3ab9eb7b581c5db983e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/db6ea2a636bcb3ab9eb7b581c5db983e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ccd497c0d55509e00fa2c4ec5a0ae967/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
