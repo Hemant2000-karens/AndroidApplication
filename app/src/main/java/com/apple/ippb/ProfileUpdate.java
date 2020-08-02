@@ -7,7 +7,6 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -25,12 +24,14 @@ import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.OnCanceledListener;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
 import java.util.Objects;
 
@@ -244,23 +245,39 @@ public class ProfileUpdate extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 assert data != null;
                 final Uri uri = data.getData();
-                //ppu.setImageURI(uri);
-                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
-                        .setPhotoUri(uri)
-                        .build();
 
-                assert user != null;
-                user.updateProfile(profileUpdates)
-                        .addOnCompleteListener(new OnCompleteListener<Void>() {
-                            @Override
-                            public void onComplete(@NonNull Task<Void> task) {
-                                if (task.isSuccessful()) {
-                                    Log.d(null, "User profile updated.");
-                                    Glide.with(ProfileUpdate.this).load(uri).into(ppu);
-                                }
-                            }
-                        });
+                String a = userProfile.getUid();
+                StorageReference reff = REFFERENCE.child("Profile Pictures").child("Profile Pic" + a);
+                reff.putFile(uri).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
+                        Toast.makeText(ProfileUpdate.this, "Image Uploaded Successfully!!", Toast.LENGTH_SHORT).show();
+                    }
+                });
+                //ppu.setImageURI(uri);
+                final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                reff.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                    @Override
+                    public void onSuccess(final Uri uri) {
+                        UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
+                                .setPhotoUri(uri)
+                                .build();
+
+                        assert user != null;
+                        user.updateProfile(profileUpdates)
+                                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if (task.isSuccessful()) {
+                                            Toast.makeText(ProfileUpdate.this, "Image Uploaded Successfully!!", Toast.LENGTH_SHORT).show();
+                                            Glide.with(ProfileUpdate.this).load(uri).into(ppu);
+                                        }
+                                    }
+                                });
+                    }
+                });
+
+
             }
 
         }
