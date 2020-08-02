@@ -239,7 +239,6 @@ public class ProfileUpdate extends AppCompatActivity {
         // Saved Instances Ended Here //
     }
 
-
     // Don't Disturb This Other Wise It it will be Costlier
 
 
@@ -301,13 +300,11 @@ public class ProfileUpdate extends AppCompatActivity {
 
 // Ends Of Danger Zone And Free From Here
 
-// Uploading Methods
-
-
-    // Uploading Method
-
-
-    /// New Methods Created Here
-
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(ProfileUpdate.this, HomeP.class));
+        this.finish();
+    }
 
 }

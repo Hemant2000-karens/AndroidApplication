@@ -1869,6 +1869,7 @@ id uniform
 id unlabeled
 id up
 id upadteprofile
+id updateBar
 id useLogo
 id userpassword
 id usr_name

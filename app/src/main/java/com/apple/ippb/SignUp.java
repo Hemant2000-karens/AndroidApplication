@@ -128,6 +128,13 @@ public class SignUp extends AppCompatActivity {
         updateUI();
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(SignUp.this, MainActivity.class));
+        this.finish();
+    }
+
     private void updateUI() {
         return;
     }
