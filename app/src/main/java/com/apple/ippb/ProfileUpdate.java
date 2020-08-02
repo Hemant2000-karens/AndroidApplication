@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -42,6 +43,7 @@ public class ProfileUpdate extends AppCompatActivity {
     CircleImageView ppu;
     int time = 1000;
     StorageReference REFFERENCE;
+    ProgressBar pgrbb;
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +55,8 @@ public class ProfileUpdate extends AppCompatActivity {
         final EditText updatename = findViewById(R.id.name_update);
         final Button emailupdate, updatepassword, NameUpdate, verifyb;
         final TextView status = findViewById(R.id.notice);
+
+        pgrbb = findViewById(R.id.updateBar);
         ppu = findViewById(R.id.upadteprofile);
         String name = userProfile.getDisplayName();
         updatename.setText(name);
@@ -76,7 +80,9 @@ public class ProfileUpdate extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
+                                    pgrbb.setVisibility(View.VISIBLE);
                                     Toast.makeText(ProfileUpdate.this, "Successfully Updated Your Name", Toast.LENGTH_SHORT).show();
+                                    pgrbb.setVisibility(View.INVISIBLE);
                                 } else if (task.isCanceled()) {
                                     Toast.makeText(ProfileUpdate.this, "Error !! , Try Again", Toast.LENGTH_LONG).show();
                                 }
@@ -101,7 +107,6 @@ public class ProfileUpdate extends AppCompatActivity {
                 builder.setPositiveButton("Update", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-
                         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                         assert user != null;
                         user.updateEmail(text.getText().toString().trim())
@@ -112,6 +117,7 @@ public class ProfileUpdate extends AppCompatActivity {
                                             user.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
                                                 @Override
                                                 public void onComplete(@NonNull Task<Void> task) {
+                                                    pgrbb.setVisibility(View.VISIBLE);
                                                     Toast.makeText(ProfileUpdate.this, "Email Verification Link Sended", Toast.LENGTH_LONG).show();
                                                 }
                                             });
@@ -162,6 +168,7 @@ public class ProfileUpdate extends AppCompatActivity {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if (task.isSuccessful()) {
+                                            pgrbb.setVisibility(View.VISIBLE);
                                             Toast.makeText(ProfileUpdate.this, "Password Updated Successfully", Toast.LENGTH_LONG).show();
                                         }
                                     }
@@ -205,7 +212,7 @@ public class ProfileUpdate extends AppCompatActivity {
                 usr.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
-
+                        pgrbb.setVisibility(View.VISIBLE);
                         Toast.makeText(ProfileUpdate.this, "Email Sended Successfully", Toast.LENGTH_SHORT).show();
 
                     }
@@ -231,6 +238,10 @@ public class ProfileUpdate extends AppCompatActivity {
 
         // Saved Instances Ended Here //
     }
+
+
+    // Don't Disturb This Other Wise It it will be Costlier
+
 
     public void handlerImage(View view) {
         Intent i = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
@@ -270,7 +281,9 @@ public class ProfileUpdate extends AppCompatActivity {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if (task.isSuccessful()) {
-                                            Toast.makeText(ProfileUpdate.this, "Image Uploaded Successfully!!", Toast.LENGTH_SHORT).show();
+                                            pgrbb.setVisibility(View.VISIBLE);
+                                            Toast.makeText(ProfileUpdate.this, "Image Uploaded Successfully!!", Toast.LENGTH_LONG).show();
+                                            pgrbb.setVisibility(View.INVISIBLE);
                                             Glide.with(ProfileUpdate.this).load(uri).into(ppu);
                                         }
                                     }
@@ -285,6 +298,8 @@ public class ProfileUpdate extends AppCompatActivity {
 
     }
 
+
+// Ends Of Danger Zone And Free From Here
 
 // Uploading Methods
 
