@@ -16,8 +16,6 @@ import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-import java.util.Objects;
-
 
 public class HomeP extends AppCompatActivity {
 
@@ -33,7 +31,7 @@ public class HomeP extends AppCompatActivity {
 
         ImageView pp = findViewById(R.id.profilepic);
         Glide.with(HomeP.this)
-                .load(Objects.requireNonNull(fbauth.getPhotoUrl()).toString())
+                .load((fbauth.getPhotoUrl()).toString())
                 .error(R.drawable.account)
                 .centerCrop()
                 .into(pp);
