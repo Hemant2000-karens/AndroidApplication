@@ -2000,7 +2000,6 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialogbox
 layout forget_activity
-layout fragment_blank
 layout mobileissue
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
