@@ -22,20 +22,14 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
-    public static String usernameq;
     EditText usrn, pswd;
     FirebaseAuth mAuth;
-
-
-    public static String ID() {
-        return usernameq;
-    }
+    Button lBut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final Button lBut;
         TextView forget;
         usrn = findViewById(R.id.t1);
         pswd = findViewById(R.id.t2);
@@ -44,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
 // ..
 // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
-        final FirebaseUser user = mAuth.getCurrentUser();
 
 
         forget = findViewById(R.id.forgot);

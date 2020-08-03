@@ -1540,6 +1540,7 @@ id R_home_b
 id SHIFT
 id SYM
 id Signupnext
+id SimView
 id Sim_designation
 id Spimmer
 id Spimmer2
@@ -1615,6 +1616,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
+id button2
 id buttonPanel
 id cancel_action
 id cancel_button
@@ -1671,6 +1674,7 @@ id fill_vertical
 id filled
 id filter_chip
 id fingerprint
+id fingerprintView
 id fitToContents
 id fixed
 id forever
@@ -1693,10 +1697,12 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageButton
 id imageView
 id imageView11
 id imageView2
 id imageView20
+id imageView3
 id imageView4
 id imageView5
 id imageView6
@@ -1724,6 +1730,7 @@ id message
 id middle
 id mini
 id mobile
+id mobileView
 id mobile_title
 id month_grid
 id month_navigation_bar
@@ -1858,7 +1865,9 @@ id textStart
 id textView
 id textView1
 id textView10
+id textView2
 id textView25
+id textView5
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2093,6 +2102,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add_records
 string app_name
 string appbar_scrolling_view_behavior
 string bio_metrics
@@ -2206,6 +2216,7 @@ string path_password_strike_through
 string phone_no
 string project_id
 string replace
+string reset
 string search_menu_title
 string select_options
 string send_otp
