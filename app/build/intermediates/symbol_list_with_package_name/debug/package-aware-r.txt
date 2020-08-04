@@ -1477,6 +1477,7 @@ drawable lock
 drawable login1
 drawable login2
 drawable loginbutton
+drawable logoutbox
 drawable mail
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
@@ -1619,6 +1620,7 @@ id bottom
 id button
 id button2
 id buttonPanel
+id cancelButton
 id cancel_action
 id cancel_button
 id center
@@ -1724,6 +1726,7 @@ id listMode
 id list_item
 id log_btn
 id login_back
+id logot
 id masked
 id media_actions
 id message
@@ -1867,7 +1870,7 @@ id textView1
 id textView10
 id textView2
 id textView25
-id textView5
+id textView6
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1910,6 +1913,7 @@ id view1
 id view14
 id view15
 id view16
+id view2
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
@@ -2009,6 +2013,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialogbox
 layout forget_activity
+layout logoutbox
 layout mobileissue
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
@@ -2133,6 +2138,7 @@ string common_signin_button_text_long
 string confirm_password
 string create_new_account
 string default_web_client_id
+string do_you_really_want_to_exit
 string email_message
 string enter_details_to_continue
 string enter_email_address

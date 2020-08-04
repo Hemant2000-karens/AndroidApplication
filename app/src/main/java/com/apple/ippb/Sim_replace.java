@@ -25,10 +25,8 @@ public class Sim_replace extends AppCompatActivity {
         h_b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(),HomeP.class);
+                startActivity(new Intent(getApplicationContext(), HomeP.class));
                 finish();
-                i.putExtra("name_vale",MainActivity.ID());
-                startActivity(i);
             }
         });
 

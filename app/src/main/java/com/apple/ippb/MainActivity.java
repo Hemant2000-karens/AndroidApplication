@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                                 startActivity(i);
                                 finish();
                             } else
-                                Toast.makeText(getApplicationContext(), "Check Error And Try Again!!", Toast.LENGTH_LONG).show();
+                                Toast.makeText(getApplicationContext(), "Check Error And Try Again!!", Toast.LENGTH_SHORT).show();
                         }
                     });
 

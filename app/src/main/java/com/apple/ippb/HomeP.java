@@ -17,6 +17,8 @@ import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.util.Objects;
+
 import de.hdodenhof.circleimageview.CircleImageView;
 
 
@@ -34,7 +36,7 @@ public class HomeP extends AppCompatActivity {
 
         CircleImageView pp = findViewById(R.id.profilepic);
         Glide.with(HomeP.this)
-                .load((fbauth.getPhotoUrl()).toString())
+                .load((Objects.requireNonNull(fbauth.getPhotoUrl())).toString())
                 .error(R.drawable.account)
                 .centerCrop()
                 .into(pp);
@@ -42,48 +44,51 @@ public class HomeP extends AppCompatActivity {
         pp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
                 //All the Functions with DialogBox
-
                 AlertDialog.Builder builder = new AlertDialog.Builder(HomeP.this);
-
                 LayoutInflater inflater = getLayoutInflater();
-                View dialogView = inflater.inflate(R.layout.dialogbox, null);
+                final View dialogView = inflater.inflate(R.layout.dialogbox, null);
                 builder.setCancelable(true);
                 builder.setView(dialogView);
-                Button update = (Button) dialogView.findViewById(R.id.updateProfile);
-                Button logout = (Button) dialogView.findViewById(R.id.Logout_button);
+                Button update = dialogView.findViewById(R.id.updateProfile);
+                Button logout = dialogView.findViewById(R.id.Logout_button);
 
-                final AlertDialog dialog = builder.create();
-
+                AlertDialog dialog = builder.create();
                 logout.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         // JOptionPane Starts here
                         final AlertDialog.Builder abc = new AlertDialog.Builder(HomeP.this);
-                        abc.setMessage("You will be loged OUT !");//xloxk+"sec"*);
-                        abc.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        LayoutInflater inflater1 = getLayoutInflater();
+                        View logoutView = inflater1.inflate(R.layout.logoutbox, null);
+                        abc.setView(logoutView);
+                        Button Logout = logoutView.findViewById(R.id.logot);
+                        Logout.setOnClickListener(new View.OnClickListener() {
                             @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
+                            public void onClick(View view) {
                                 try {
                                     LogOut();
                                     FirebaseAuth.getInstance().signOut();
                                 } catch (Exception e) {
                                     e.printStackTrace();
                                 }
-
                             }
                         });
-                        abc.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+
+                        Button cancel = logoutView.findViewById(R.id.cancelButton);
+                        cancel.setOnClickListener(new View.OnClickListener() {
                             @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-                                dialogInterface.cancel();
+                            public void onClick(View view) {
+                                // Cancel Button Function
+                                abc.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                                    @Override
+                                    public void onDismiss(DialogInterface dialogInterface) {
+                                        dialogInterface.dismiss();
+                                    }
+                                });
                             }
                         });
-
-                        AlertDialog amc = abc.create();
-                        amc.show();
+                        abc.show();
                         //JoptionPane Ends
 
                     }

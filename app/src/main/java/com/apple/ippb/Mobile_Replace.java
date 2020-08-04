@@ -22,10 +22,8 @@ public class Mobile_Replace extends AppCompatActivity {
         m_b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent nue = new Intent(getApplicationContext(), HomeP.class);
+                startActivity(new Intent(getApplicationContext(), HomeP.class));
                 finish();
-                nue.putExtra("name_vale",MainActivity.ID());
-                startActivity(nue);
             }
         });
 
