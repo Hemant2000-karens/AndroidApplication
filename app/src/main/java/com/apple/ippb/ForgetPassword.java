@@ -56,5 +56,11 @@ public class ForgetPassword extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(ForgetPassword.this, HomeP.class));
+        this.finish();
+    }
 
 }

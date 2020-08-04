@@ -1,7 +1,6 @@
 package com.apple.ippb;
 
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -51,7 +50,7 @@ public class HomeP extends AppCompatActivity {
                 builder.setCancelable(true);
                 builder.setView(dialogView);
                 Button update = dialogView.findViewById(R.id.updateProfile);
-                Button logout = dialogView.findViewById(R.id.Logout_button);
+                final Button logout = dialogView.findViewById(R.id.Logout_button);
 
                 AlertDialog dialog = builder.create();
                 logout.setOnClickListener(new View.OnClickListener() {
@@ -59,8 +58,8 @@ public class HomeP extends AppCompatActivity {
                     public void onClick(View view) {
                         // JOptionPane Starts here
                         final AlertDialog.Builder abc = new AlertDialog.Builder(HomeP.this);
-                        LayoutInflater inflater1 = getLayoutInflater();
-                        View logoutView = inflater1.inflate(R.layout.logoutbox, null);
+                        final LayoutInflater inflater1 = getLayoutInflater();
+                        final View logoutView = inflater1.inflate(R.layout.logoutbox, null);
                         abc.setView(logoutView);
                         Button Logout = logoutView.findViewById(R.id.logot);
                         Logout.setOnClickListener(new View.OnClickListener() {
@@ -75,19 +74,15 @@ public class HomeP extends AppCompatActivity {
                             }
                         });
 
-                        Button cancel = logoutView.findViewById(R.id.cancelButton);
+                        // Close Button
+                        final Button cancel = logoutView.findViewById(R.id.cancelButton);
                         cancel.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
-                                // Cancel Button Function
-                                abc.setOnDismissListener(new DialogInterface.OnDismissListener() {
-                                    @Override
-                                    public void onDismiss(DialogInterface dialogInterface) {
-                                        dialogInterface.dismiss();
-                                    }
-                                });
+                                // Termination to be written
                             }
                         });
+
                         abc.show();
                         //JoptionPane Ends
 

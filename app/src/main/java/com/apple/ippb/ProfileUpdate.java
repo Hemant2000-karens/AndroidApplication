@@ -303,7 +303,7 @@ public class ProfileUpdate extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        startActivity(new Intent(ProfileUpdate.this, HomeP.class));
+        startActivity(new Intent(ProfileUpdate.this, MainActivity.class));
         this.finish();
     }
 

@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         usrn = findViewById(R.id.t1);
         pswd = findViewById(R.id.t2);
 
-
 // ..
 // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
@@ -60,13 +59,16 @@ public class MainActivity extends AppCompatActivity {
                 if (TextUtils.isEmpty(a) && TextUtils.isEmpty(b)) {
                     usrn.setError("Empty Email !!");
                     pswd.setError("Empty Password !!");
+
+                    lBut.setClickable(false);
                 } else {
+                    lBut.setClickable(true);
                     mAuth.signInWithEmailAndPassword(a, b).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @SuppressLint("ShowToast")
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                Toast.makeText(getApplicationContext(), "Successfully Login!!", Toast.LENGTH_LONG).show();
+                                Toast.makeText(getApplicationContext(), "Successfully Login!!", Toast.LENGTH_SHORT).show();
                                 Intent i = new Intent(getApplicationContext(), HomeP.class);
                                 ProgressBar prb = findViewById(R.id.progressBar);
                                 prb.setVisibility(View.VISIBLE);
@@ -80,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
 
 
         ImageButton gsi = findViewById(R.id.Google_signIN);
@@ -105,8 +108,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private FirebaseUser updateUI(FirebaseUser currentUser) {
-        return currentUser;
+    private void updateUI(FirebaseUser cureentUser) {
+        cureentUser.getUid();
     }
 
     @Override
@@ -114,6 +117,9 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
+        if (currentUser != null) {
+            FirebaseAuth.getInstance().signOut();
+        }
         updateUI(currentUser);
     }
 
