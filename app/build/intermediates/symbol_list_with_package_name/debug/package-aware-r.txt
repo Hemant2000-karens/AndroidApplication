@@ -1527,9 +1527,11 @@ font baumans
 font headland_one
 font taviraj_medium
 id ALT
+id Add_record_button
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Cance_button
 id FUNCTION
 id Google_signIN
 id Logout_button
@@ -1541,7 +1543,6 @@ id R_home_b
 id SHIFT
 id SYM
 id Signupnext
-id SimView
 id Sim_designation
 id Spimmer
 id Spimmer2
@@ -1617,8 +1618,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
-id button2
 id buttonPanel
 id cancelButton
 id cancel_action
@@ -1676,7 +1675,6 @@ id fill_vertical
 id filled
 id filter_chip
 id fingerprint
-id fingerprintView
 id fitToContents
 id fixed
 id forever
@@ -1733,7 +1731,6 @@ id message
 id middle
 id mini
 id mobile
-id mobileView
 id mobile_title
 id month_grid
 id month_navigation_bar
@@ -1834,6 +1831,9 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinner
+id spinner3
+id spinner4
 id split_action_bar
 id spread
 id spread_inside
@@ -1870,6 +1870,9 @@ id textView1
 id textView10
 id textView2
 id textView25
+id textView3
+id textView4
+id textView5
 id textView6
 id text_input_end_icon
 id text_input_start_icon
@@ -1877,6 +1880,7 @@ id textinput_counter
 id textinput_error
 id textinput_helper_text
 id time
+id timestrap
 id title
 id titleDividerNoCustom
 id title_template
