@@ -61,6 +61,7 @@ public class HomeP extends AppCompatActivity {
                         final LayoutInflater inflater1 = getLayoutInflater();
                         final View logoutView = inflater1.inflate(R.layout.logoutbox, null);
                         abc.setView(logoutView);
+                        final AlertDialog dialog1 = abc.create();
                         Button Logout = logoutView.findViewById(R.id.logot);
                         Logout.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -80,6 +81,7 @@ public class HomeP extends AppCompatActivity {
                             @Override
                             public void onClick(View view) {
                                 // Termination to be written
+                                dialog1.cancel();
                             }
                         });
 
