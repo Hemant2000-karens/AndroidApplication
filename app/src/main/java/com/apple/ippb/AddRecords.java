@@ -1,9 +1,11 @@
 package com.apple.ippb;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,7 +14,7 @@ import com.google.firebase.database.DatabaseReference;
 public class AddRecords extends AppCompatActivity {
 
     EditText at2, at3, at4, at5, at6, at8;
-    ImageButton add_r, cancel;
+    Button add_r, cancel;
     Spinner spm3, add_mob, bio_model;
     String acarrier_name, mobile_model, Biometric_model;
     DatabaseReference reff;
@@ -139,7 +141,7 @@ public class AddRecords extends AppCompatActivity {
 
             }
         });
-
+*/
         add_r = findViewById(R.id.Add_record_button);
         add_r.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -160,8 +162,8 @@ public class AddRecords extends AppCompatActivity {
                 rec_ords.setSim_operator(acarrier_name);
                 rec_ords.setBiom_model(Biometric_model);
                 rec_ords.setBiom_serial(ah);
-                reff.child(String.valueOf(countID+1)).setValue(rec_ords);
-                Toast.makeText(AddRecords.this,"Susccessfully Inserted",Toast.LENGTH_LONG).show();
+                reff.child(String.valueOf(countID + 1)).setValue(rec_ords);
+                Toast.makeText(AddRecords.this, "Susccessfully Inserted", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -182,6 +184,5 @@ public class AddRecords extends AppCompatActivity {
             }
         });
 
- */
     }
 }
