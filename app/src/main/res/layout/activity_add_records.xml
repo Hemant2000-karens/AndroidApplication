@@ -112,8 +112,9 @@
 
                 <Spinner
                     android:id="@+id/spinner"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="227dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="45dp" />
 
             </androidx.cardview.widget.CardView>
 
@@ -134,8 +135,9 @@
 
                 <Spinner
                     android:id="@+id/spinner3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="227dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="45dp" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -155,8 +157,9 @@
 
                 <Spinner
                     android:id="@+id/spinner4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="227dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="45dp" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
