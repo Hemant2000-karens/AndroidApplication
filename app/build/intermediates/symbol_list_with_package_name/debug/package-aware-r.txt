@@ -1512,6 +1512,7 @@ drawable splash_bg
 drawable stylish
 drawable test_custom_background
 drawable textfieldui
+drawable textfiled_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable un_5
@@ -1530,6 +1531,7 @@ font taviraj_medium
 id ALT
 id Add_Biom_Model
 id Add_bio_serial
+id Add_home
 id Add_mobile_Model
 id Add_record_button
 id Add_sim_serial
@@ -1709,7 +1711,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageButton
 id imageView
 id imageView11
 id imageView2

@@ -88,7 +88,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="reset">Reset</string>
-    <string name="add_records">Add Records</string>
+    <string name="add_records">Add New Records</string>
     <string name="do_you_really_want_to_exit">Do You Really want to exit ?</string>
     <string name="enter_mobile_sim_no">Enter Mobile(Sim) No.</string>
 </resources>

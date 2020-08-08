@@ -59,7 +59,7 @@
         android:layout_marginBottom="0dp"
         android:background="#00FFFFFF"
         android:contentDescription="@string/todo"
-        app:srcCompat="@drawable/back_arrow" />
+        app:srcCompat="@drawable/home_buttom_icon" />
 
     <Button
         android:id="@+id/Add_record_button"
@@ -120,7 +120,9 @@
                     android:layout_height="60dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="55dp"
-                    android:layout_marginEnd="20dp" />
+                    android:layout_marginEnd="20dp"
+                    android:dropDownWidth="match_parent"
+                    android:spinnerMode="dropdown" />
 
                 <EditText
                     android:id="@+id/add_m_serial"
@@ -185,7 +187,9 @@
                     android:layout_height="60dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="55dp"
-                    android:layout_marginEnd="20dp" />
+                    android:layout_marginEnd="20dp"
+                    android:dropDownWidth="match_parent"
+                    android:spinnerMode="dropdown" />
 
                 <EditText
                     android:id="@+id/Add_sim_serial"
@@ -236,7 +240,9 @@
                     android:layout_height="60dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="50dp"
-                    android:layout_marginEnd="20dp" />
+                    android:layout_marginEnd="20dp"
+                    android:dropDownWidth="match_parent"
+                    android:spinnerMode="dropdown" />
 
                 <EditText
                     android:id="@+id/Add_bio_serial"
