@@ -1,6 +1,6 @@
 package com.apple.ippb;
 
-public class Rec_ords {
+public class RecordsEnter {
 
     private String mob_model;
     private String mob_serial;

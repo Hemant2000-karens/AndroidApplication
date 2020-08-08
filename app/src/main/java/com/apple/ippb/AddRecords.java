@@ -2,14 +2,21 @@ package com.apple.ippb;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class AddRecords extends AppCompatActivity {
 
@@ -24,7 +31,7 @@ public class AddRecords extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_records);
-/*
+
         at2 = findViewById(R.id.add_m_serial);
         at3 = findViewById(R.id.add_imei1);
         at4 = findViewById(R.id.add_m_imei2);
@@ -45,19 +52,19 @@ public class AddRecords extends AppCompatActivity {
 
             }
         });
-
+/*
         ImageButton img = findViewById(R.id.Add_home);
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), HomeP.class);
-                i.putExtra("name_vale", MainActivity.ID());
-                startActivity(i);
+
+                //i.putExtra("name_vale", MainActivity.ID());
+                startActivity(new Intent(getApplicationContext(), HomeP.class));
             }
         });
-
+*/
         spm3 = findViewById(R.id.Spinner3);
-        ArrayAdapter<String> myAdapter2 = new ArrayAdapter<String>(AddRecords.this,
+        ArrayAdapter<String> myAdapter2 = new ArrayAdapter<>(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.mane));
         myAdapter2.setDropDownViewResource(R.layout.spinner_dropdown);
         spm3.setAdapter(myAdapter2);
@@ -85,7 +92,7 @@ public class AddRecords extends AppCompatActivity {
 
 
         add_mob = findViewById(R.id.Add_mobile_Model);
-        ArrayAdapter<String> abcd = new ArrayAdapter<String>(AddRecords.this,
+        ArrayAdapter<String> abcd = new ArrayAdapter<>(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Mobile_Model));
         abcd.setDropDownViewResource(R.layout.spinner_dropdown);
         add_mob.setAdapter(abcd);
@@ -116,7 +123,7 @@ public class AddRecords extends AppCompatActivity {
         });
 
         bio_model = findViewById(R.id.Add_Biom_Model);
-        ArrayAdapter<String> abdc = new ArrayAdapter<String>(AddRecords.this,
+        ArrayAdapter<String> abdc = new ArrayAdapter<>(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Bio_model));
         abdc.setDropDownViewResource(R.layout.spinner_dropdown);
         bio_model.setAdapter(abdc);
@@ -141,7 +148,6 @@ public class AddRecords extends AppCompatActivity {
 
             }
         });
-*/
         add_r = findViewById(R.id.Add_record_button);
         add_r.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -152,17 +158,17 @@ public class AddRecords extends AppCompatActivity {
                 String ae = at5.getText().toString().trim();
                 String af = at6.getText().toString().trim();
                 String ah = at8.getText().toString().trim();
-                Rec_ords rec_ords = new Rec_ords();
-                rec_ords.setMob_model(mobile_model);
-                rec_ords.setMob_serial(ab);
-                rec_ords.setMob_imei1(ac);
-                rec_ords.setMob_imei2(ad);
-                rec_ords.setSim_serial(ae);
-                rec_ords.setSim_mob(af);
-                rec_ords.setSim_operator(acarrier_name);
-                rec_ords.setBiom_model(Biometric_model);
-                rec_ords.setBiom_serial(ah);
-                reff.child(String.valueOf(countID + 1)).setValue(rec_ords);
+                RecordsEnter records = new RecordsEnter();
+                records.setMob_model(mobile_model);
+                records.setMob_serial(ab);
+                records.setMob_imei1(ac);
+                records.setMob_imei2(ad);
+                records.setSim_serial(ae);
+                records.setSim_mob(af);
+                records.setSim_operator(acarrier_name);
+                records.setBiom_model(Biometric_model);
+                records.setBiom_serial(ah);
+                reff.child(String.valueOf(countID + 1)).setValue(records);
                 Toast.makeText(AddRecords.this, "Susccessfully Inserted", Toast.LENGTH_SHORT).show();
             }
         });
