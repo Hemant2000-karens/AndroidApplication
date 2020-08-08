@@ -1,11 +1,13 @@
 package com.apple.ippb;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -52,7 +54,7 @@ public class AddRecords extends AppCompatActivity {
 
             }
         });
-/*
+
         ImageButton img = findViewById(R.id.Add_home);
         img.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,11 +62,12 @@ public class AddRecords extends AppCompatActivity {
 
                 //i.putExtra("name_vale", MainActivity.ID());
                 startActivity(new Intent(getApplicationContext(), HomeP.class));
+                finish();
             }
         });
-*/
+
         spm3 = findViewById(R.id.Spinner3);
-        ArrayAdapter<String> myAdapter2 = new ArrayAdapter<>(AddRecords.this,
+        ArrayAdapter<String> myAdapter2 = new ArrayAdapter<String>(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.mane));
         myAdapter2.setDropDownViewResource(R.layout.spinner_dropdown);
         spm3.setAdapter(myAdapter2);
@@ -92,11 +95,10 @@ public class AddRecords extends AppCompatActivity {
 
 
         add_mob = findViewById(R.id.Add_mobile_Model);
-        ArrayAdapter<String> abcd = new ArrayAdapter<>(AddRecords.this,
+        ArrayAdapter<String> abcd = new ArrayAdapter<String>(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Mobile_Model));
         abcd.setDropDownViewResource(R.layout.spinner_dropdown);
         add_mob.setAdapter(abcd);
-
         add_mob.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
@@ -123,7 +125,7 @@ public class AddRecords extends AppCompatActivity {
         });
 
         bio_model = findViewById(R.id.Add_Biom_Model);
-        ArrayAdapter<String> abdc = new ArrayAdapter<>(AddRecords.this,
+        ArrayAdapter<String> abdc = new ArrayAdapter<String>(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Bio_model));
         abdc.setDropDownViewResource(R.layout.spinner_dropdown);
         bio_model.setAdapter(abdc);
