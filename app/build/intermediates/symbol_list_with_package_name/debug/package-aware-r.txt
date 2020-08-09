@@ -1409,7 +1409,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable account
 drawable add
-drawable add_record_textfield
+drawable add_data_icon
 drawable aurror
 drawable avd_hide_password
 drawable avd_show_password
@@ -1458,6 +1458,7 @@ drawable forgetotp
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable googleservice
+drawable home_buttom_icon
 drawable homeawve
 drawable homw
 drawable ic_calendar_black_24dp
@@ -1504,6 +1505,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable phoneico
 drawable pink
+drawable qrcode
 drawable signupbottom
 drawable signuptop
 drawable simm
@@ -1803,6 +1805,11 @@ id progressBar
 id progressBar1
 id progress_circular
 id progress_horizontal
+id qr1
+id qr2
+id qr3
+id qr4
+id qr5
 id radio
 id right
 id right_icon
@@ -1884,6 +1891,8 @@ id textView3
 id textView4
 id textView5
 id textView6
+id textView7
+id textView8
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2187,6 +2196,7 @@ string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string issue
+string issue_device
 string log_out
 string login
 string mobile

@@ -118,25 +118,23 @@
 
                 <Spinner
                     android:id="@+id/Add_mobile_Model"
-                    android:layout_width="330dp"
+                    android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="55dp"
-                    android:layout_marginEnd="35dp"
                     android:background="@drawable/textfieldui"
                     android:dropDownWidth="match_parent"
                     android:spinnerMode="dropdown" />
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="330dp"
+                    android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="120dp"
-                    android:layout_marginEnd="35dp">
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="120dp">
 
                     <EditText
                         android:id="@+id/add_m_serial"
-                        android:layout_width="280dp"
+                        android:layout_width="305dp"
                         android:layout_height="match_parent"
                         android:autofillHints="no"
                         android:background="@drawable/textfieldui"
@@ -153,21 +151,20 @@
                         android:id="@+id/qr1"
                         android:layout_width="50dp"
                         android:layout_height="match_parent"
-                        android:layout_marginStart="280dp"
+                        android:layout_marginStart="315dp"
                         android:contentDescription="@string/todo"
                         android:src="@drawable/qrcode" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="330dp"
+                    android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="185dp"
-                    android:layout_marginEnd="35dp">
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="185dp">
 
                     <EditText
                         android:id="@+id/add_imei1"
-                        android:layout_width="280dp"
+                        android:layout_width="305dp"
                         android:layout_height="match_parent"
                         android:autofillHints="no"
                         android:background="@drawable/textfieldui"
@@ -184,21 +181,20 @@
                         android:id="@+id/qr2"
                         android:layout_width="50dp"
                         android:layout_height="match_parent"
-                        android:layout_marginStart="280dp"
+                        android:layout_marginStart="315dp"
                         android:contentDescription="@string/todo"
                         android:src="@drawable/qrcode" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="330dp"
+                    android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="250dp"
-                    android:layout_marginEnd="35dp">
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="250dp">
 
                     <EditText
                         android:id="@+id/add_m_imei2"
-                        android:layout_width="280dp"
+                        android:layout_width="305dp"
                         android:layout_height="match_parent"
                         android:autofillHints="no"
                         android:background="@drawable/textfieldui"
@@ -215,7 +211,7 @@
                         android:id="@+id/qr3"
                         android:layout_width="50dp"
                         android:layout_height="match_parent"
-                        android:layout_marginStart="280dp"
+                        android:layout_marginStart="315dp"
                         android:contentDescription="@string/todo"
                         android:src="@drawable/qrcode" />
                 </androidx.cardview.widget.CardView>
@@ -244,26 +240,24 @@
 
                 <Spinner
                     android:id="@+id/Spinner3"
-                    android:layout_width="330dp"
+                    android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="55dp"
-                    android:layout_marginEnd="35dp"
                     android:background="@drawable/textfieldui"
                     android:dropDownWidth="match_parent"
                     android:spinnerMode="dropdown" />
 
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="330dp"
+                    android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="130dp"
-                    android:layout_marginEnd="35dp">
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="130dp">
 
                     <EditText
                         android:id="@+id/Add_sim_serial"
-                        android:layout_width="280dp"
+                        android:layout_width="305dp"
                         android:layout_height="match_parent"
                         android:autofillHints="no"
                         android:background="@drawable/textfieldui"
@@ -280,21 +274,20 @@
                         android:id="@+id/qr4"
                         android:layout_width="50dp"
                         android:layout_height="match_parent"
-                        android:layout_marginStart="280dp"
+                        android:layout_marginStart="315dp"
                         android:contentDescription="@string/todo"
                         android:src="@drawable/qrcode" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="330dp"
+                    android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="205dp"
-                    android:layout_marginEnd="35dp">
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="205dp">
 
                     <EditText
                         android:id="@+id/add_Sim_mob"
-                        android:layout_width="280dp"
+                        android:layout_width="305dp"
                         android:layout_height="match_parent"
                         android:autofillHints="no"
                         android:background="@drawable/textfieldui"
@@ -311,7 +304,7 @@
                         android:id="@+id/qr5"
                         android:layout_width="50dp"
                         android:layout_height="match_parent"
-                        android:layout_marginStart="280dp"
+                        android:layout_marginStart="315dp"
                         android:contentDescription="@string/todo"
                         android:src="@drawable/qrcode" />
                 </androidx.cardview.widget.CardView>
@@ -337,26 +330,24 @@
 
                 <Spinner
                     android:id="@+id/Add_Biom_Model"
-                    android:layout_width="330dp"
+                    android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="50dp"
-                    android:layout_marginEnd="35dp"
                     android:background="@drawable/textfieldui"
                     android:dropDownWidth="match_parent"
                     android:spinnerMode="dropdown" />
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="330dp"
+                    android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="120dp"
-                    android:layout_marginEnd="35dp">
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="120dp">
 
 
                     <EditText
                         android:id="@+id/Add_bio_serial"
-                        android:layout_width="280dp"
+                        android:layout_width="305dp"
                         android:layout_height="match_parent"
                         android:autofillHints="no"
                         android:background="@drawable/textfieldui"
@@ -372,7 +363,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="match_parent"
-                        android:layout_marginStart="280dp"
+                        android:layout_marginStart="315dp"
                         android:contentDescription="@string/todo"
                         android:src="@drawable/qrcode" />
 

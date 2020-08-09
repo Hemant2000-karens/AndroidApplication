@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_home_buttom_icon.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/home_buttom_icon.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_qrcode.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/qrcode.xml"
+    },
+    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_pink.jpeg.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/pink.jpeg"
     },
@@ -164,10 +172,6 @@
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/layout/simissue.xml"
     },
     {
-        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_add_record_textfield.jpg.flat",
-        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/add_record_textfield.jpg"
-    },
-    {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_login2.xml.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/login2.xml"
     },
@@ -242,6 +246,10 @@
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/font_baumans.ttf.flat",
         "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/font/baumans.ttf"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_add_data_icon.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/res/drawable/add_data_icon.png"
     },
     {
         "merged": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/res/merged/debug/drawable_splash.png.flat",
