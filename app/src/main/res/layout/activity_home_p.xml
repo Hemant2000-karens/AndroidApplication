@@ -151,7 +151,7 @@
                         android:layout_marginTop="120dp"
                         android:fontFamily="serif"
                         android:gravity="center"
-                        android:text="@string/add_records"
+                        android:text="@string/issue_device"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
@@ -265,7 +265,6 @@
         android:fontFamily="@font/headland_one"
         android:gravity="center"
         android:text="@string/my_dashboard"
-        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 

@@ -18,6 +18,7 @@
     <string name="enter_imei_1">Enter IMEI 1</string>
     <string name="enter_new_device_details">Enter New Device Details</string>
     <string name="issue">Issue</string>
+    <string name="issue_device">Issue Device</string>
     <string name="replace">Replace</string>
     <string name="sim_replace">Sim Only</string>
     <string name="mobile">Mobile</string>
