@@ -1810,6 +1810,7 @@ id qr2
 id qr3
 id qr4
 id qr5
+id qr6
 id radio
 id right
 id right_icon

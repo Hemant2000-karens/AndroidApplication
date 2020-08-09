@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -22,6 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class AddRecords extends AppCompatActivity {
 
+    ImageView q1, q2, q3, q4, q5, q6;
     EditText at2, at3, at4, at5, at6, at8;
     Button add_r, cancel;
     Spinner spm3, add_mob, bio_model;
@@ -34,6 +36,12 @@ public class AddRecords extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_records);
 
+        q1 = findViewById(R.id.qr1);
+        q2 = findViewById(R.id.qr2);
+        q3 = findViewById(R.id.qr3);
+        q4 = findViewById(R.id.qr4);
+        q5 = findViewById(R.id.qr5);
+        q6 = findViewById(R.id.qr6);
         at2 = findViewById(R.id.add_m_serial);
         at3 = findViewById(R.id.add_imei1);
         at4 = findViewById(R.id.add_m_imei2);
@@ -67,7 +75,7 @@ public class AddRecords extends AppCompatActivity {
         });
 
         spm3 = findViewById(R.id.Spinner3);
-        ArrayAdapter<String> myAdapter2 = new ArrayAdapter<String>(AddRecords.this,
+        ArrayAdapter<String> myAdapter2 = new ArrayAdapter(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.mane));
         myAdapter2.setDropDownViewResource(R.layout.spinner_dropdown);
         spm3.setAdapter(myAdapter2);
@@ -95,7 +103,7 @@ public class AddRecords extends AppCompatActivity {
 
 
         add_mob = findViewById(R.id.Add_mobile_Model);
-        ArrayAdapter<String> abcd = new ArrayAdapter<String>(AddRecords.this,
+        ArrayAdapter<String> abcd = new ArrayAdapter(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Mobile_Model));
         abcd.setDropDownViewResource(R.layout.spinner_dropdown);
         add_mob.setAdapter(abcd);
@@ -125,7 +133,7 @@ public class AddRecords extends AppCompatActivity {
         });
 
         bio_model = findViewById(R.id.Add_Biom_Model);
-        ArrayAdapter<String> abdc = new ArrayAdapter<String>(AddRecords.this,
+        ArrayAdapter<String> abdc = new ArrayAdapter(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Bio_model));
         abdc.setDropDownViewResource(R.layout.spinner_dropdown);
         bio_model.setAdapter(abdc);

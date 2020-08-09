@@ -120,7 +120,7 @@
                     android:id="@+id/Add_mobile_Model"
                     android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="5dp"
                     android:layout_marginTop="55dp"
                     android:background="@drawable/textfieldui"
                     android:dropDownWidth="match_parent"
@@ -129,7 +129,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="5dp"
                     android:layout_marginTop="120dp">
 
                     <EditText
@@ -159,7 +159,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="5dp"
                     android:layout_marginTop="185dp">
 
                     <EditText
@@ -189,7 +189,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="5dp"
                     android:layout_marginTop="250dp">
 
                     <EditText
@@ -221,7 +221,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="280dp"
+                android:layout_height="300dp"
                 app:cardCornerRadius="3dp"
                 app:cardElevation="4dp"
                 app:cardUseCompatPadding="true">
@@ -242,7 +242,7 @@
                     android:id="@+id/Spinner3"
                     android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="5dp"
                     android:layout_marginTop="55dp"
                     android:background="@drawable/textfieldui"
                     android:dropDownWidth="match_parent"
@@ -252,7 +252,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="5dp"
                     android:layout_marginTop="130dp">
 
                     <EditText
@@ -282,7 +282,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="5dp"
                     android:layout_marginTop="205dp">
 
                     <EditText
@@ -332,7 +332,7 @@
                     android:id="@+id/Add_Biom_Model"
                     android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="5dp"
                     android:layout_marginTop="50dp"
                     android:background="@drawable/textfieldui"
                     android:dropDownWidth="match_parent"
@@ -341,7 +341,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="370dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="5dp"
                     android:layout_marginTop="120dp">
 
 
@@ -361,6 +361,7 @@
                         android:textSize="18sp" />
 
                     <ImageView
+                        android:id="@+id/qr6"
                         android:layout_width="50dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="315dp"
