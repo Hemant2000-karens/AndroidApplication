@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Splash extends AppCompatActivity {
     private static int Splash_time = 865 ;// time in millisec
 
-
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
