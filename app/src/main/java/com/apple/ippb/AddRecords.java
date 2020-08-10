@@ -22,6 +22,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 
 public class AddRecords extends AppCompatActivity {
 
@@ -34,6 +37,10 @@ public class AddRecords extends AppCompatActivity {
     DatabaseReference reff;
     long countID;
     static int a;
+
+    Date date = new Date();
+    SimpleDateFormat formatter = new SimpleDateFormat("yy:MM:dd - - HH:mm:ss");
+    String strDate = formatter.format(date);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +59,7 @@ public class AddRecords extends AppCompatActivity {
         at5 = findViewById(R.id.Add_sim_serial);
         at6 = findViewById(R.id.add_Sim_mob);
         at8 = findViewById(R.id.Add_bio_serial);
-        reff = FirebaseDatabase.getInstance().getReference().child("Records");
+        reff = FirebaseDatabase.getInstance().getReference().child("Records").child("Entery" + strDate);
         reff.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -66,14 +73,6 @@ public class AddRecords extends AppCompatActivity {
 
             }
         });
-
-
-        Bundle bundle = getIntent().getExtras();
-        if (bundle != null) {
-            at2.setText(bundle.getString("qrcode"));
-        } else {
-            at2.setText(null);
-        }
 
         q1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -240,7 +239,7 @@ public class AddRecords extends AppCompatActivity {
                 records.setSim_operator(acarrier_name);
                 records.setBiom_model(Biometric_model);
                 records.setBiom_serial(ah);
-                reff.child(String.valueOf(countID + 1)).setValue(records);
+                reff.child(countID + 1 + "").setValue(records);
                 Toast.makeText(AddRecords.this, "Susccessfully Inserted", Toast.LENGTH_SHORT).show();
             }
         });
