@@ -83,12 +83,7 @@
         <item>Starek</item>
         <item>Morpho</item>
     </string-array>
-    <string name="title_activity_bottom__navigation">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="reset">Reset</string>
     <string name="add_records">Add New Records</string>
     <string name="do_you_really_want_to_exit">Do You Really want to exit ?</string>

@@ -25,17 +25,13 @@ import com.google.firebase.database.ValueEventListener;
 public class AddRecords extends AppCompatActivity {
 
     ImageView q1, q2, q3, q4, q5, q6;
-    static EditText at2;
-    EditText at3;
-    EditText at4;
-    EditText at5;
-    EditText at6;
-    EditText at8;
+    static EditText at2, at3, at4, at5, at6, at8;
     Button add_r, cancel;
     Spinner spm3, add_mob, bio_model;
     String acarrier_name, mobile_model, Biometric_model;
     DatabaseReference reff;
     long countID;
+    static int a;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,6 +77,48 @@ public class AddRecords extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(AddRecords.this, ScanActivity.class));
+                a = 10;
+            }
+        });
+
+        q2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AddRecords.this, ScanActivity.class));
+                a = 20;
+            }
+        });
+
+        q3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AddRecords.this, ScanActivity.class));
+                a = 30;
+            }
+        });
+
+        q4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AddRecords.this, ScanActivity.class));
+                a = 40;
+            }
+        });
+
+
+        q5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AddRecords.this, ScanActivity.class));
+                a = 50;
+            }
+        });
+
+        q6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AddRecords.this, ScanActivity.class));
+                a = 60;
             }
         });
 

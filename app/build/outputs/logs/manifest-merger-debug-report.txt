@@ -350,7 +350,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hema
 	android:theme
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:9-40
 activity#com.apple.ippb.ScanActivity
-ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:9-59
+ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:9-50
 	android:name
 		ADDED from /Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:19-47
 activity#com.journeyapps.barcodescanner.CaptureActivity
