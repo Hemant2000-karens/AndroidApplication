@@ -115,7 +115,6 @@
                         android:contentDescription="@string/todo" />
 
                     <TextView
-                        android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="43dp"
                         android:layout_marginTop="120dp"
@@ -145,7 +144,6 @@
 
 
                     <TextView
-                        android:id="@+id/textView8"
                         android:layout_width="match_parent"
                         android:layout_height="43dp"
                         android:layout_marginTop="120dp"
@@ -253,7 +251,6 @@
     </ScrollView>
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="302dp"
         android:layout_height="43dp"
         android:layout_alignParentStart="true"

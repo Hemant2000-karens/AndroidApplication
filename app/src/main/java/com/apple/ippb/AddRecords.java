@@ -1,5 +1,6 @@
 package com.apple.ippb;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -25,6 +26,7 @@ import com.google.firebase.database.ValueEventListener;
 public class AddRecords extends AppCompatActivity {
 
     ImageView q1, q2, q3, q4, q5, q6;
+    @SuppressLint("StaticFieldLeak")
     static EditText at2, at3, at4, at5, at6, at8;
     Button add_r, cancel;
     Spinner spm3, add_mob, bio_model;
