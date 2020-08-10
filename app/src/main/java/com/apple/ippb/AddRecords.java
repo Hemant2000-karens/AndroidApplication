@@ -1,7 +1,6 @@
 package com.apple.ippb;
 
 import android.content.Intent;
-import android.hardware.Camera;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -22,8 +21,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import me.dm7.barcodescanner.zxing.ZXingScannerView;
-
 
 public class AddRecords extends AppCompatActivity {
 
@@ -35,10 +32,6 @@ public class AddRecords extends AppCompatActivity {
     DatabaseReference reff;
     long countID;
 
-
-    private static final int REQUEST_CAMERA = 1;
-    private static int camId = Camera.CameraInfo.CAMERA_FACING_BACK;
-    private ZXingScannerView scannerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -219,6 +212,5 @@ public class AddRecords extends AppCompatActivity {
         });
 
     }
-
 
 }
