@@ -2139,6 +2139,7 @@ layout activity_isue_dev
 layout activity_main
 layout activity_mobile__replace
 layout activity_profile_update
+layout activity_scan
 layout activity_sign_up
 layout activity_sim_replace
 layout activity_splash

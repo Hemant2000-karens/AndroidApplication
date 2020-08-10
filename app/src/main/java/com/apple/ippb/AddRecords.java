@@ -25,13 +25,17 @@ import com.google.firebase.database.ValueEventListener;
 public class AddRecords extends AppCompatActivity {
 
     ImageView q1, q2, q3, q4, q5, q6;
-    EditText at2, at3, at4, at5, at6, at8;
+    static EditText at2;
+    EditText at3;
+    EditText at4;
+    EditText at5;
+    EditText at6;
+    EditText at8;
     Button add_r, cancel;
     Spinner spm3, add_mob, bio_model;
     String acarrier_name, mobile_model, Biometric_model;
     DatabaseReference reff;
     long countID;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,10 +70,17 @@ public class AddRecords extends AppCompatActivity {
         });
 
 
+        Bundle bundle = getIntent().getExtras();
+        if (bundle != null) {
+            at2.setText(bundle.getString("qrcode"));
+        } else {
+            at2.setText(null);
+        }
+
         q1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(AddRecords.this, ScanActivity.class));
             }
         });
 
@@ -212,5 +223,6 @@ public class AddRecords extends AppCompatActivity {
         });
 
     }
+
 
 }
