@@ -11,14 +11,14 @@
 9-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:5:5-65
-11-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:5:22-62
+11-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:5-65
+11-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:22-62
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:5-67
-12-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:6:22-64
+12-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:5-67
+12-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:22-64
 13    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
-13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:7:5-9:47
-13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:8:9-64
+13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:8:5-10:47
+13-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:9:9-64
 14
 15    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
 16    <uses-feature
@@ -64,39 +64,39 @@
 36-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:22-76
 37
 38    <application
-38-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:10:5-47:19
+38-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:12:5-49:19
 39        android:allowBackup="true"
-39-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:11:9-35
+39-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:13:9-35
 40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 40-->[androidx.core:core:1.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/71a649a18db048a533a3b2353514428a/core-1.3.0/AndroidManifest.xml:24:18-86
 41        android:debuggable="true"
 42        android:extractNativeLibs="false"
 43        android:fullBackupContent="true"
-43-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:12:9-41
+43-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:14:9-41
 44        android:hardwareAccelerated="true"
-44-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:13:9-43
+44-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:15:9-43
 45        android:icon="@mipmap/ic_launcher"
-45-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:14:9-43
+45-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-43
 46        android:label="@string/app_name"
-46-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:15:9-41
+46-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-41
 47        android:roundIcon="@mipmap/ic_launcher_round"
-47-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:16:9-54
+47-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:18:9-54
 48        android:supportsRtl="true"
-48-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:17:9-35
+48-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:19:9-35
 49        android:testOnly="true"
 50        android:theme="@style/AppTheme" >
-50-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:18:9-40
+50-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:20:9-40
 51        <activity android:name="com.apple.ippb.ScanActivity" />
-51-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:19:9-50
-51-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:19:19-47
+51-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:21:9-50
+51-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:21:19-47
 52        <activity
-52-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:20:9-23:49
+52-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:9-25:49
 53            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-53-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:21:13-74
+53-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:23:13-74
 54            android:clearTaskOnLaunch="true"
 54-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/1913dbaf24280fccddd68fe43241e849/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:49:13-45
 55            android:screenOrientation="fullSensor"
-55-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:22:13-51
+55-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:13-51
 56            android:stateNotNeeded="true"
 56-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/1913dbaf24280fccddd68fe43241e849/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:51:13-42
 57            android:theme="@style/zxing_CaptureTheme"
@@ -104,62 +104,62 @@
 58            android:windowSoftInputMode="stateAlwaysHidden" />
 58-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/1913dbaf24280fccddd68fe43241e849/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:53:13-60
 59        <activity android:name="com.apple.ippb.ProfileUpdate" />
-59-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:9-51
-59-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:24:19-48
+59-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:26:9-51
+59-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:26:19-48
 60        <activity android:name="com.apple.ippb.SignUp" />
-60-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:25:9-44
-60-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:25:19-41
+60-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:27:9-44
+60-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:27:19-41
 61        <activity android:name="com.apple.ippb.verifyotp" />
-61-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:26:9-47
-61-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:26:19-44
+61-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:28:9-47
+61-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:28:19-44
 62        <activity android:name="com.apple.ippb.AddRecords" />
-62-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:27:9-48
-62-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:27:19-45
+62-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:29:9-48
+62-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:29:19-45
 63        <activity android:name="com.apple.ippb.Splash" >
-63-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:28:9-34:20
-63-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:28:19-41
+63-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:9-36:20
+63-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:19-41
 64            <intent-filter>
-64-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:29:13-33:29
+64-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:31:13-35:29
 65                <action android:name="android.intent.action.MAIN" />
-65-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:17-69
-65-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:30:25-66
+65-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:32:17-69
+65-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:32:25-66
 66
 67                <category android:name="android.intent.category.LAUNCHER" />
-67-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:32:17-77
-67-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:32:27-74
+67-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:34:17-77
+67-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:34:27-74
 68            </intent-filter>
 69        </activity>
 70        <activity android:name="com.apple.ippb.ForgetPassword" />
-70-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:35:9-52
-70-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:35:19-49
+70-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:9-52
+70-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:19-49
 71        <activity android:name="com.apple.ippb.Biometrics_replace" />
-71-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:36:9-56
-71-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:36:19-53
+71-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:38:9-56
+71-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:38:19-53
 72        <activity android:name="com.apple.ippb.Sim_replace" />
-72-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:9-49
-72-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:37:19-46
+72-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:39:9-49
+72-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:39:19-46
 73        <activity android:name="com.apple.ippb.Mobile_Replace" />
-73-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:38:9-52
-73-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:38:19-49
+73-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:40:9-52
+73-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:40:19-49
 74        <activity android:name="com.apple.ippb.Replace_device" />
-74-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:39:9-52
-74-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:39:19-49
+74-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:41:9-52
+74-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:41:19-49
 75        <activity android:name="com.apple.ippb.Isue_dev" />
-75-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:40:9-46
-75-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:40:19-43
+75-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:42:9-46
+75-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:42:19-43
 76        <activity android:name="com.apple.ippb.HomeP" />
-76-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:41:9-43
-76-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:41:19-40
+76-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:43:9-43
+76-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:43:19-40
 77        <activity android:name="com.apple.ippb.MainActivity" />
-77-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:42:9-50
-77-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:42:19-47
+77-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:44:9-50
+77-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:44:19-47
 78
 79        <meta-data
-79-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:44:9-46:57
+79-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:46:9-48:57
 80            android:name="preloaded_fonts"
-80-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:45:13-43
+80-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:47:13-43
 81            android:resource="@array/preloaded_fonts" />
-81-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:46:13-54
+81-->/Users/hemant/AndroidStudioProjects/IPPB/app/src/main/AndroidManifest.xml:48:13-54
 82
 83        <service
 83-->[com.google.firebase:firebase-database:19.3.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/227f78203b0b12a1d5db88f7e5b8d4d8/jetified-firebase-database-19.3.1/AndroidManifest.xml:29:9-35:19

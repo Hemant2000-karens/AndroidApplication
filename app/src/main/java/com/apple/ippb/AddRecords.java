@@ -59,7 +59,7 @@ public class AddRecords extends AppCompatActivity {
         at5 = findViewById(R.id.Add_sim_serial);
         at6 = findViewById(R.id.add_Sim_mob);
         at8 = findViewById(R.id.Add_bio_serial);
-        reff = FirebaseDatabase.getInstance().getReference().child("Records").child("Entery" + strDate);
+        reff = FirebaseDatabase.getInstance().getReference().child("Records").child("New Entry" + strDate);
         reff.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -234,12 +234,16 @@ public class AddRecords extends AppCompatActivity {
                 records.setMob_serial(ab);
                 records.setMob_imei1(ac);
                 records.setMob_imei2(ad);
-                records.setSim_serial(ae);
-                records.setSim_mob(af);
-                records.setSim_operator(acarrier_name);
-                records.setBiom_model(Biometric_model);
-                records.setBiom_serial(ah);
-                reff.child(countID + 1 + "").setValue(records);
+                reff.child(countID + 1 + strDate).child("Mobile").setValue(records);
+                RecordsEnter records1 = new RecordsEnter();
+                records1.setSim_serial(ae);
+                records1.setSim_mob(af);
+                records1.setSim_operator(acarrier_name);
+                reff.child(countID + 1 + strDate).child("Sim").setValue(records1);
+                RecordsEnter records2 = new RecordsEnter();
+                records2.setBiom_model(Biometric_model);
+                records2.setBiom_serial(ah);
+                reff.child(countID + 1 + strDate).child("Biometrics").setValue(records2);
                 Toast.makeText(AddRecords.this, "Susccessfully Inserted", Toast.LENGTH_SHORT).show();
             }
         });

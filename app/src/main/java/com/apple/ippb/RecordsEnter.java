@@ -17,6 +17,41 @@ public class RecordsEnter {
         this.biom_model = biom_model;
     }
 
+    public String getBiom_model() {
+        return biom_model;
+    }
+
+    public String getBiom_serial() {
+        return biom_serial;
+    }
+
+    public String getMob_imei1() {
+        return mob_imei1;
+    }
+
+    public String getMob_imei2() {
+        return mob_imei2;
+    }
+
+    public String getMob_model() {
+        return mob_model;
+    }
+
+    public String getMob_serial() {
+        return mob_serial;
+    }
+
+    public String getSim_mob() {
+        return sim_mob;
+    }
+
+    public String getSim_operator() {
+        return sim_operator;
+    }
+
+    public String getSim_serial() {
+        return sim_serial;
+    }
 
     public void setBiom_serial(String biom_serial) {
         this.biom_serial = biom_serial;
