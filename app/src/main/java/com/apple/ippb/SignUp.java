@@ -3,6 +3,7 @@ package com.apple.ippb;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
@@ -68,29 +70,14 @@ public class SignUp extends AppCompatActivity {
                                             Intent i = new Intent(getApplicationContext(), MainActivity.class);
                                             startActivity(i);
                                             finish();
-                                        } else
-                                            Toast.makeText(getApplicationContext(), "Error Try Again", Toast.LENGTH_SHORT).show();
-                                    }
-                                });
-                            }
-
-                        }
-                    });
-                    prgbr.setVisibility(View.VISIBLE);
-                } else if (newC_password.equals(newPassword)) {
-                    firebaseAuth.createUserWithEmailAndPassword(newEmail, newC_password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                        @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {
-                            if (task.isSuccessful()) {
-                                firebaseUser.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
-                                    @Override
-                                    public void onComplete(@NonNull Task<Void> task) {
-                                        if (task.isSuccessful()) {
-                                            Toast.makeText(getApplicationContext(), "Successfully Verified  !!", Toast.LENGTH_SHORT).show();
-                                            Intent i = new Intent(getApplicationContext(), MainActivity.class);
-                                            startActivity(i);
-                                            finish();
-                                        } else
+                                        } else task.addOnFailureListener(new OnFailureListener() {
+                                            @Override
+                                            public void onFailure(@NonNull Exception e) {
+                                                Toast.makeText(getApplicationContext(), "Error Try Again", Toast.LENGTH_SHORT).show();
+                                                Log.d(null, "Try Again" + e);
+                                                prgbr.setVisibility(View.INVISIBLE);
+                                            }
+                                        });
                                             Toast.makeText(getApplicationContext(), "Error Try Again", Toast.LENGTH_SHORT).show();
                                     }
                                 });
@@ -124,8 +111,9 @@ public class SignUp extends AppCompatActivity {
     public void onStart() {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
-        FirebaseUser currentUser = firebaseAuth.getCurrentUser();
-        updateUI();
+        if (firebaseUser != null)
+            firebaseUser = firebaseAuth.getCurrentUser();
+        updateUI(firebaseUser);
     }
 
     @Override
@@ -135,7 +123,7 @@ public class SignUp extends AppCompatActivity {
         this.finish();
     }
 
-    private void updateUI() {
-        return;
+    private FirebaseUser updateUI(FirebaseUser firebaseUser) {
+        return firebaseUser;
     }
 }

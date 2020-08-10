@@ -78,9 +78,10 @@
 
 
     <string-array name="Bio_model">
+        <item>Select Model</item>
+        <item>Mantra</item>
         <item>Starek</item>
-        <item>Starek</item>
-        <item>Starek</item>
+        <item>Morpho</item>
     </string-array>
     <string name="title_activity_bottom__navigation">MainActivity</string>
     <string name="title_home">Home</string>
