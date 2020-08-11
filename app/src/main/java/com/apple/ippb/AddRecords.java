@@ -16,6 +16,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -28,6 +30,8 @@ import java.util.Date;
 
 public class AddRecords extends AppCompatActivity {
 
+
+    FirebaseUser fbuser = FirebaseAuth.getInstance().getCurrentUser();
     ImageView q1, q2, q3, q4, q5, q6;
     @SuppressLint("StaticFieldLeak")
     static EditText at2, at3, at4, at5, at6, at8;
@@ -48,6 +52,8 @@ public class AddRecords extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_records);
 
+        String username = fbuser.getDisplayName();
+
         q1 = findViewById(R.id.qr1);
         q2 = findViewById(R.id.qr2);
         q3 = findViewById(R.id.qr3);
@@ -60,7 +66,7 @@ public class AddRecords extends AppCompatActivity {
         at5 = findViewById(R.id.Add_sim_serial);
         at6 = findViewById(R.id.add_Sim_mob);
         at8 = findViewById(R.id.Add_bio_serial);
-        reff = FirebaseDatabase.getInstance().getReference().child("Records").child("New Entry" + strDate);
+        reff = FirebaseDatabase.getInstance().getReference().child("Records").child("New Entry" + strDate + " " + username);
         reff.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
