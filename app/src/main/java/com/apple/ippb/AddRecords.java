@@ -246,7 +246,7 @@ public class AddRecords extends AppCompatActivity {
                 records1.setSim_serial(ae);
                 records1.setSim_mob(af);
                 records1.setSim_operator(acarrier_name);
-                reff.child(String.valueOf(countID + 1)).setValue(records1);
+                reff.child(String.valueOf(countID + 1)).child("Sim").setValue(records1);
                 RecordsEnter records2 = new RecordsEnter();
                 records2.setBiom_model(Biometric_model);
                 records2.setBiom_serial(ah);
