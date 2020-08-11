@@ -392,16 +392,6 @@
     <color name="viewfinder_border">#ffafed44</color>
     <color name="viewfinder_laser">#ffcc0000</color>
     <color name="viewfinder_mask">#60000000</color>
-    <color name="zxing_custom_possible_result_points">#903A89CF</color>
-    <color name="zxing_custom_result_view">#b0000000</color>
-    <color name="zxing_custom_viewfinder_laser">#1976D2</color>
-    <color name="zxing_custom_viewfinder_mask">#60000000</color>
-    <color name="zxing_possible_result_points">#c0ffbd21</color>
-    <color name="zxing_result_view">#b0000000</color>
-    <color name="zxing_status_text">#ffffffff</color>
-    <color name="zxing_transparent">#00000000</color>
-    <color name="zxing_viewfinder_laser">#ffcc0000</color>
-    <color name="zxing_viewfinder_mask">#60000000</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -839,15 +829,6 @@
     <item name="up" type="id"/>
     <item name="view_offset_helper" type="id"/>
     <item name="visible_removing_fragment_view_tag" type="id"/>
-    <item name="zxing_back_button" type="id"/>
-    <item name="zxing_camera_closed" type="id"/>
-    <item name="zxing_camera_error" type="id"/>
-    <item name="zxing_decode" type="id"/>
-    <item name="zxing_decode_failed" type="id"/>
-    <item name="zxing_decode_succeeded" type="id"/>
-    <item name="zxing_possible_result_points" type="id"/>
-    <item name="zxing_preview_failed" type="id"/>
-    <item name="zxing_prewiew_size_ready" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="app_bar_elevation_anim_duration">150</integer>
@@ -906,7 +887,6 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="add_records">Add New Records</string>
     <string name="app_name">Inventory Management</string>
-    <string name="app_version" translatable="false">null</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bio_metrics">Bio-Metrics</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
@@ -936,7 +916,6 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="create_new_account">Create New Account</string>
     <string name="default_web_client_id" translatable="false">572157922994-han4u3oi82csnrbs9msn6g1afl1ahr82.apps.googleusercontent.com</string>
-    <string name="define_zxingandroidembedded" translatable="false"/>
     <string name="do_you_really_want_to_exit">Do You Really want to exit ?</string>
     <string name="email_message">Enter your email address</string>
     <string name="enter_details_to_continue">Enter Details to Continue</string>
@@ -971,15 +950,6 @@
     <string name="issue">Issue</string>
     <string name="issue_device">Issue Device</string>
     <string name="item_view_role_description">Tab</string>
-    <string name="library_zxingandroidembedded_author" translatable="false">JourneyApps</string>
-    <string name="library_zxingandroidembedded_authorWebsite" translatable="false">https://journeyapps.com/</string>
-    <string name="library_zxingandroidembedded_isOpenSource" translatable="false">true</string>
-    <string name="library_zxingandroidembedded_libraryDescription" translatable="false">Barcode scanning library for Android, using ZXing for decoding.</string>
-    <string name="library_zxingandroidembedded_libraryName" translatable="false">ZXing Android Embedded</string>
-    <string name="library_zxingandroidembedded_libraryVersion" translatable="false"/>
-    <string name="library_zxingandroidembedded_libraryWebsite" translatable="false">https://github.com/journeyapps/zxing-android-embedded</string>
-    <string name="library_zxingandroidembedded_licenseId" translatable="false">apache_2_0</string>
-    <string name="library_zxingandroidembedded_repositoryLink" translatable="false">https://github.com/journeyapps/zxing-android-embedded</string>
     <string name="log_out">Logout</string>
     <string name="login">Login</string>
     <string description="Content description for the thumb with the maximum value in a Range slider. [CHAR_LIMIT=NONE]" name="material_slider_range_end">Range end, </string>
@@ -1054,10 +1024,6 @@
     <string name="verify">Verify</string>
     <string name="verify_email">Verify Email</string>
     <string name="welcome">Hi ,</string>
-    <string name="zxing_app_name">Barcode Scanner</string>
-    <string name="zxing_button_ok">OK</string>
-    <string name="zxing_msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
-    <string name="zxing_msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="AndroidThemeColorAccentYellow" ns2:ignore="NewApi">
@@ -4650,8 +4616,6 @@
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
     </style>
-    <style name="zxing_CaptureTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
-  </style>
     <declare-styleable name="ActionBar">
         <!-- The type of navigation to use. -->
         <attr name="navigationMode">
@@ -7834,24 +7798,4 @@
         <attr name="android:inflatedId"/>
         <attr name="android:id"/>
     </declare-styleable>
-    <declare-styleable name="zxing_camera_preview">
-    <attr format="dimension" name="zxing_framing_rect_width"/>
-    <attr format="dimension" name="zxing_framing_rect_height"/>
-    <attr format="boolean" name="zxing_use_texture_view"/>
-    <attr format="enum" name="zxing_preview_scaling_strategy">
-      <enum name="centerCrop" value="1"/>
-      <enum name="fitCenter" value="2"/>
-      <enum name="fitXY" value="3"/>
-    </attr>
-  </declare-styleable>
-    <declare-styleable name="zxing_finder">
-    <attr format="color" name="zxing_possible_result_points"/>
-    <attr format="color" name="zxing_result_view"/>
-    <attr format="color" name="zxing_viewfinder_laser"/>
-    <attr format="color" name="zxing_viewfinder_mask"/>
-    <attr format="boolean" name="zxing_viewfinder_laser_visibility"/>
-  </declare-styleable>
-    <declare-styleable name="zxing_view">
-    <attr format="reference" name="zxing_scanner_layout"/>
-  </declare-styleable>
 </resources>

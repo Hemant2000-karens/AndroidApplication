@@ -4,23 +4,6 @@
             "outputFile": "/Users/hemant/AndroidStudioProjects/IPPB/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "/Users/hemant/.gradle/caches/transforms-2/files-2.1/1913dbaf24280fccddd68fe43241e849/jetified-zxing-android-embedded-4.1.0/res/values-pt/values-pt.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,114,161,317",
-                        "endColumns": "58,46,155,106",
-                        "endOffsets": "109,156,312,419"
-                    },
-                    "to": {
-                        "startLines": "33,34,35,36",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3262,3321,3368,3524",
-                        "endColumns": "58,46,155,106",
-                        "endOffsets": "3316,3363,3519,3626"
-                    }
-                },
-                {
                     "source": "/Users/hemant/.gradle/caches/transforms-2/files-2.1/de79141d24eaaf9fdfda032673164e8b/navigation-ui-2.3.0/res/values-pt/values-pt.xml",
                     "from": {
                         "startLines": "2,3",

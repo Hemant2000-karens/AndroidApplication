@@ -1,13 +1,20 @@
 package com.apple.ippb;
 
 
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import com.google.zxing.Result;
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
+
+import static android.Manifest.permission.CAMERA;
 
 public class ScanActivity extends AppCompatActivity implements ZXingScannerView.ResultHandler {
     int a = 10, b = 20, c = 30, d = 40, e = 50, f = 60;
@@ -18,7 +25,26 @@ public class ScanActivity extends AppCompatActivity implements ZXingScannerView.
         super.onCreate(state);
         mScannerView = new ZXingScannerView(this);   // Programmatically initialize the scanner view
         setContentView(mScannerView);                // Set the scanner view as the content view
+
+        int currentApiVersion = Build.VERSION.SDK_INT;
+
+        if (currentApiVersion >= Build.VERSION_CODES.M) {
+            if (checkPermission()) {
+                Toast.makeText(getApplicationContext(), "Permission already granted!", Toast.LENGTH_LONG).show();
+            } else {
+                requestPermission();
+            }
+        }
     }
+
+    private boolean checkPermission() {
+        return (ContextCompat.checkSelfPermission(getApplicationContext(), CAMERA) == PackageManager.PERMISSION_GRANTED);
+    }
+
+    private void requestPermission() {
+        ActivityCompat.requestPermissions(this, new String[]{CAMERA}, 1);
+    }
+
 
     @Override
     public void onResume() {
@@ -52,7 +78,6 @@ public class ScanActivity extends AppCompatActivity implements ZXingScannerView.
             AddRecords.at8.setText(rawResult.getText());
         }
         onBackPressed();
-
         // If you would like to resume scanning, call this method below:
         //mScannerView.resumeCameraPreview(this);
     }

@@ -39,6 +39,7 @@ public class AddRecords extends AppCompatActivity {
     static int a;
 
     Date date = new Date();
+    @SuppressLint("SimpleDateFormat")
     SimpleDateFormat formatter = new SimpleDateFormat("yy:MM:dd - - HH:mm:ss");
     String strDate = formatter.format(date);
 
@@ -136,7 +137,7 @@ public class AddRecords extends AppCompatActivity {
         });
 
         spm3 = findViewById(R.id.Spinner3);
-        ArrayAdapter<String> myAdapter2 = new ArrayAdapter(AddRecords.this,
+        ArrayAdapter myAdapter2 = new ArrayAdapter(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.mane));
         myAdapter2.setDropDownViewResource(R.layout.spinner_dropdown);
         spm3.setAdapter(myAdapter2);
@@ -164,7 +165,7 @@ public class AddRecords extends AppCompatActivity {
 
 
         add_mob = findViewById(R.id.Add_mobile_Model);
-        ArrayAdapter<String> abcd = new ArrayAdapter(AddRecords.this,
+        ArrayAdapter abcd = new ArrayAdapter(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Mobile_Model));
         abcd.setDropDownViewResource(R.layout.spinner_dropdown);
         add_mob.setAdapter(abcd);
@@ -194,7 +195,7 @@ public class AddRecords extends AppCompatActivity {
         });
 
         bio_model = findViewById(R.id.Add_Biom_Model);
-        ArrayAdapter<String> abdc = new ArrayAdapter(AddRecords.this,
+        ArrayAdapter abdc = new ArrayAdapter(AddRecords.this,
                 R.layout.colour_spinning_layout, getResources().getStringArray(R.array.Bio_model));
         abdc.setDropDownViewResource(R.layout.spinner_dropdown);
         bio_model.setAdapter(abdc);
@@ -234,16 +235,16 @@ public class AddRecords extends AppCompatActivity {
                 records.setMob_serial(ab);
                 records.setMob_imei1(ac);
                 records.setMob_imei2(ad);
-                reff.child(countID + 1 + strDate).child("Mobile").setValue(records);
+                reff.child(String.valueOf(countID + 1)).child("Mobile").setValue(records);
                 RecordsEnter records1 = new RecordsEnter();
                 records1.setSim_serial(ae);
                 records1.setSim_mob(af);
                 records1.setSim_operator(acarrier_name);
-                reff.child(countID + 1 + strDate).child("Sim").setValue(records1);
+                reff.child(String.valueOf(countID + 1)).setValue(records1);
                 RecordsEnter records2 = new RecordsEnter();
                 records2.setBiom_model(Biometric_model);
                 records2.setBiom_serial(ah);
-                reff.child(countID + 1 + strDate).child("Biometrics").setValue(records2);
+                reff.child(String.valueOf(countID + 1)).child("Biometrics").setValue(records2);
                 Toast.makeText(AddRecords.this, "Susccessfully Inserted", Toast.LENGTH_SHORT).show();
             }
         });
@@ -267,5 +268,10 @@ public class AddRecords extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        this.finish();
+        startActivity(new Intent(this, HomeP.class));
+    }
 
 }

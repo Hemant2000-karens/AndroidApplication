@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "/Users/hemant/.gradle/caches/transforms-2/files-2.1/1913dbaf24280fccddd68fe43241e849/jetified-zxing-android-embedded-4.1.0/res/values-ja/values-ja.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,109,156,256",
-                        "endColumns": "53,46,99,81",
-                        "endOffsets": "104,151,251,333"
-                    },
-                    "to": {
-                        "startLines": "51,52,53,54",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5528,5582,5629,5729",
-                        "endColumns": "53,46,99,81",
-                        "endOffsets": "5577,5624,5724,5806"
-                    }
-                },
-                {
                     "source": "/Users/hemant/.gradle/caches/transforms-2/files-2.1/5eb669ce5a805bc6842a7cd8fb336c21/jetified-play-services-basement-17.1.1/res/values-ja/values.xml",
                     "from": {
                         "startLines": "4",
