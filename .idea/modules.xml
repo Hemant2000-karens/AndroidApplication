@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IPPB.iml" filepath="$PROJECT_DIR$/.idea/modules/IPPB.iml" group="IPPB" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="IPPB/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IPPB.iml" filepath="$PROJECT_DIR$/.idea/modules/IPPB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IPPB.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IPPB.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IPPB.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IPPB.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IPPB.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IPPB.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IPPB.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IPPB.app.unitTest.iml" />
     </modules>
   </component>
 </project>
