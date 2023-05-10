@@ -160,17 +160,17 @@
         android:textSize="18sp"
         android:visibility="invisible" />
 
+
     <ImageButton
         android:layout_width="53dp"
         android:layout_height="49dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="125dp"
-        android:layout_marginBottom="464dp"
+        android:layout_alignTop="@+id/upadteprofilepic"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="61dp"
+        android:layout_toEndOf="@+id/upadteprofilepic"
         android:contentDescription="@string/todo"
         android:onClick="handlerImage"
         app:srcCompat="@drawable/add" />
-
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/upadteprofilepic"
