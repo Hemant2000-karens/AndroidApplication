@@ -1,0 +1,687 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:2:1-54:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/220e83a40701c39cc5db1363f42665eb/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fc42b8d97e35564b74cfd9e97a4af630/jetified-glide-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/38453d64db67553e4a06df5d7cc95555/navigation-fragment-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a991c2514009c23e62114db05896be06/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.6.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ee38fec85ed9dd6cd3ac2abcb5b483f0/material-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0fb8c8f9bc2068b66ccabd11da80b169/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/43f0bf6d87cab67fe258b81d7014baf6/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/dc87d61ac3a5446f75c32c7c001969f5/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4a6dcfa509fd93de71a66932f8f48dec/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e9c5a904b6d67a117e353785350f2529/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/c44f2ddde0db97830a52ac25e96f6980/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/hemant/.gradle/caches/transforms-2/files-2.1/62a9df7d55f3774c1a8ad731ec0b199a/jetified-zxing-1.9.8/AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/hemant/.gradle/caches/transforms-2/files-2.1/77641234fd8138713b792950eaa6a4c4/jetified-core-1.9.8/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/569471fafe0e85dcdf691b4a69999af4/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/28efc2ec406cb6bd0888c6e0dd934964/gridlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/90d4c41def3a56630af47851ad7ab328/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/f358ce4133cd52d420f707a51a2c759e/jetified-play-services-vision-20.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d851ce777b63684d4b67c5f0ea662c13/jetified-gifdecoder-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7ed32739d0411469fd052fc209813501/jetified-fragment-ktx-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8849c90e1a54513d14188d083fbf4c14/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/97d73e425b1b05c60b7b886653c14f93/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc950a9cee9652cccc349adfd603d5a8/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/244dffc8a1a5eff3140305e3da0dcd43/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8448b2d56c1084334f4c24f51c94910c/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/dd2f6cb46fd5773b413a6b4aa5b537cc/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/21b2f5d9fb13fbbe57c13e3056f7d855/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5a46558bee3fef14ceeac7596f302326/jetified-play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e0a3700d86d1b9fd6af01c658044fa0a/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/de0c50d83cd7bb1bda6ea6915e2a5e81/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b365ed0adac568cc34b3925ab37e5b40/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/3f0fdc2bd3b40f021ae2876421aa03a1/jetified-recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/007325b6aeee127aeabc1bde32512280/jetified-integrity-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cece839b6e76fbce7d9e4d19d6dc04b5/navigation-runtime-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d917f2e59d0c585de0524fb9f737515/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/259239a0b9f7601b8b3e3badb2d7f1c1/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/82e5e3cd9a1565aab133d0ac9b98dc0a/jetified-activity-ktx-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b0afa47ce9281d7e7a5e07ceb5a0bb59/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/38a2fba42830b5ec8bd2fe1cac76963f/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/21365eb8bac1fcd45ea0e717a033f1e6/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/66a7b29b2dbffb94d3e5d17b272d1093/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc0b0532ddb948589691c598dfac80c1/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/3e12756306cb796508a495d804d8bf25/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/65f3f654d371590df0ccc8955beb31da/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/af9c41a1568a15ab5ab58e6e671a29f4/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/87ba23efc7b55a79d6b4e2a2020bf74c/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2155213343b0d0fefdaece4e5a87feba/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/9fa7e017c5f62dadd665bee587e7a7eb/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5aa1020809602cd424744c970e3362bf/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ecfa474d8695add946cf42790c186cd1/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b4560c1bca33f009ed3204a19fd37903/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6fc509b3b0a6197ded3c0692625c324c/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/58235b4dec5ea93786653a8d9202e1c5/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b64e6a9e4d26610a5db84183070f9b43/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4bdfcdbd4416dab7a12f182d91fb6a31/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fd8fc802a03a0383a9a483a25cb27f44/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e14ea6ec3e8e43572afbdd133940fd02/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e524f91775471da6fb2d253a6298eb8c/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/20d313234fc045941d4800011ad6d77c/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/283cb0c2b808e0524e9529e970595e6d/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/71ae714a1c928b233a5dc90ec7d8cca7/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/15fc2f7ae1283fabbc3e88611215e2c1/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a9d48b464cf7815be88b52401a2b1d7c/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4512f54fda479b4473aae3f37553b9d5/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8f06534c70853531e8dc8c0de8cd90c2/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d6bfa2aff3a4c497fdbc12aab0800d1f/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0032d6aa373542e0f03a4052cb349b66/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/eda2cd865fb6640233dbc1246c61411e/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/f374ce8a614622a8795f19a8528de839/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/9557cee6277714b8bdd9f0c5c4d10bf0/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ac2c5bab53c8d75f289058c1d48242ef/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6a8770f64ca7827e9fc39509d769ddee/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/1b3105db4992dea0a882d1759dd8762d/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7385f694001e1d9a0fe88ef4cc0aea6e/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7f2ef1b5367ccf6f8a1f3b415b1c67aa/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/83a00b36a24652422cc0ec4a52044a84/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/1d32fe39cccd82f6483793f1706722de/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2fd1e79b7e19ea9604f8ce49b2aa3ac7/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d3693b5eafc82ebe4a5d8a4aaa84ca8b/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ee2021f97f48d42363a0dda5e83a55eb/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc88b696147500c6acdcd805f0d132b1/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/c321ed4acc78a6b70e7cad317355a3f1/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/c7489bdf606d1ab5aa4b8dbab7a23c6b/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/9f446af8e52f9d365582d95a7925308e/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:2:1-54:12
+		INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:2:1-54:12
+		INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/3f0fdc2bd3b40f021ae2876421aa03a1/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/3f0fdc2bd3b40f021ae2876421aa03a1/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:8:5-10:47
+	tools:ignore
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:9:9-64
+application
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:12:5-52:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/220e83a40701c39cc5db1363f42665eb/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/220e83a40701c39cc5db1363f42665eb/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fc42b8d97e35564b74cfd9e97a4af630/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fc42b8d97e35564b74cfd9e97a4af630/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.6.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ee38fec85ed9dd6cd3ac2abcb5b483f0/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ee38fec85ed9dd6cd3ac2abcb5b483f0/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0fb8c8f9bc2068b66ccabd11da80b169/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0fb8c8f9bc2068b66ccabd11da80b169/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/hemant/.gradle/caches/transforms-2/files-2.1/62a9df7d55f3774c1a8ad731ec0b199a/jetified-zxing-1.9.8/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/hemant/.gradle/caches/transforms-2/files-2.1/62a9df7d55f3774c1a8ad731ec0b199a/jetified-zxing-1.9.8/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/hemant/.gradle/caches/transforms-2/files-2.1/77641234fd8138713b792950eaa6a4c4/jetified-core-1.9.8/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/hemant/.gradle/caches/transforms-2/files-2.1/77641234fd8138713b792950eaa6a4c4/jetified-core-1.9.8/AndroidManifest.xml:11:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/90d4c41def3a56630af47851ad7ab328/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/90d4c41def3a56630af47851ad7ab328/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/f358ce4133cd52d420f707a51a2c759e/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/f358ce4133cd52d420f707a51a2c759e/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d851ce777b63684d4b67c5f0ea662c13/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d851ce777b63684d4b67c5f0ea662c13/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8849c90e1a54513d14188d083fbf4c14/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8849c90e1a54513d14188d083fbf4c14/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8448b2d56c1084334f4c24f51c94910c/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8448b2d56c1084334f4c24f51c94910c/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/dd2f6cb46fd5773b413a6b4aa5b537cc/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/dd2f6cb46fd5773b413a6b4aa5b537cc/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/21b2f5d9fb13fbbe57c13e3056f7d855/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/21b2f5d9fb13fbbe57c13e3056f7d855/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e0a3700d86d1b9fd6af01c658044fa0a/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e0a3700d86d1b9fd6af01c658044fa0a/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/de0c50d83cd7bb1bda6ea6915e2a5e81/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/de0c50d83cd7bb1bda6ea6915e2a5e81/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b365ed0adac568cc34b3925ab37e5b40/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b365ed0adac568cc34b3925ab37e5b40/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/007325b6aeee127aeabc1bde32512280/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/007325b6aeee127aeabc1bde32512280/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [androidx.window:window:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc0b0532ddb948589691c598dfac80c1/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc0b0532ddb948589691c598dfac80c1/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/9fa7e017c5f62dadd665bee587e7a7eb/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/9fa7e017c5f62dadd665bee587e7a7eb/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5aa1020809602cd424744c970e3362bf/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5aa1020809602cd424744c970e3362bf/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b64e6a9e4d26610a5db84183070f9b43/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b64e6a9e4d26610a5db84183070f9b43/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4bdfcdbd4416dab7a12f182d91fb6a31/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4bdfcdbd4416dab7a12f182d91fb6a31/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ee2021f97f48d42363a0dda5e83a55eb/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ee2021f97f48d42363a0dda5e83a55eb/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:17:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:15:9-43
+	android:fullBackupContent
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:20:9-40
+activity#com.apple.ippb.FetchData
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:21:9-56
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:21:19-44
+activity#com.apple.ippb.ScanActivity
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:22:9-50
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:22:19-47
+activity#com.apple.ippb.ProfileUpdate
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:27:9-51
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:27:19-48
+activity#com.apple.ippb.SignUp
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:28:9-44
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:28:19-41
+activity#com.apple.ippb.verifyotp
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:29:9-47
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:29:19-44
+activity#com.apple.ippb.AddRecords
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:30:9-48
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:30:19-45
+activity#com.apple.ippb.Splash
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:31:9-39:20
+	android:exported
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:32:13-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:37:27-74
+activity#com.apple.ippb.ForgetPassword
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:40:9-52
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:40:19-49
+activity#com.apple.ippb.Biometrics_replace
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:41:9-56
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:41:19-53
+activity#com.apple.ippb.Sim_replace
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:42:9-49
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:42:19-46
+activity#com.apple.ippb.Mobile_Replace
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:43:9-52
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:43:19-49
+activity#com.apple.ippb.Replace_device
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:44:9-52
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:44:19-49
+activity#com.apple.ippb.Isue_dev
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:45:9-46
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:45:19-43
+activity#com.apple.ippb.HomeP
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:46:9-43
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:46:19-40
+activity#com.apple.ippb.MainActivity
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:47:9-50
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:47:19-47
+meta-data#preloaded_fonts
+ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:49:9-51:57
+	android:resource
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml:50:13-43
+uses-sdk
+INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/220e83a40701c39cc5db1363f42665eb/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/220e83a40701c39cc5db1363f42665eb/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fc42b8d97e35564b74cfd9e97a4af630/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fc42b8d97e35564b74cfd9e97a4af630/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/38453d64db67553e4a06df5d7cc95555/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/38453d64db67553e4a06df5d7cc95555/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a991c2514009c23e62114db05896be06/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a991c2514009c23e62114db05896be06/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ee38fec85ed9dd6cd3ac2abcb5b483f0/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ee38fec85ed9dd6cd3ac2abcb5b483f0/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0fb8c8f9bc2068b66ccabd11da80b169/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0fb8c8f9bc2068b66ccabd11da80b169/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/43f0bf6d87cab67fe258b81d7014baf6/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/43f0bf6d87cab67fe258b81d7014baf6/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/dc87d61ac3a5446f75c32c7c001969f5/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/dc87d61ac3a5446f75c32c7c001969f5/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4a6dcfa509fd93de71a66932f8f48dec/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4a6dcfa509fd93de71a66932f8f48dec/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e9c5a904b6d67a117e353785350f2529/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e9c5a904b6d67a117e353785350f2529/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/c44f2ddde0db97830a52ac25e96f6980/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/c44f2ddde0db97830a52ac25e96f6980/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/hemant/.gradle/caches/transforms-2/files-2.1/62a9df7d55f3774c1a8ad731ec0b199a/jetified-zxing-1.9.8/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/hemant/.gradle/caches/transforms-2/files-2.1/62a9df7d55f3774c1a8ad731ec0b199a/jetified-zxing-1.9.8/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/hemant/.gradle/caches/transforms-2/files-2.1/77641234fd8138713b792950eaa6a4c4/jetified-core-1.9.8/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/hemant/.gradle/caches/transforms-2/files-2.1/77641234fd8138713b792950eaa6a4c4/jetified-core-1.9.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/569471fafe0e85dcdf691b4a69999af4/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/569471fafe0e85dcdf691b4a69999af4/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/28efc2ec406cb6bd0888c6e0dd934964/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/28efc2ec406cb6bd0888c6e0dd934964/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/90d4c41def3a56630af47851ad7ab328/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/90d4c41def3a56630af47851ad7ab328/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/f358ce4133cd52d420f707a51a2c759e/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/f358ce4133cd52d420f707a51a2c759e/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d851ce777b63684d4b67c5f0ea662c13/jetified-gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d851ce777b63684d4b67c5f0ea662c13/jetified-gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7ed32739d0411469fd052fc209813501/jetified-fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7ed32739d0411469fd052fc209813501/jetified-fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8849c90e1a54513d14188d083fbf4c14/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8849c90e1a54513d14188d083fbf4c14/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/97d73e425b1b05c60b7b886653c14f93/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/97d73e425b1b05c60b7b886653c14f93/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc950a9cee9652cccc349adfd603d5a8/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc950a9cee9652cccc349adfd603d5a8/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/244dffc8a1a5eff3140305e3da0dcd43/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/244dffc8a1a5eff3140305e3da0dcd43/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8448b2d56c1084334f4c24f51c94910c/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8448b2d56c1084334f4c24f51c94910c/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/dd2f6cb46fd5773b413a6b4aa5b537cc/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/dd2f6cb46fd5773b413a6b4aa5b537cc/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/21b2f5d9fb13fbbe57c13e3056f7d855/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/21b2f5d9fb13fbbe57c13e3056f7d855/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5a46558bee3fef14ceeac7596f302326/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5a46558bee3fef14ceeac7596f302326/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e0a3700d86d1b9fd6af01c658044fa0a/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e0a3700d86d1b9fd6af01c658044fa0a/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/de0c50d83cd7bb1bda6ea6915e2a5e81/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/de0c50d83cd7bb1bda6ea6915e2a5e81/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b365ed0adac568cc34b3925ab37e5b40/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b365ed0adac568cc34b3925ab37e5b40/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/3f0fdc2bd3b40f021ae2876421aa03a1/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/3f0fdc2bd3b40f021ae2876421aa03a1/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/007325b6aeee127aeabc1bde32512280/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/007325b6aeee127aeabc1bde32512280/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cece839b6e76fbce7d9e4d19d6dc04b5/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cece839b6e76fbce7d9e4d19d6dc04b5/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d917f2e59d0c585de0524fb9f737515/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d917f2e59d0c585de0524fb9f737515/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/259239a0b9f7601b8b3e3badb2d7f1c1/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/259239a0b9f7601b8b3e3badb2d7f1c1/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/82e5e3cd9a1565aab133d0ac9b98dc0a/jetified-activity-ktx-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/82e5e3cd9a1565aab133d0ac9b98dc0a/jetified-activity-ktx-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b0afa47ce9281d7e7a5e07ceb5a0bb59/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b0afa47ce9281d7e7a5e07ceb5a0bb59/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/38a2fba42830b5ec8bd2fe1cac76963f/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/38a2fba42830b5ec8bd2fe1cac76963f/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/21365eb8bac1fcd45ea0e717a033f1e6/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/21365eb8bac1fcd45ea0e717a033f1e6/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/66a7b29b2dbffb94d3e5d17b272d1093/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/66a7b29b2dbffb94d3e5d17b272d1093/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc0b0532ddb948589691c598dfac80c1/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc0b0532ddb948589691c598dfac80c1/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/3e12756306cb796508a495d804d8bf25/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/3e12756306cb796508a495d804d8bf25/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/65f3f654d371590df0ccc8955beb31da/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/65f3f654d371590df0ccc8955beb31da/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/af9c41a1568a15ab5ab58e6e671a29f4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/af9c41a1568a15ab5ab58e6e671a29f4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/87ba23efc7b55a79d6b4e2a2020bf74c/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/87ba23efc7b55a79d6b4e2a2020bf74c/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2155213343b0d0fefdaece4e5a87feba/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2155213343b0d0fefdaece4e5a87feba/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/9fa7e017c5f62dadd665bee587e7a7eb/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/9fa7e017c5f62dadd665bee587e7a7eb/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5aa1020809602cd424744c970e3362bf/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5aa1020809602cd424744c970e3362bf/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ecfa474d8695add946cf42790c186cd1/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ecfa474d8695add946cf42790c186cd1/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b4560c1bca33f009ed3204a19fd37903/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b4560c1bca33f009ed3204a19fd37903/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6fc509b3b0a6197ded3c0692625c324c/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6fc509b3b0a6197ded3c0692625c324c/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/58235b4dec5ea93786653a8d9202e1c5/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/58235b4dec5ea93786653a8d9202e1c5/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b64e6a9e4d26610a5db84183070f9b43/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b64e6a9e4d26610a5db84183070f9b43/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4bdfcdbd4416dab7a12f182d91fb6a31/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4bdfcdbd4416dab7a12f182d91fb6a31/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fd8fc802a03a0383a9a483a25cb27f44/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/fd8fc802a03a0383a9a483a25cb27f44/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e14ea6ec3e8e43572afbdd133940fd02/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e14ea6ec3e8e43572afbdd133940fd02/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e524f91775471da6fb2d253a6298eb8c/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/e524f91775471da6fb2d253a6298eb8c/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/20d313234fc045941d4800011ad6d77c/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/20d313234fc045941d4800011ad6d77c/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/283cb0c2b808e0524e9529e970595e6d/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/283cb0c2b808e0524e9529e970595e6d/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/71ae714a1c928b233a5dc90ec7d8cca7/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/71ae714a1c928b233a5dc90ec7d8cca7/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/15fc2f7ae1283fabbc3e88611215e2c1/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/15fc2f7ae1283fabbc3e88611215e2c1/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a9d48b464cf7815be88b52401a2b1d7c/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/a9d48b464cf7815be88b52401a2b1d7c/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4512f54fda479b4473aae3f37553b9d5/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4512f54fda479b4473aae3f37553b9d5/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8f06534c70853531e8dc8c0de8cd90c2/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/8f06534c70853531e8dc8c0de8cd90c2/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d6bfa2aff3a4c497fdbc12aab0800d1f/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d6bfa2aff3a4c497fdbc12aab0800d1f/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0032d6aa373542e0f03a4052cb349b66/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/0032d6aa373542e0f03a4052cb349b66/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/eda2cd865fb6640233dbc1246c61411e/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/eda2cd865fb6640233dbc1246c61411e/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/f374ce8a614622a8795f19a8528de839/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/f374ce8a614622a8795f19a8528de839/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/9557cee6277714b8bdd9f0c5c4d10bf0/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/9557cee6277714b8bdd9f0c5c4d10bf0/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ac2c5bab53c8d75f289058c1d48242ef/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ac2c5bab53c8d75f289058c1d48242ef/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6a8770f64ca7827e9fc39509d769ddee/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6a8770f64ca7827e9fc39509d769ddee/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/1b3105db4992dea0a882d1759dd8762d/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/1b3105db4992dea0a882d1759dd8762d/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7385f694001e1d9a0fe88ef4cc0aea6e/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7385f694001e1d9a0fe88ef4cc0aea6e/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7f2ef1b5367ccf6f8a1f3b415b1c67aa/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/7f2ef1b5367ccf6f8a1f3b415b1c67aa/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/83a00b36a24652422cc0ec4a52044a84/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/83a00b36a24652422cc0ec4a52044a84/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/1d32fe39cccd82f6483793f1706722de/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/1d32fe39cccd82f6483793f1706722de/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2fd1e79b7e19ea9604f8ce49b2aa3ac7/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2fd1e79b7e19ea9604f8ce49b2aa3ac7/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d3693b5eafc82ebe4a5d8a4aaa84ca8b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/d3693b5eafc82ebe4a5d8a4aaa84ca8b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ee2021f97f48d42363a0dda5e83a55eb/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/ee2021f97f48d42363a0dda5e83a55eb/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc88b696147500c6acdcd805f0d132b1/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/bc88b696147500c6acdcd805f0d132b1/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/c321ed4acc78a6b70e7cad317355a3f1/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/c321ed4acc78a6b70e7cad317355a3f1/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/c7489bdf606d1ab5aa4b8dbab7a23c6b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/c7489bdf606d1ab5aa4b8dbab7a23c6b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/9f446af8e52f9d365582d95a7925308e/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/9f446af8e52f9d365582d95a7925308e/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/3f0fdc2bd3b40f021ae2876421aa03a1/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/3f0fdc2bd3b40f021ae2876421aa03a1/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:24:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:30:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:29:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.2.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/2d2a4470ff08baecd09ef0702a795096/jetified-firebase-database-20.2.1/AndroidManifest.xml:32:17-109
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b1666458d42b249791c5e54b17cf9abe/jetified-firebase-auth-22.0.0/AndroidManifest.xml:70:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6d8ab906cc7e0df34e402f7187821383/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/68f6413f875a4981eb4d4b5a3674906d/jetified-firebase-storage-20.2.0/AndroidManifest.xml:33:17-107
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/de0c50d83cd7bb1bda6ea6915e2a5e81/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/de0c50d83cd7bb1bda6ea6915e2a5e81/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/de0c50d83cd7bb1bda6ea6915e2a5e81/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/de0c50d83cd7bb1bda6ea6915e2a5e81/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/hemant/.gradle/caches/transforms-2/files-2.1/6b0e4d48e5e6f696b9eed12f5df99883/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc0b0532ddb948589691c598dfac80c1/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc0b0532ddb948589691c598dfac80c1/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc0b0532ddb948589691c598dfac80c1/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc0b0532ddb948589691c598dfac80c1/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc0b0532ddb948589691c598dfac80c1/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/cc0b0532ddb948589691c598dfac80c1/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5aa1020809602cd424744c970e3362bf/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5aa1020809602cd424744c970e3362bf/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/5aa1020809602cd424744c970e3362bf/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b64e6a9e4d26610a5db84183070f9b43/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b64e6a9e4d26610a5db84183070f9b43/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4bdfcdbd4416dab7a12f182d91fb6a31/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/4bdfcdbd4416dab7a12f182d91fb6a31/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/70ddfde57922fe6a65c739e5e3ca0809/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b64e6a9e4d26610a5db84183070f9b43/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b64e6a9e4d26610a5db84183070f9b43/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/hemant/.gradle/caches/transforms-2/files-2.1/b64e6a9e4d26610a5db84183070f9b43/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.apple.ippb.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.apple.ippb.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/hemant/.gradle/caches/transforms-2/files-2.1/be516c5b27d3e1e17a7a3cd9f79da1b6/core-1.9.0/AndroidManifest.xml:26:22-94

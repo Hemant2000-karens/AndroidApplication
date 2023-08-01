@@ -1,0 +1,342 @@
+[
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_login2.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/login2.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_lock.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/lock.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_signuptop.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/signuptop.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_forget2.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/forget2.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_splash.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/splash.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_un_5.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/un_5.jpg"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_logoutbox.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/logoutbox.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_colour_spinning_layout.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/colour_spinning_layout.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_signupbottom.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/signupbottom.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_all_replace.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/all_replace.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_splash_bg.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/splash_bg.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_pink.jpeg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/pink.jpeg"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_account.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/account.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_activity_verifyotp.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/activity_verifyotp.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/font_antic_slab.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/font/antic_slab.ttf"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_simissue.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/simissue.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_aurror.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/aurror.jpg"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_phoneico.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/phoneico.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_activity_isue_dev.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/activity_isue_dev.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_add_data_icon.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/add_data_icon.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_cr_red.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/cr_red.jpg"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/font_baumans.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/font/baumans.ttf"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_dialogbox.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/dialogbox.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_activity_home_p.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/activity_home_p.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_vannila.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/vannila.jpg"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_desert_red.jpeg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/desert_red.jpeg"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_verifyotp.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/verifyotp.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/font_alef.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/font/alef.ttf"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_qrcode.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/qrcode.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_activity_sim_replace.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/activity_sim_replace.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_forgetotp.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/forgetotp.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_forget_activity.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/forget_activity.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/font_taviraj_medium.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/font/taviraj_medium.ttf"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_mobileissue.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/mobileissue.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_activity_fetch_data.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/activity_fetch_data.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/font_alegreya_bold.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/font/alegreya_bold.ttf"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_stylish.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/stylish.jpg"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/font_alike_angular.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/font/alike_angular.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_dar_yellow.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/dar_yellow.jpg"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/font_adamina.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/font/adamina.ttf"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_homeawve.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/homeawve.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/font_headland_one.ttf.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/font/headland_one.ttf"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_login1.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/login1.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_googleservice.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/googleservice.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_forget_bg.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/forget_bg.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_activity_add_records.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/activity_add_records.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_textfiled_bg.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/textfiled_bg.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_home_buttom_icon.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/home_buttom_icon.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_back_arrow.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/back_arrow.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_yellow_sun.jpg.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/yellow_sun.jpg"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_activity_profile_update.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/activity_profile_update.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_biome.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/biome.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_biometricissue.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/biometricissue.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_add.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/add.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_mail.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/mail.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_logoutbox.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/logoutbox.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_spinner_dropdown.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/spinner_dropdown.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_whitebutton.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/whitebutton.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/menu_menu_layout.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/menu/menu_layout.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_loginbutton.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/loginbutton.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_textfieldui.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/textfieldui.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/layout_activity_mobile__replace.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/layout/activity_mobile__replace.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_forget1.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/forget1.xml"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_homw.png.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/homw.png"
+    },
+    {
+        "merged": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_simm.xml.flat",
+        "source": "/Users/hemant/AndroidStudioProjects/AndroidApplication/app/src/main/res/drawable/simm.xml"
+    }
+]
